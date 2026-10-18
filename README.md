@@ -18,8 +18,8 @@ The LFP calendar view and independent WorldFootball schedule disagree on some da
 ## Competition format and zones
 
 - The official LFP table lists 18 clubs. The LFP 2026/27 calendar announcement identifies the 34th/final matchday.
-- The European stripes are explicitly **indicative**: based on the currently published French 2026/27 access arrangement (1–3 UCL direct, 4 UCL qualifying, 5–6 Europa League, 7 Conference League qualifying play-off). The 2027/28 UEFA access list and redistribution/cup contingencies are not fixed by this panel.
-- Relegation stripes show 16th relegation play-off and 17th–18th direct drop, using the current 18-club format explanation and the LFP's preceding-season playoff description. The specific 2026/27 competition-regulation PDF was not located, so these stripes are marked indicative.
+- The European stripes are explicitly **provisional**. LFP confirms the French 2026/27 allocation: 1–3 UCL direct, 4 UCL qualifying, 5–6 Europa League, 7 Conference League qualifying play-off. This is a reference only, not an official 2027/28 allocation. The UEFA access-list page showed no data when checked, so the panel does not extrapolate next season's places. See `source_snapshots/official_competition_rules_2026-10-18.md`.
+- Relegation stripes are explicitly **provisional**: the LFP confirms a 16th-place two-leg play-off in its 2025/26 explainer, but the specific 2026/27 competition-regulation PDF was not located. The 17th–18th direct-drop display follows the 18-club format description but is not presented as an independently verified 2026/27 regulation.
 
 ## Files
 
@@ -44,7 +44,7 @@ This reads only `ligue1_2026_27_matches.csv`, deterministically rewrites `data.j
 ## Methods
 
 - Only official LFP rows that include an actual score are marked final. Scheduled cards without a final score remain blank.
-- The league table and home/away splits are independently recomputed from those scores; there is no imported table, inferred score, odds or projection embedded as a result.
+- The league table and home/away splits are independently recomputed from those scores; there is no imported table, inferred score, odds or projection embedded as a result. Overview KPIs are computed from the 58 finals: total goals and average, BTTS and Over 2.5 numerator/denominator/rate, and home/draw/away outcomes. `validate_data.py` asserts the aggregate values.
 - Last-five form is ordered by competition round, not by disputed calendar labels.
 - The projection uses a deliberately simple equal-weight average of the relevant home attack/away concession and away attack/home concession rates, then independent Poisson probabilities (0–9 goals). It is shown only when both side-specific samples include at least two games. It is explanatory, small-sample and not betting advice.
 - BTTS and Over 2.5 rankings show successes divided by matches; home and away views use only games at that venue.

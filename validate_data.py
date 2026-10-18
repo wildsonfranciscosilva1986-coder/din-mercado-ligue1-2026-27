@@ -53,6 +53,14 @@ independent_r7={('Strasbourg','PSG'):(1,3),('LOSC','Brest'):(1,1),('Troyes','RC 
 for pairing,score in independent_r7.items():
     row=next(m for m in finished if m['round']==7 and (m['home'],m['away'])==pairing)
     assert (row['home_goals'],row['away_goals'])==score
-result={'cutoff':D['cutoff'],'teams':18,'official_fixtures_rounds_1_to_8':72,'completed_results':58,'scheduled_without_final':14,'matches_per_round':9,'all_ids_unique':True,'all_final_scores_parseable':True,'standings_recomputed_from_scores':True,'lfp_current_table_match':'18/18 records exact for Pld/W-D-L/GF/GA/points; official order retained only for numerical ties','independent_table_match':'18/18 club records match WorldFootball after round 6; latest 4 round-7 scores independently corroborated (Reuters/Le Parisien/Maxifoot)','schedule_caveat':'Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown.'}
+total_goals=sum(m['home_goals']+m['away_goals'] for m in finished)
+btts=sum(m['home_goals']>0 and m['away_goals']>0 for m in finished)
+over25=sum(m['home_goals']+m['away_goals']>=3 for m in finished)
+home_wins=sum(m['home_goals']>m['away_goals'] for m in finished)
+draws=sum(m['home_goals']==m['away_goals'] for m in finished)
+away_wins=sum(m['home_goals']<m['away_goals'] for m in finished)
+assert (total_goals,btts,over25,home_wins,draws,away_wins)==(170,36,36,25,15,18)
+assert home_wins+draws+away_wins==len(finished)
+result={'cutoff':D['cutoff'],'teams':18,'official_fixtures_rounds_1_to_8':72,'completed_results':58,'scheduled_without_final':14,'matches_per_round':9,'all_ids_unique':True,'all_final_scores_parseable':True,'standings_recomputed_from_scores':True,'overview_metrics':{'goals':total_goals,'average_goals_per_final':round(total_goals/len(finished),2),'btts':[btts,len(finished)],'over_2_5':[over25,len(finished)],'home_wins_draws_away_wins':[home_wins,draws,away_wins]},'lfp_current_table_match':'18/18 records exact for Pld/W-D-L/GF/GA/points; official order retained only for numerical ties','independent_table_match':'18/18 club records match WorldFootball after round 6; latest 4 round-7 scores independently corroborated (Reuters/Le Parisien/Maxifoot)','schedule_caveat':'Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown.','rules_caveat':'LFP 2026/27 Europe allocation documented; not extrapolated as 2027/28 access. UEFA page showed no data. Specific LFP 2026/27 relegation regulation was not located; relegation zone display is provisional.'}
 json.dump(result,open(os.path.join(BASE,'validation.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=2)
 print(json.dumps(result,ensure_ascii=False,indent=2))

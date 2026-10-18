@@ -8,7 +8,25 @@
   "all_ids_unique": true,
   "all_final_scores_parseable": true,
   "standings_recomputed_from_scores": true,
+  "overview_metrics": {
+    "goals": 170,
+    "average_goals_per_final": 2.93,
+    "btts": [
+      36,
+      58
+    ],
+    "over_2_5": [
+      36,
+      58
+    ],
+    "home_wins_draws_away_wins": [
+      25,
+      15,
+      18
+    ]
+  },
   "lfp_current_table_match": "18/18 records exact for Pld/W-D-L/GF/GA/points; official order retained only for numerical ties",
   "independent_table_match": "18/18 club records match WorldFootball after round 6; latest 4 round-7 scores independently corroborated (Reuters/Le Parisien/Maxifoot)",
-  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown."
+  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown.",
+  "rules_caveat": "LFP 2026/27 Europe allocation documented; not extrapolated as 2027/28 access. UEFA page showed no data. Specific LFP 2026/27 relegation regulation was not located; relegation zone display is provisional."
 }
