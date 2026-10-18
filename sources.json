@@ -1,0 +1,20 @@
+{
+  "cutoff": "2026-10-18T10:54:00-03:00",
+  "primary": [
+    {"name": "Ligue 1 / LFP fixtures and results", "url": "https://ligue1.com/fr/calendar/ligue1", "coverage": "Official round pages 1-8; match-sheet IDs embedded per fixture"},
+    {"name": "Ligue 1 / LFP current standings", "url": "https://ligue1.com/fr/competitions/ligue1mcdonalds/standings", "coverage": "18-team table, W-D-L, goals, points"},
+    {"name": "LFP 2026/27 annual calendar", "url": "https://www.lfp.fr/article/ligue-1-mc-donald-s-le-calendrier-de-la-saison-2026-2027", "coverage": "Season calendar and final round"},
+    {"name": "Ligue 1 European competition explainer", "url": "https://ligue1.com/en/articles/l1_article_5609-2026-27-everything-you-need-to-know-about-european-competitions", "coverage": "French 2026/27 European access allocation; used only as indicative zone reference"},
+    {"name": "LFP playoff explainer", "url": "https://ligue1.com/fr/articles/l1_article_4680-barrages-25-26-toutes-les-dates", "coverage": "16th-place two-leg playoff format in 2025/26"}
+  ],
+  "independent": [
+    {"name": "WorldFootball results and standings", "url": "https://www.worldfootball.net/competition/co71/france-ligue-1/results-and-standings/", "coverage": "Full 18-club cumulative table after round 6; future schedule and matchday pages"},
+    {"name": "Reuters", "url": "https://www.reuters.com/sports/soccer/dembele-atones-penalty-miss-psg-win-strasbourg-2026-10-17/", "coverage": "Strasbourg 1-3 PSG, 17 October 2026"},
+    {"name": "Le Parisien", "url": "https://www.leparisien.fr/sports/football/ligue-1/ligue-1-lille-bute-sur-brest-et-ne-repasse-pas-devant-le-psg-thauvin-brille-avec-lens-17-10-2026-LMZTCLZKWVC4XHRVGQX3VWTM2Y.php", "coverage": "Lille 1-1 Brest and Troyes 1-3 Lens, 17 October 2026"},
+    {"name": "Maxifoot", "url": "https://www.maxifoot.fr/resultat-ligue-1-france.htm", "coverage": "Le Mans 0-3 Toulouse and current results/table"},
+    {"name": "MatchEnDirect", "url": "https://www.matchendirect.com/competition/ligue-1-mcdonalds/", "coverage": "18-club format; 16th playoff, bottom two direct relegation"}
+  ],
+  "schedule_conflicts": [
+    "Some LFP calendar date/time labels and independent WorldFootball local schedule differ by a day or hour. Exact disputed date/time values are intentionally not presented as resolved; matchday and opponents are retained where both sources confirm them."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "cutoff": "2026-10-18T10:54:00-03:00",
+  "teams": 18,
+  "official_fixtures_rounds_1_to_8": 72,
+  "completed_results": 58,
+  "scheduled_without_final": 14,
+  "matches_per_round": 9,
+  "all_ids_unique": true,
+  "all_final_scores_parseable": true,
+  "standings_recomputed_from_scores": true,
+  "lfp_current_table_match": "18/18 records exact for Pld/W-D-L/GF/GA/points; official order retained only for numerical ties",
+  "independent_table_match": "18/18 club records match WorldFootball after round 6; latest 4 round-7 scores independently corroborated (Reuters/Le Parisien/Maxifoot)",
+  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown."
+}
