@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-18T10:54:00-03:00",
+  "cutoff": "2026-10-18T14:12:13-03:00",
   "season": "2026/27",
   "league": "Ligue 1 McDonald's",
   "teams": [
@@ -206,6 +206,32 @@
       "rank": 7
     },
     {
+      "team": "OM",
+      "played": 7,
+      "w": 3,
+      "d": 0,
+      "l": 4,
+      "gf": 14,
+      "ga": 10,
+      "pts": 9,
+      "home_played": 3,
+      "away_played": 4,
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 2,
+      "home_gf": 7,
+      "home_ga": 5,
+      "away_w": 2,
+      "away_d": 0,
+      "away_l": 2,
+      "away_gf": 7,
+      "away_ga": 5,
+      "gd": 4,
+      "home_pts": 3,
+      "away_pts": 6,
+      "rank": 8
+    },
+    {
       "team": "Brest",
       "played": 7,
       "w": 2,
@@ -229,7 +255,7 @@
       "gd": 3,
       "home_pts": 4,
       "away_pts": 5,
-      "rank": 8
+      "rank": 9
     },
     {
       "team": "Toulouse FC",
@@ -255,7 +281,7 @@
       "gd": 1,
       "home_pts": 3,
       "away_pts": 6,
-      "rank": 9
+      "rank": 10
     },
     {
       "team": "FC Lorient",
@@ -281,7 +307,7 @@
       "gd": 0,
       "home_pts": 4,
       "away_pts": 4,
-      "rank": 10
+      "rank": 11
     },
     {
       "team": "OGC Nice",
@@ -307,7 +333,7 @@
       "gd": -2,
       "home_pts": 8,
       "away_pts": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "team": "Strasbourg",
@@ -333,58 +359,32 @@
       "gd": -3,
       "home_pts": 4,
       "away_pts": 3,
-      "rank": 12
+      "rank": 13
     },
     {
       "team": "Angers SCO",
-      "played": 6,
+      "played": 7,
       "w": 2,
       "d": 1,
-      "l": 3,
-      "gf": 7,
-      "ga": 10,
+      "l": 4,
+      "gf": 9,
+      "ga": 15,
       "pts": 7,
-      "home_played": 3,
+      "home_played": 4,
       "away_played": 3,
       "home_w": 1,
       "home_d": 0,
-      "home_l": 2,
-      "home_gf": 3,
-      "home_ga": 4,
+      "home_l": 3,
+      "home_gf": 5,
+      "home_ga": 9,
       "away_w": 1,
       "away_d": 1,
       "away_l": 1,
       "away_gf": 4,
       "away_ga": 6,
-      "gd": -3,
+      "gd": -6,
       "home_pts": 3,
       "away_pts": 4,
-      "rank": 13
-    },
-    {
-      "team": "OM",
-      "played": 6,
-      "w": 2,
-      "d": 0,
-      "l": 4,
-      "gf": 9,
-      "ga": 8,
-      "pts": 6,
-      "home_played": 3,
-      "away_played": 3,
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 2,
-      "home_gf": 7,
-      "home_ga": 5,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 2,
-      "away_gf": 2,
-      "away_ga": 3,
-      "gd": 1,
-      "home_pts": 3,
-      "away_pts": 3,
       "rank": 14
     },
     {
@@ -1308,15 +1308,15 @@
     {
       "round": 7,
       "home": "Angers SCO",
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 5,
       "away": "OM",
-      "status": "scheduled",
+      "status": "finished",
       "official_id": "73875",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73875",
       "date_local": "2026-10-18",
       "time_local": "",
-      "schedule_note": "LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.",
+      "schedule_note": "",
       "official_time_display": "9H"
     },
     {

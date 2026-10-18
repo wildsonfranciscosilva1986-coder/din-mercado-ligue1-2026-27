@@ -25,7 +25,7 @@ order=['PSG','LOSC','AS Monaco','Rennes','OL','Paris FC','RC Lens','Brest','Toul
 idx={t:i for i,t in enumerate(order)}
 standings=sorted(st.values(),key=lambda s:(-s['pts'],-s['gd'],-s['gf'],idx.get(s['team'],999)))
 for i,s in enumerate(standings,1):s['rank']=i
-snapshot={'cutoff':'2026-10-18T10:54:00-03:00','season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows}
+snapshot={'cutoff':'2026-10-18T14:12:13-03:00','season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows}
 with open(os.path.join(BASE,'data.json'),'w',encoding='utf-8') as f:json.dump(snapshot,f,ensure_ascii=False,indent=2)
 os.system(f'python3 "{os.path.join(BASE,"build_site.py")}"')
 print(f"Built {len(teams)} clubs, {sum(m['status']=='finished' for m in rows)} results, {sum(m['status']=='scheduled' for m in rows)} scheduled fixtures.")

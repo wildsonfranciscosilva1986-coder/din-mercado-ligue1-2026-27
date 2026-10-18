@@ -1,32 +1,33 @@
 {
-  "cutoff": "2026-10-18T10:54:00-03:00",
+  "cutoff": "2026-10-18T14:12:13-03:00",
   "teams": 18,
   "official_fixtures_rounds_1_to_8": 72,
-  "completed_results": 58,
-  "scheduled_without_final": 14,
+  "completed_results": 59,
+  "scheduled_without_final": 13,
   "matches_per_round": 9,
   "all_ids_unique": true,
   "all_final_scores_parseable": true,
   "standings_recomputed_from_scores": true,
   "overview_metrics": {
-    "goals": 170,
-    "average_goals_per_final": 2.93,
+    "goals": 177,
+    "average_goals_per_final": 3.0,
     "btts": [
-      36,
-      58
+      37,
+      59
     ],
     "over_2_5": [
-      36,
-      58
+      37,
+      59
     ],
     "home_wins_draws_away_wins": [
       25,
       15,
-      18
+      19
     ]
   },
-  "lfp_current_table_match": "18/18 records exact for Pld/W-D-L/GF/GA/points; official order retained only for numerical ties",
-  "independent_table_match": "18/18 club records match WorldFootball after round 6; latest 4 round-7 scores independently corroborated (Reuters/Le Parisien/Maxifoot)",
-  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only the common round/opponent, and date 18 Oct where both agree, is shown.",
-  "rules_caveat": "LFP 2026/27 Europe allocation documented; not extrapolated as 2027/28 access. UEFA page showed no data. Specific LFP 2026/27 relegation regulation was not located; relegation zone display is provisional."
+  "lfp_current_table_match": "LFP standings fetch at 14:11 BRT still reflects the 58-final table; all 18 exact against the pre-Angers 2-5 OM result snapshot, 16/18 unaffected clubs match the updated table, Angers SCO and OM updated from official LFP match sheet 73875.",
+  "independent_table_match": "18/18 club records match WorldFootball after round 6; five round-7 scores independently corroborated, including Angers SCO 2-5 OM (GFFN FT, OneFootball).",
+  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only shared round/opponents and 18 Oct where confirmed are shown.",
+  "rules_caveat": "LFP 2026/27 Europe allocation documented; not extrapolated as 2027/28 access. UEFA page showed no data. Specific LFP 2026/27 relegation regulation not located; relegation zone display is provisional.",
+  "pending_note": "Other J7 match pages at cutoff showed live status/in-progress minute or no independently confirmed final; not included."
 }

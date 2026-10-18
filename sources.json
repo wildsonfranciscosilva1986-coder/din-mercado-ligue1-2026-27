@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-18T10:54:00-03:00",
+  "cutoff": "2026-10-18T14:12:13-03:00",
   "primary": [
     {
       "name": "Ligue 1 / LFP fixtures and results",
@@ -40,6 +40,11 @@
       "name": "LFP 2025/26 promotion/relegation playoff explainer",
       "url": "https://ligue1.com/fr/articles/l1_article_4680-barrages-25-26-toutes-les-dates",
       "coverage": "Confirms 16th Ligue 1 club faces Ligue 2 playoff 2 winner over two legs in 2025/26; specific 2026/27 regulation not located."
+    },
+    {
+      "name": "LFP official Angers SCO–OM match sheet, matchday 7",
+      "url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73875",
+      "coverage": "Official final 2–5, checked 2026-10-18 14:12 BRT."
     }
   ],
   "independent": [
@@ -67,6 +72,16 @@
       "name": "MatchEnDirect",
       "url": "https://www.matchendirect.com/competition/ligue-1-mcdonalds/",
       "coverage": "18-club format; 16th playoff, bottom two direct relegation"
+    },
+    {
+      "name": "Get French Football News, FT confirmation",
+      "url": "https://x.com/GFFN/status/2111833221965197576",
+      "coverage": "FT: Angers 2–5 Marseille, corroborates official LFP match sheet."
+    },
+    {
+      "name": "OneFootball match result",
+      "url": "https://onefootball.com/en/news/ligue-1-angers-sco-2-5-marseille-43632268",
+      "coverage": "Angers SCO 2–5 Marseille, independent result corroboration."
     }
   ],
   "schedule_conflicts": [
@@ -76,5 +91,6 @@
   "rule_caveats": [
     "2026/27 European access allocation verified from LFP; not treated as official allocation for the 2027/28 UEFA season. UEFA access-list page displayed no data at check.",
     "Specific 2026/27 LFP relegation regulation not located; 16th playoff and 17th–18th relegation stripes are explicitly provisional, with prior-season LFP evidence cited."
-  ]
+  ],
+  "official_table_note": "The LFP standings page fetched at 14:11 BRT still reflects the table before the newly confirmed Angers SCO–OM final; validation compares the table against the previous 58-final snapshot and checks the two affected clubs against the official match sheet."
 }
