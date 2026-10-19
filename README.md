@@ -1,71 +1,32 @@
-# Ligue 1 2026/27 dashboard — DIN Mercado
+# DIN Mercado · Ligue 1 2026/27
 
-Standalone, mobile-responsive static dashboard for the French Ligue 1 McDonald's 2026/27 season. This is a distinct league project: no Brazilian Série A or other-league results are included.
+Interactive mobile dashboard for Ligue 1 McDonald's only. GitHub Actions keeps this repository's existing Pages URL updated in place.
 
-## Data cut and coverage
+## Official refresh and safety checks
 
-- Cutoff: **2026-10-19 08:53 America/Sao_Paulo (UTC−03:00)**.
-- Official LFP schedule contains 18 clubs, 9 fixtures per round, and labels rounds 1–8.
-- The published record set contains **63 confirmed finals**: rounds 1–7 are complete; the nine round-8 fixtures remain scheduled and scoreless.
-- It contains **9 fixtures without a confirmed final score** at the cutoff: all are round-8 fixtures. They are excluded from standings, recent form, rankings and the projection sample.
-- Actual played totals are derived from 63 confirmed finals; clubs have six or seven matches depending on their official fixtures.
-- `validation.json` records the current checks. Scores feed a fresh recomputation of Pld, W-D-L, GF, GA, GD and points; all 18 club lines match the current official LFP standings API, and ESPN independently confirms all 63 final scores and the recomputed table. Official LFP rank order is retained for tied numerical rows.
+- Official full-season calendar: LFP `championship-calendar/1?season=2026`; it must expose all 34 rounds and 306 unique official match IDs.
+- Official match sheets: LFP `championship-match/{id}`; only `period=fullTime` contributes a score. Unknown, live, postponed, cancelled or otherwise nonfinal statuses never receive inferred scores.
+- Official table: current LFP general standings API. Final-only played, W-D-L, goals and points must match all 18 clubs.
+- Independent cross-check: each official final must match an ESPN `STATUS_FULL_TIME` event, and the table recomputed from ESPN's own scores must also match all 18 clubs.
+- A missing fixture, score mismatch, incomplete calendar or standings discrepancy stops the run before the dashboard is rebuilt/committed.
+- Known official venue discrepancy: the current LFP API/match sheet lists Rennes as home for both Rennes–PSG fixtures; the completed R1 2–2 at Roazhon Park is independently confirmed by ESPN, while the LFP season-calendar PDF lists PSG home for R1. The dashboard preserves the current match-sheet orientation, displays this note and fails closed if the affected home/away pattern changes.
 
-## Important schedule caveat
+## Automatic refresh
 
-The LFP calendar view and independent WorldFootball schedule disagree on some date/time labels (one-day and/or one-hour shifts; the LFP page extract does not identify its display timezone). The page does **not** guess a kickoff time. Round 7 is complete; disputed future date/time labels in round 8 remain withheld. Match cards link to the official LFP match sheet. Re-check the official card for any live planning.
+GitHub Actions runs daily at **06:10 America/Sao_Paulo (09:10 UTC)** and supports manual dispatch. It fetches the full calendar and all match sheets, validates the current official table, cross-checks final scores and the ESPN-derived table, then rebuilds the JSON/HTML and commits only after every check passes. When a check fails, the existing public page is left unchanged. The workflow writes to the same repository and root `index.html`, preserving the current URL.
 
-## Competition format and zones
+The exact cutoff and counts are regenerated in `validation.json`, `validation.txt`, `sources.json`, `data.json` and the page on each validated refresh.
 
-- The official LFP table lists 18 clubs. The LFP 2026/27 calendar announcement identifies the 34th/final matchday.
-- The European stripes are explicitly **provisional**. LFP confirms the French 2026/27 allocation: 1–3 UCL direct, 4 UCL qualifying, 5–6 Europa League, 7 Conference League qualifying play-off. This is a reference only, not an official 2027/28 allocation. The UEFA access-list page showed no data when checked, so the panel does not extrapolate next season's places. See `source_snapshots/official_competition_rules_2026-10-18.md`.
-- Relegation stripes are explicitly **provisional**: the LFP confirms a 16th-place two-leg play-off in its 2025/26 explainer, but the specific 2026/27 competition-regulation PDF was not located. The 17th–18th direct-drop display follows the 18-club format description but is not presented as an independently verified 2026/27 regulation.
+## Local equivalent
 
-## Files
-
-- `index.html` — ready-to-host single-page app; all JS, CSS and the data snapshot are embedded.
-- `data.json` — match list plus standings recomputed from final scores.
-- `ligue1_2026_27_matches.csv` — same fixture list in CSV form, including official match IDs.
-- `validation.json` — counts and cross-check result.
-- `index.template.html`, `build_site.py` — source template and rebuild of the embedded-data HTML from `data.json`.
-- `rebuild.py` — regenerate the JSON and page from the included CSV without accessing another league's files.
-- `validate_data.py` — repeatable local provenance/cross-check script. It reconciles the current official LFP standings snapshot with the score-derived table and checks every final against the ESPN scoreboard cross-check.
-
-## Refresh / deployment path
-
-From the root of `din-mercado-ligue1-2026-27`, after verifying the latest LFP results and fixture edits:
-
-```bash
+```sh
+python3 refresh_ligue1.py
 python3 rebuild.py
+python3 validate_data.py
 ```
 
-This reads only `ligue1_2026_27_matches.csv`, deterministically rewrites `data.json`, and regenerates `index.html`. Review the diff, run `python3 validate_data.py` (which refreshes `validation.json`), then commit/push to the repository's `main` branch; GitHub Pages is configured from `/` on `main`. Keep the included dated source snapshot and update `sources.json` / validation evidence whenever source data is refreshed. Do not mark a game final without an official final score. This task did not create a scheduled job or cron.
+- Repository: `wildsonfranciscosilva1986-coder/din-mercado-ligue1-2026-27`
+- Branch/path: `main` / repository root `index.html`
+- Existing site: https://wildsonfranciscosilva1986-coder.github.io/din-mercado-ligue1-2026-27/
 
-## Methods
-
-- Only official LFP rows that include an actual score are marked final. Scheduled cards without a final score remain blank.
-- The league table and home/away splits are independently recomputed from those scores; there is no imported table, inferred score, odds or projection embedded as a result. Overview KPIs are computed from the 63 finals: total goals and average, BTTS and Over 2.5 numerator/denominator/rate, and home/draw/away outcomes. `validate_data.py` asserts the aggregate values.
-- Last-five form is ordered by competition round, not by disputed calendar labels.
-- The projection uses a deliberately simple equal-weight average of the relevant home attack/away concession and away attack/home concession rates, then independent Poisson probabilities (0–9 goals). It is shown only when both side-specific samples include at least two games. It is explanatory, small-sample and not betting advice.
-- BTTS and Over 2.5 rankings show successes divided by matches; home and away views use only games at that venue.
-
-## Sources
-
-**Primary (Ligue 1 / LFP / France):**
-
-- [Official LFP calendar and results](https://ligue1.com/fr/calendar/ligue1) — round filter 1–8.
-- [Official LFP 2026/27 standings](https://ligue1.com/fr/competitions/ligue1mcdonalds/standings).
-- [LFP season calendar announcement](https://www.lfp.fr/article/ligue-1-mc-donald-s-le-calendrier-de-la-saison-2026-2027) — season ends on round 34.
-- [Ligue 1: French clubs in 2026/27 European competitions](https://ligue1.com/en/articles/l1_article_5609-2026-27-everything-you-need-to-know-about-european-competitions).
-- [LFP 2025/26 playoff dates and format](https://ligue1.com/fr/articles/l1_article_4680-barrages-25-26-toutes-les-dates).
-- [LFP official Angers SCO–OM match sheet (2–5, round 7)](https://ligue1.com/fr/match-sheet/l1_championship_match_73875) — final confirmed 18 October 2026.
-
-**Independent checks:**
-
-- [WorldFootball: Ligue 1 results and standings](https://www.worldfootball.net/competition/co71/france-ligue-1/results-and-standings/) — independent 18-team table after round 6 and matchday results/schedule.
-- [Reuters: PSG win at Strasbourg, 17 October 2026](https://www.reuters.com/sports/soccer/dembele-atones-penalty-miss-psg-win-strasbourg-2026-10-17/).
-- [Le Parisien: Lille–Brest and Troyes–Lens, 17 October 2026](https://www.leparisien.fr/sports/football/ligue-1/ligue-1-lille-bute-sur-brest-et-ne-repasse-pas-devant-le-psg-thauvin-brille-avec-lens-17-10-2026-LMZTCLZKWVC4XHRVGQX3VWTM2Y.php).
-- [Maxifoot: Ligue 1 2026/27 results and standings](https://www.maxifoot.fr/resultat-ligue-1-france.htm) — includes Le Mans–Toulouse.
-- [MatchEnDirect format explainer](https://www.matchendirect.com/competition/ligue-1-mcdonalds/) — 18-club promotion/relegation format.
-- [Get French Football News](https://x.com/GFFN/status/2111833221965197576) — independent FT confirmation, Angers 2–5 Marseille.
-- [OneFootball](https://onefootball.com/en/news/ligue-1-angers-sco-2-5-marseille-43632268) — independent result listing.
+The 1-X-2/goal projections are small-sample descriptive estimates, not calibrated forecasts or betting advice.
