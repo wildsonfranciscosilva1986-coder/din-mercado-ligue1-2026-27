@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-18T14:12:13-03:00",
+  "cutoff": "2026-10-19T08:53-03:00",
   "season": "2026/27",
   "league": "Ligue 1 McDonald's",
   "teams": [
@@ -24,6 +24,32 @@
   ],
   "standings": [
     {
+      "team": "OL",
+      "played": 7,
+      "w": 4,
+      "d": 2,
+      "l": 1,
+      "gf": 13,
+      "ga": 5,
+      "pts": 14,
+      "home_played": 4,
+      "away_played": 3,
+      "home_w": 3,
+      "home_d": 1,
+      "home_l": 0,
+      "home_gf": 10,
+      "home_ga": 3,
+      "away_w": 1,
+      "away_d": 1,
+      "away_l": 1,
+      "away_gf": 3,
+      "away_ga": 2,
+      "gd": 8,
+      "home_pts": 10,
+      "away_pts": 4,
+      "rank": 1
+    },
+    {
       "team": "PSG",
       "played": 7,
       "w": 4,
@@ -47,7 +73,33 @@
       "gd": 5,
       "home_pts": 3,
       "away_pts": 11,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "team": "Paris FC",
+      "played": 7,
+      "w": 4,
+      "d": 2,
+      "l": 1,
+      "gf": 12,
+      "ga": 7,
+      "pts": 14,
+      "home_played": 4,
+      "away_played": 3,
+      "home_w": 3,
+      "home_d": 1,
+      "home_l": 0,
+      "home_gf": 9,
+      "home_ga": 4,
+      "away_w": 1,
+      "away_d": 1,
+      "away_l": 1,
+      "away_gf": 3,
+      "away_ga": 3,
+      "gd": 5,
+      "home_pts": 10,
+      "away_pts": 4,
+      "rank": 3
     },
     {
       "team": "LOSC",
@@ -73,19 +125,19 @@
       "gd": 5,
       "home_pts": 8,
       "away_pts": 6,
-      "rank": 2
+      "rank": 4
     },
     {
       "team": "AS Monaco",
-      "played": 6,
+      "played": 7,
       "w": 4,
       "d": 2,
-      "l": 0,
+      "l": 1,
       "gf": 10,
-      "ga": 5,
+      "ga": 6,
       "pts": 14,
       "home_played": 3,
-      "away_played": 3,
+      "away_played": 4,
       "home_w": 2,
       "home_d": 1,
       "home_l": 0,
@@ -93,25 +145,25 @@
       "home_ga": 3,
       "away_w": 2,
       "away_d": 1,
-      "away_l": 0,
+      "away_l": 1,
       "away_gf": 4,
-      "away_ga": 2,
-      "gd": 5,
+      "away_ga": 3,
+      "gd": 4,
       "home_pts": 7,
       "away_pts": 7,
-      "rank": 3
+      "rank": 5
     },
     {
       "team": "Rennes",
-      "played": 6,
+      "played": 7,
       "w": 4,
       "d": 1,
-      "l": 1,
-      "gf": 12,
-      "ga": 10,
+      "l": 2,
+      "gf": 15,
+      "ga": 14,
       "pts": 13,
       "home_played": 4,
-      "away_played": 2,
+      "away_played": 3,
       "home_w": 3,
       "home_d": 1,
       "home_l": 0,
@@ -119,65 +171,39 @@
       "home_ga": 5,
       "away_w": 1,
       "away_d": 0,
-      "away_l": 1,
-      "away_gf": 2,
-      "away_ga": 5,
-      "gd": 2,
+      "away_l": 2,
+      "away_gf": 5,
+      "away_ga": 9,
+      "gd": 1,
       "home_pts": 10,
       "away_pts": 3,
-      "rank": 4
-    },
-    {
-      "team": "OL",
-      "played": 6,
-      "w": 3,
-      "d": 2,
-      "l": 1,
-      "gf": 11,
-      "ga": 4,
-      "pts": 11,
-      "home_played": 3,
-      "away_played": 3,
-      "home_w": 2,
-      "home_d": 1,
-      "home_l": 0,
-      "home_gf": 8,
-      "home_ga": 2,
-      "away_w": 1,
-      "away_d": 1,
-      "away_l": 1,
-      "away_gf": 3,
-      "away_ga": 2,
-      "gd": 7,
-      "home_pts": 7,
-      "away_pts": 4,
-      "rank": 5
-    },
-    {
-      "team": "Paris FC",
-      "played": 6,
-      "w": 3,
-      "d": 2,
-      "l": 1,
-      "gf": 8,
-      "ga": 4,
-      "pts": 11,
-      "home_played": 3,
-      "away_played": 3,
-      "home_w": 2,
-      "home_d": 1,
-      "home_l": 0,
-      "home_gf": 5,
-      "home_ga": 1,
-      "away_w": 1,
-      "away_d": 1,
-      "away_l": 1,
-      "away_gf": 3,
-      "away_ga": 3,
-      "gd": 4,
-      "home_pts": 7,
-      "away_pts": 4,
       "rank": 6
+    },
+    {
+      "team": "FC Lorient",
+      "played": 7,
+      "w": 3,
+      "d": 2,
+      "l": 2,
+      "gf": 7,
+      "ga": 6,
+      "pts": 11,
+      "home_played": 4,
+      "away_played": 3,
+      "home_w": 2,
+      "home_d": 1,
+      "home_l": 1,
+      "home_gf": 5,
+      "home_ga": 4,
+      "away_w": 1,
+      "away_d": 1,
+      "away_l": 1,
+      "away_gf": 2,
+      "away_ga": 2,
+      "gd": 1,
+      "home_pts": 7,
+      "away_pts": 4,
+      "rank": 7
     },
     {
       "team": "RC Lens",
@@ -203,7 +229,7 @@
       "gd": 3,
       "home_pts": 6,
       "away_pts": 4,
-      "rank": 7
+      "rank": 8
     },
     {
       "team": "OM",
@@ -229,7 +255,7 @@
       "gd": 4,
       "home_pts": 3,
       "away_pts": 6,
-      "rank": 8
+      "rank": 9
     },
     {
       "team": "Brest",
@@ -255,7 +281,7 @@
       "gd": 3,
       "home_pts": 4,
       "away_pts": 5,
-      "rank": 9
+      "rank": 10
     },
     {
       "team": "Toulouse FC",
@@ -281,45 +307,45 @@
       "gd": 1,
       "home_pts": 3,
       "away_pts": 6,
-      "rank": 10
+      "rank": 11
     },
     {
-      "team": "FC Lorient",
-      "played": 6,
-      "w": 2,
-      "d": 2,
-      "l": 2,
-      "gf": 6,
-      "ga": 6,
-      "pts": 8,
+      "team": "AJ Auxerre",
+      "played": 7,
+      "w": 3,
+      "d": 0,
+      "l": 4,
+      "gf": 11,
+      "ga": 17,
+      "pts": 9,
       "home_played": 3,
-      "away_played": 3,
-      "home_w": 1,
-      "home_d": 1,
+      "away_played": 4,
+      "home_w": 2,
+      "home_d": 0,
       "home_l": 1,
       "home_gf": 4,
       "home_ga": 4,
       "away_w": 1,
-      "away_d": 1,
-      "away_l": 1,
-      "away_gf": 2,
-      "away_ga": 2,
-      "gd": 0,
-      "home_pts": 4,
-      "away_pts": 4,
-      "rank": 11
+      "away_d": 0,
+      "away_l": 3,
+      "away_gf": 7,
+      "away_ga": 13,
+      "gd": -6,
+      "home_pts": 6,
+      "away_pts": 3,
+      "rank": 12
     },
     {
       "team": "OGC Nice",
-      "played": 6,
+      "played": 7,
       "w": 2,
       "d": 2,
-      "l": 2,
-      "gf": 5,
-      "ga": 7,
+      "l": 3,
+      "gf": 6,
+      "ga": 9,
       "pts": 8,
       "home_played": 4,
-      "away_played": 2,
+      "away_played": 3,
       "home_w": 2,
       "home_d": 2,
       "home_l": 0,
@@ -327,13 +353,13 @@
       "home_ga": 3,
       "away_w": 0,
       "away_d": 0,
-      "away_l": 2,
-      "away_gf": 0,
-      "away_ga": 4,
-      "gd": -2,
+      "away_l": 3,
+      "away_gf": 1,
+      "away_ga": 6,
+      "gd": -3,
       "home_pts": 8,
       "away_pts": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "team": "Strasbourg",
@@ -359,7 +385,7 @@
       "gd": -3,
       "home_pts": 4,
       "away_pts": 3,
-      "rank": 13
+      "rank": 14
     },
     {
       "team": "Angers SCO",
@@ -385,7 +411,7 @@
       "gd": -6,
       "home_pts": 3,
       "away_pts": 4,
-      "rank": 14
+      "rank": 15
     },
     {
       "team": "LE Mans FC",
@@ -411,32 +437,6 @@
       "gd": -5,
       "home_pts": 5,
       "away_pts": 1,
-      "rank": 15
-    },
-    {
-      "team": "AJ Auxerre",
-      "played": 6,
-      "w": 2,
-      "d": 0,
-      "l": 4,
-      "gf": 8,
-      "ga": 16,
-      "pts": 6,
-      "home_played": 3,
-      "away_played": 3,
-      "home_w": 2,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 4,
-      "home_ga": 4,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 3,
-      "away_gf": 4,
-      "away_ga": 12,
-      "gd": -8,
-      "home_pts": 6,
-      "away_pts": 0,
       "rank": 16
     },
     {
@@ -467,26 +467,26 @@
     },
     {
       "team": "Havre AC",
-      "played": 6,
+      "played": 7,
       "w": 0,
       "d": 2,
-      "l": 4,
-      "gf": 4,
-      "ga": 8,
+      "l": 5,
+      "gf": 5,
+      "ga": 11,
       "pts": 2,
-      "home_played": 3,
+      "home_played": 4,
       "away_played": 3,
       "home_w": 0,
       "home_d": 1,
-      "home_l": 2,
-      "home_gf": 1,
-      "home_ga": 3,
+      "home_l": 3,
+      "home_gf": 2,
+      "home_ga": 6,
       "away_w": 0,
       "away_d": 1,
       "away_l": 2,
       "away_gf": 3,
       "away_ga": 5,
-      "gd": -4,
+      "gd": -6,
       "home_pts": 1,
       "away_pts": 1,
       "rank": 18
@@ -502,10 +502,11 @@
       "status": "finished",
       "official_id": "73825",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73825",
-      "date_local": "",
+      "date_local": "2026-08-21",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73825"
     },
     {
       "round": 1,
@@ -516,10 +517,11 @@
       "status": "finished",
       "official_id": "73824",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73824",
-      "date_local": "",
+      "date_local": "2026-08-22",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73824"
     },
     {
       "round": 1,
@@ -530,10 +532,11 @@
       "status": "finished",
       "official_id": "73823",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73823",
-      "date_local": "",
+      "date_local": "2026-08-22",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73823"
     },
     {
       "round": 1,
@@ -544,10 +547,11 @@
       "status": "finished",
       "official_id": "73826",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73826",
-      "date_local": "",
+      "date_local": "2026-08-22",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73826"
     },
     {
       "round": 1,
@@ -558,10 +562,11 @@
       "status": "finished",
       "official_id": "73828",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73828",
-      "date_local": "",
+      "date_local": "2026-08-22",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73828"
     },
     {
       "round": 1,
@@ -572,10 +577,11 @@
       "status": "finished",
       "official_id": "73829",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73829",
-      "date_local": "",
+      "date_local": "2026-08-22",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73829"
     },
     {
       "round": 1,
@@ -586,10 +592,11 @@
       "status": "finished",
       "official_id": "73821",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73821",
-      "date_local": "",
+      "date_local": "2026-08-23",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73821"
     },
     {
       "round": 1,
@@ -600,10 +607,11 @@
       "status": "finished",
       "official_id": "73822",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73822",
-      "date_local": "",
+      "date_local": "2026-08-23",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73822"
     },
     {
       "round": 1,
@@ -614,10 +622,11 @@
       "status": "finished",
       "official_id": "73827",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73827",
-      "date_local": "",
+      "date_local": "2026-08-23",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73827"
     },
     {
       "round": 2,
@@ -628,10 +637,11 @@
       "status": "finished",
       "official_id": "73832",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73832",
-      "date_local": "",
+      "date_local": "2026-08-28",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73832"
     },
     {
       "round": 2,
@@ -642,10 +652,11 @@
       "status": "finished",
       "official_id": "73838",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73838",
-      "date_local": "",
+      "date_local": "2026-08-29",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73838"
     },
     {
       "round": 2,
@@ -656,10 +667,11 @@
       "status": "finished",
       "official_id": "73830",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73830",
-      "date_local": "",
+      "date_local": "2026-08-29",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73830"
     },
     {
       "round": 2,
@@ -670,10 +682,11 @@
       "status": "finished",
       "official_id": "73831",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73831",
-      "date_local": "",
+      "date_local": "2026-08-29",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73831"
     },
     {
       "round": 2,
@@ -684,10 +697,11 @@
       "status": "finished",
       "official_id": "73833",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73833",
-      "date_local": "",
+      "date_local": "2026-08-29",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73833"
     },
     {
       "round": 2,
@@ -698,10 +712,11 @@
       "status": "finished",
       "official_id": "73834",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73834",
-      "date_local": "",
+      "date_local": "2026-08-29",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73834"
     },
     {
       "round": 2,
@@ -712,10 +727,11 @@
       "status": "finished",
       "official_id": "73836",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73836",
-      "date_local": "",
+      "date_local": "2026-08-30",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73836"
     },
     {
       "round": 2,
@@ -726,10 +742,11 @@
       "status": "finished",
       "official_id": "73837",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73837",
-      "date_local": "",
+      "date_local": "2026-08-30",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73837"
     },
     {
       "round": 2,
@@ -740,10 +757,11 @@
       "status": "finished",
       "official_id": "73835",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73835",
-      "date_local": "",
+      "date_local": "2026-08-30",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73835"
     },
     {
       "round": 3,
@@ -754,10 +772,11 @@
       "status": "finished",
       "official_id": "73846",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73846",
-      "date_local": "",
+      "date_local": "2026-09-03",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73846"
     },
     {
       "round": 3,
@@ -768,10 +787,11 @@
       "status": "finished",
       "official_id": "73842",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73842",
-      "date_local": "",
+      "date_local": "2026-09-04",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73842"
     },
     {
       "round": 3,
@@ -782,10 +802,11 @@
       "status": "finished",
       "official_id": "73845",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73845",
-      "date_local": "",
+      "date_local": "2026-09-04",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73845"
     },
     {
       "round": 3,
@@ -796,10 +817,11 @@
       "status": "finished",
       "official_id": "73841",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73841",
-      "date_local": "",
+      "date_local": "2026-09-05",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73841"
     },
     {
       "round": 3,
@@ -810,10 +832,11 @@
       "status": "finished",
       "official_id": "73840",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73840",
-      "date_local": "",
+      "date_local": "2026-09-05",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73840"
     },
     {
       "round": 3,
@@ -824,10 +847,11 @@
       "status": "finished",
       "official_id": "73844",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73844",
-      "date_local": "",
+      "date_local": "2026-09-05",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73844"
     },
     {
       "round": 3,
@@ -838,10 +862,11 @@
       "status": "finished",
       "official_id": "73847",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73847",
-      "date_local": "",
+      "date_local": "2026-09-06",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73847"
     },
     {
       "round": 3,
@@ -852,10 +877,11 @@
       "status": "finished",
       "official_id": "73839",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73839",
-      "date_local": "",
+      "date_local": "2026-09-06",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73839"
     },
     {
       "round": 3,
@@ -866,10 +892,11 @@
       "status": "finished",
       "official_id": "73843",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73843",
-      "date_local": "",
+      "date_local": "2026-09-06",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73843"
     },
     {
       "round": 4,
@@ -880,10 +907,11 @@
       "status": "finished",
       "official_id": "73855",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73855",
-      "date_local": "",
+      "date_local": "2026-09-11",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73855"
     },
     {
       "round": 4,
@@ -894,10 +922,11 @@
       "status": "finished",
       "official_id": "73856",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73856",
-      "date_local": "",
+      "date_local": "2026-09-12",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73856"
     },
     {
       "round": 4,
@@ -908,10 +937,11 @@
       "status": "finished",
       "official_id": "73848",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73848",
-      "date_local": "",
+      "date_local": "2026-09-12",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73848"
     },
     {
       "round": 4,
@@ -922,10 +952,11 @@
       "status": "finished",
       "official_id": "73850",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73850",
-      "date_local": "",
+      "date_local": "2026-09-12",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73850"
     },
     {
       "round": 4,
@@ -936,10 +967,11 @@
       "status": "finished",
       "official_id": "73853",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73853",
-      "date_local": "",
+      "date_local": "2026-09-12",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73853"
     },
     {
       "round": 4,
@@ -950,10 +982,11 @@
       "status": "finished",
       "official_id": "73854",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73854",
-      "date_local": "",
+      "date_local": "2026-09-12",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73854"
     },
     {
       "round": 4,
@@ -964,10 +997,11 @@
       "status": "finished",
       "official_id": "73852",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73852",
-      "date_local": "",
+      "date_local": "2026-09-13",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73852"
     },
     {
       "round": 4,
@@ -978,10 +1012,11 @@
       "status": "finished",
       "official_id": "73851",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73851",
-      "date_local": "",
+      "date_local": "2026-09-13",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73851"
     },
     {
       "round": 4,
@@ -992,10 +1027,11 @@
       "status": "finished",
       "official_id": "73849",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73849",
-      "date_local": "",
+      "date_local": "2026-09-13",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73849"
     },
     {
       "round": 5,
@@ -1006,10 +1042,11 @@
       "status": "finished",
       "official_id": "73862",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73862",
-      "date_local": "",
+      "date_local": "2026-09-18",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73862"
     },
     {
       "round": 5,
@@ -1020,10 +1057,11 @@
       "status": "finished",
       "official_id": "73864",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73864",
-      "date_local": "",
+      "date_local": "2026-09-19",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73864"
     },
     {
       "round": 5,
@@ -1034,10 +1072,11 @@
       "status": "finished",
       "official_id": "73857",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73857",
-      "date_local": "",
+      "date_local": "2026-09-19",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73857"
     },
     {
       "round": 5,
@@ -1048,10 +1087,11 @@
       "status": "finished",
       "official_id": "73859",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73859",
-      "date_local": "",
+      "date_local": "2026-09-19",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73859"
     },
     {
       "round": 5,
@@ -1062,10 +1102,11 @@
       "status": "finished",
       "official_id": "73860",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73860",
-      "date_local": "",
+      "date_local": "2026-09-19",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73860"
     },
     {
       "round": 5,
@@ -1076,10 +1117,11 @@
       "status": "finished",
       "official_id": "73865",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73865",
-      "date_local": "",
+      "date_local": "2026-09-19",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73865"
     },
     {
       "round": 5,
@@ -1090,10 +1132,11 @@
       "status": "finished",
       "official_id": "73858",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73858",
-      "date_local": "",
+      "date_local": "2026-09-20",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73858"
     },
     {
       "round": 5,
@@ -1104,10 +1147,11 @@
       "status": "finished",
       "official_id": "73863",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73863",
-      "date_local": "",
+      "date_local": "2026-09-20",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73863"
     },
     {
       "round": 5,
@@ -1118,10 +1162,11 @@
       "status": "finished",
       "official_id": "73861",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73861",
-      "date_local": "",
+      "date_local": "2026-09-20",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73861"
     },
     {
       "round": 6,
@@ -1132,10 +1177,11 @@
       "status": "finished",
       "official_id": "73867",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73867",
-      "date_local": "",
+      "date_local": "2026-10-09",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73867"
     },
     {
       "round": 6,
@@ -1146,10 +1192,11 @@
       "status": "finished",
       "official_id": "73868",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73868",
-      "date_local": "",
+      "date_local": "2026-10-10",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73868"
     },
     {
       "round": 6,
@@ -1160,10 +1207,11 @@
       "status": "finished",
       "official_id": "73866",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73866",
-      "date_local": "",
+      "date_local": "2026-10-10",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73866"
     },
     {
       "round": 6,
@@ -1174,10 +1222,11 @@
       "status": "finished",
       "official_id": "73869",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73869",
-      "date_local": "",
+      "date_local": "2026-10-10",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73869"
     },
     {
       "round": 6,
@@ -1188,10 +1237,11 @@
       "status": "finished",
       "official_id": "73870",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73870",
-      "date_local": "",
+      "date_local": "2026-10-10",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73870"
     },
     {
       "round": 6,
@@ -1202,10 +1252,11 @@
       "status": "finished",
       "official_id": "73872",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73872",
-      "date_local": "",
+      "date_local": "2026-10-10",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73872"
     },
     {
       "round": 6,
@@ -1216,10 +1267,11 @@
       "status": "finished",
       "official_id": "73871",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73871",
-      "date_local": "",
+      "date_local": "2026-10-11",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73871"
     },
     {
       "round": 6,
@@ -1230,10 +1282,11 @@
       "status": "finished",
       "official_id": "73873",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73873",
-      "date_local": "",
+      "date_local": "2026-10-11",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73873"
     },
     {
       "round": 6,
@@ -1244,10 +1297,11 @@
       "status": "finished",
       "official_id": "73874",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73874",
-      "date_local": "",
+      "date_local": "2026-10-11",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73874"
     },
     {
       "round": 7,
@@ -1258,10 +1312,11 @@
       "status": "finished",
       "official_id": "73882",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73882",
-      "date_local": "2026-10-18",
+      "date_local": "2026-10-17",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73882"
     },
     {
       "round": 7,
@@ -1272,10 +1327,11 @@
       "status": "finished",
       "official_id": "73878",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73878",
-      "date_local": "2026-10-18",
+      "date_local": "2026-10-17",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73878"
     },
     {
       "round": 7,
@@ -1286,10 +1342,11 @@
       "status": "finished",
       "official_id": "73883",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73883",
-      "date_local": "2026-10-18",
+      "date_local": "2026-10-17",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73883"
     },
     {
       "round": 7,
@@ -1300,10 +1357,11 @@
       "status": "finished",
       "official_id": "73877",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73877",
-      "date_local": "2026-10-18",
+      "date_local": "2026-10-16",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": ""
+      "official_time_display": "",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73877"
     },
     {
       "round": 7,
@@ -1317,63 +1375,68 @@
       "date_local": "2026-10-18",
       "time_local": "",
       "schedule_note": "",
-      "official_time_display": "9H"
+      "official_time_display": "9H",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73875"
     },
     {
       "round": 7,
       "home": "Havre AC",
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 3,
       "away": "AJ Auxerre",
-      "status": "scheduled",
+      "status": "finished",
       "official_id": "73876",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73876",
       "date_local": "2026-10-18",
       "time_local": "",
       "schedule_note": "LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.",
-      "official_time_display": "11H15"
+      "official_time_display": "11H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73876"
     },
     {
       "round": 7,
       "home": "FC Lorient",
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 0,
       "away": "AS Monaco",
-      "status": "scheduled",
+      "status": "finished",
       "official_id": "73879",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73879",
       "date_local": "2026-10-18",
       "time_local": "",
       "schedule_note": "LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.",
-      "official_time_display": "11H15"
+      "official_time_display": "11H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73879"
     },
     {
       "round": 7,
       "home": "Paris FC",
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 4,
+      "away_goals": 3,
       "away": "Rennes",
-      "status": "scheduled",
+      "status": "finished",
       "official_id": "73881",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73881",
       "date_local": "2026-10-18",
       "time_local": "",
       "schedule_note": "LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.",
-      "official_time_display": "11H15"
+      "official_time_display": "11H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73881"
     },
     {
       "round": 7,
       "home": "OL",
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 1,
       "away": "OGC Nice",
-      "status": "scheduled",
+      "status": "finished",
       "official_id": "73880",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73880",
       "date_local": "2026-10-18",
       "time_local": "",
       "schedule_note": "LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.",
-      "official_time_display": "14H45"
+      "official_time_display": "14H45",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73880"
     },
     {
       "round": 8,
@@ -1384,10 +1447,11 @@
       "status": "scheduled",
       "official_id": "73886",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73886",
-      "date_local": "",
+      "date_local": "2026-10-23",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "14H45"
+      "official_time_display": "14H45",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73886"
     },
     {
       "round": 8,
@@ -1398,10 +1462,11 @@
       "status": "scheduled",
       "official_id": "73892",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73892",
-      "date_local": "",
+      "date_local": "2026-10-24",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "11H15"
+      "official_time_display": "11H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73892"
     },
     {
       "round": 8,
@@ -1412,10 +1477,11 @@
       "status": "scheduled",
       "official_id": "73887",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73887",
-      "date_local": "",
+      "date_local": "2026-10-24",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "14H45"
+      "official_time_display": "14H45",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73887"
     },
     {
       "round": 8,
@@ -1426,10 +1492,11 @@
       "status": "scheduled",
       "official_id": "73889",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73889",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "10H"
+      "official_time_display": "10H",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73889"
     },
     {
       "round": 8,
@@ -1440,10 +1507,11 @@
       "status": "scheduled",
       "official_id": "73884",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73884",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "12H15"
+      "official_time_display": "12H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73884"
     },
     {
       "round": 8,
@@ -1454,10 +1522,11 @@
       "status": "scheduled",
       "official_id": "73885",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73885",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "12H15"
+      "official_time_display": "12H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73885"
     },
     {
       "round": 8,
@@ -1468,10 +1537,11 @@
       "status": "scheduled",
       "official_id": "73888",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73888",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "12H15"
+      "official_time_display": "12H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73888"
     },
     {
       "round": 8,
@@ -1482,10 +1552,11 @@
       "status": "scheduled",
       "official_id": "73891",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73891",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "12H15"
+      "official_time_display": "12H15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73891"
     },
     {
       "round": 8,
@@ -1496,10 +1567,11 @@
       "status": "scheduled",
       "official_id": "73890",
       "official_url": "https://ligue1.com/fr/match-sheet/l1_championship_match_73890",
-      "date_local": "",
+      "date_local": "2026-10-25",
       "time_local": "",
       "schedule_note": "LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",
-      "official_time_display": "15H45"
+      "official_time_display": "15H45",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73890"
     }
   ]
 }
