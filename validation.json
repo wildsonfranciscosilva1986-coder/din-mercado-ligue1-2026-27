@@ -1,26 +1,67 @@
 {
   "competition": "Ligue 1 McDonald’s 2026/27",
-  "cutoff": "2026-10-19T08:53-03:00",
-  "official_fixture_slots": 72,
-  "rounds_present": 8,
+  "cutoff": "2026-10-19T11:26-03:00",
+  "official_calendar_source": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
+  "official_table_source": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
+  "official_fixture_slots": 306,
+  "rounds_present": 34,
   "clubs": 18,
+  "status_counts": {
+    "finished": 63,
+    "scheduled": 243
+  },
+  "home_away_schedule_anomalies": [
+    {
+      "team": "PSG",
+      "home_fixtures": 16,
+      "away_fixtures": 18
+    },
+    {
+      "team": "Rennes",
+      "home_fixtures": 18,
+      "away_fixtures": 16
+    }
+  ],
+  "home_away_schedule_note": "Current LFP match-sheet API lists both PSG–Rennes fixtures at Roazhon Park: the R1 sheet and ESPN confirm Rennes 2–2 PSG, while the LFP season-calendar PDF lists PSG as R1 home. The R23 LFP sheet also lists Rennes home. Keep current match-sheet orientation; review if the LFP changes it.",
   "finished_results": 63,
-  "scheduled_fixtures": 9,
-  "live_or_unconfirmed_scores": 0,
-  "source_validation": {
-    "official_LFP_table": "PASS: all 18 club vectors match played, W-D-L, points, GF, GA and GD",
-    "independent_ESPN_scores": "PASS: 63/63 exact full-time scores match",
-    "independent_ESPN_table": "PASS: all 18 independently recomputed club vectors match the official-score table"
+  "nonfinal_fixtures": 243,
+  "live_or_unconfirmed_scores_used": 0,
+  "official_table_reconciliation": {
+    "clubs_compared": 18,
+    "all_stats_match": true,
+    "mismatches": 0
+  },
+  "independent_ESPN_score_check": {
+    "finished_scores_checked": 63,
+    "exact_STATUS_FULL_TIME_matches": 63,
+    "mismatches": 0,
+    "queried_utc_dates": 36
+  },
+  "independent_ESPN_table_reconciliation": {
+    "clubs_compared": 18,
+    "all_stats_match": true,
+    "mismatches": 0
   },
   "overview": {
     "goals": 192,
     "btts": 40,
     "over_2_5": 40
   },
-  "table_order_source": "Current official LFP general standings API; current club statistics independently recomputed from the 63 official FullTime scores.",
-  "sources": {
-    "official_match_data": "https://ma-api.ligue1.fr/championship-match/{l1_championship_match_id}",
-    "official_table": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
-    "independent_scoreboard": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=YYYYMMDD"
+  "source_files": [
+    "ligue1_2026_27_matches.csv",
+    "source_snapshots/official_standings_latest.csv",
+    "source_snapshots/espn_results_crosscheck_latest.csv",
+    "source_snapshots/espn_table_recomputed_latest.csv"
+  ],
+  "dashboard_validation": {
+    "fixture_slots": 306,
+    "embedded_final_scores": 63,
+    "page_cutoff_matches_validation": true,
+    "status": "PASS"
+  },
+  "source_validation": {
+    "official_LFP_table": "PASS: 18/18 club vectors match across played, W-D-L, points, GF, GA and GD.",
+    "independent_ESPN_scores": "PASS: 63/63 exact FullTime scores match.",
+    "independent_ESPN_table": "PASS: 18/18 independently recomputed club vectors match."
   }
 }
