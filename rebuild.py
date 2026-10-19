@@ -1,6 +1,8 @@
 """Recreate the JSON snapshot and standalone HTML using only this repo's verified CSV."""
 import csv, json, os
 from collections import defaultdict
+from datetime import datetime
+from zoneinfo import ZoneInfo
 BASE=os.path.dirname(__file__)
 rows=[]
 with open(os.path.join(BASE,'ligue1_2026_27_matches.csv'),encoding='utf-8') as f:
@@ -21,11 +23,13 @@ for m in rows:
     elif hg<ag:st[a]['w']+=1;st[h]['l']+=1;st[a]['pts']+=3;st[a]['away_w']+=1;st[h]['home_l']+=1
     else:st[h]['d']+=1;st[a]['d']+=1;st[h]['pts']+=1;st[a]['pts']+=1;st[h]['home_d']+=1;st[a]['away_d']+=1
 for s in st.values():s['gd']=s['gf']-s['ga'];s['home_pts']=3*s['home_w']+s['home_d'];s['away_pts']=3*s['away_w']+s['away_d']
-order=['PSG','LOSC','AS Monaco','Rennes','OL','Paris FC','RC Lens','Brest','Toulouse FC','FC Lorient','OGC Nice','Strasbourg','Angers SCO','OM','LE Mans FC','AJ Auxerre','Troyes','Havre AC']
+with open(os.path.join(BASE,'source_snapshots/official_standings_table_2026-10-19.csv'),encoding='utf-8-sig',newline='') as f:
+    official_rows=list(csv.DictReader(f))
+order=[r['team'] for r in sorted(official_rows,key=lambda r:int(r['position']))]
 idx={t:i for i,t in enumerate(order)}
 standings=sorted(st.values(),key=lambda s:(-s['pts'],-s['gd'],-s['gf'],idx.get(s['team'],999)))
 for i,s in enumerate(standings,1):s['rank']=i
-snapshot={'cutoff':'2026-10-18T14:12:13-03:00','season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows}
+snapshot={'cutoff':datetime.now(ZoneInfo('America/Sao_Paulo')).isoformat(timespec='minutes'),'season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows}
 with open(os.path.join(BASE,'data.json'),'w',encoding='utf-8') as f:json.dump(snapshot,f,ensure_ascii=False,indent=2)
 os.system(f'python3 "{os.path.join(BASE,"build_site.py")}"')
 print(f"Built {len(teams)} clubs, {sum(m['status']=='finished' for m in rows)} results, {sum(m['status']=='scheduled' for m in rows)} scheduled fixtures.")
