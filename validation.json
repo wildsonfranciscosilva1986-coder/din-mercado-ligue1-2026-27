@@ -1,33 +1,26 @@
 {
-  "cutoff": "2026-10-18T14:12:13-03:00",
-  "teams": 18,
-  "official_fixtures_rounds_1_to_8": 72,
-  "completed_results": 59,
-  "scheduled_without_final": 13,
-  "matches_per_round": 9,
-  "all_ids_unique": true,
-  "all_final_scores_parseable": true,
-  "standings_recomputed_from_scores": true,
-  "overview_metrics": {
-    "goals": 177,
-    "average_goals_per_final": 3.0,
-    "btts": [
-      37,
-      59
-    ],
-    "over_2_5": [
-      37,
-      59
-    ],
-    "home_wins_draws_away_wins": [
-      25,
-      15,
-      19
-    ]
+  "competition": "Ligue 1 McDonald’s 2026/27",
+  "cutoff": "2026-10-19T08:53-03:00",
+  "official_fixture_slots": 72,
+  "rounds_present": 8,
+  "clubs": 18,
+  "finished_results": 63,
+  "scheduled_fixtures": 9,
+  "live_or_unconfirmed_scores": 0,
+  "source_validation": {
+    "official_LFP_table": "PASS: all 18 club vectors match played, W-D-L, points, GF, GA and GD",
+    "independent_ESPN_scores": "PASS: 63/63 exact full-time scores match",
+    "independent_ESPN_table": "PASS: all 18 independently recomputed club vectors match the official-score table"
   },
-  "lfp_current_table_match": "LFP standings fetch at 14:11 BRT still reflects the 58-final table; all 18 exact against the pre-Angers 2-5 OM result snapshot, 16/18 unaffected clubs match the updated table, Angers SCO and OM updated from official LFP match sheet 73875.",
-  "independent_table_match": "18/18 club records match WorldFootball after round 6; five round-7 scores independently corroborated, including Angers SCO 2-5 OM (GFFN FT, OneFootball).",
-  "schedule_caveat": "Official and independent date/time labels conflict for some future fixtures; only shared round/opponents and 18 Oct where confirmed are shown.",
-  "rules_caveat": "LFP 2026/27 Europe allocation documented; not extrapolated as 2027/28 access. UEFA page showed no data. Specific LFP 2026/27 relegation regulation not located; relegation zone display is provisional.",
-  "pending_note": "Other J7 match pages at cutoff showed live status/in-progress minute or no independently confirmed final; not included."
+  "overview": {
+    "goals": 192,
+    "btts": 40,
+    "over_2_5": 40
+  },
+  "table_order_source": "Current official LFP general standings API; current club statistics independently recomputed from the 63 official FullTime scores.",
+  "sources": {
+    "official_match_data": "https://ma-api.ligue1.fr/championship-match/{l1_championship_match_id}",
+    "official_table": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
+    "independent_scoreboard": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=YYYYMMDD"
+  }
 }
