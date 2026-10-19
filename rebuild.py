@@ -1,35 +1,41 @@
-"""Recreate the JSON snapshot and standalone HTML using only this repo's verified CSV."""
-import csv, json, os
-from collections import defaultdict
-from datetime import datetime
-from zoneinfo import ZoneInfo
-BASE=os.path.dirname(__file__)
-rows=[]
-with open(os.path.join(BASE,'ligue1_2026_27_matches.csv'),encoding='utf-8') as f:
-    for r in csv.DictReader(f):
-        r['round']=int(r['round'])
-        for k in ('home_goals','away_goals'):
-            r[k]=int(r[k]) if r[k] else None
-        rows.append(r)
-teams=sorted(set([m['home'] for m in rows]+[m['away'] for m in rows]))
-st={t:{'team':t,'played':0,'w':0,'d':0,'l':0,'gf':0,'ga':0,'pts':0,'home_played':0,'away_played':0,'home_w':0,'home_d':0,'home_l':0,'home_gf':0,'home_ga':0,'away_w':0,'away_d':0,'away_l':0,'away_gf':0,'away_ga':0} for t in teams}
-for m in rows:
-    if m['status']!='finished':continue
-    h,a=m['home'],m['away'];hg,ag=m['home_goals'],m['away_goals']
-    for t in (h,a):st[t]['played']+=1
-    st[h]['gf']+=hg;st[h]['ga']+=ag;st[a]['gf']+=ag;st[a]['ga']+=hg
-    st[h]['home_played']+=1;st[a]['away_played']+=1;st[h]['home_gf']+=hg;st[h]['home_ga']+=ag;st[a]['away_gf']+=ag;st[a]['away_ga']+=hg
-    if hg>ag:st[h]['w']+=1;st[a]['l']+=1;st[h]['pts']+=3;st[h]['home_w']+=1;st[a]['away_l']+=1
-    elif hg<ag:st[a]['w']+=1;st[h]['l']+=1;st[a]['pts']+=3;st[a]['away_w']+=1;st[h]['home_l']+=1
-    else:st[h]['d']+=1;st[a]['d']+=1;st[h]['pts']+=1;st[a]['pts']+=1;st[h]['home_d']+=1;st[a]['away_d']+=1
-for s in st.values():s['gd']=s['gf']-s['ga'];s['home_pts']=3*s['home_w']+s['home_d'];s['away_pts']=3*s['away_w']+s['away_d']
-with open(os.path.join(BASE,'source_snapshots/official_standings_table_2026-10-19.csv'),encoding='utf-8-sig',newline='') as f:
-    official_rows=list(csv.DictReader(f))
-order=[r['team'] for r in sorted(official_rows,key=lambda r:int(r['position']))]
-idx={t:i for i,t in enumerate(order)}
-standings=sorted(st.values(),key=lambda s:(-s['pts'],-s['gd'],-s['gf'],idx.get(s['team'],999)))
+#!/usr/bin/env python3
+"""Rebuild the Ligue 1 JSON and static page from the full validated official fixture CSV."""
+import csv,json,subprocess,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parent
+with (ROOT/'ligue1_2026_27_matches.csv').open(encoding='utf-8-sig',newline='') as f:
+    rows=list(csv.DictReader(f))
+with (ROOT/'validation.json').open(encoding='utf-8') as f:
+    report=json.load(f)
+with (ROOT/'source_snapshots/official_standings_latest.csv').open(encoding='utf-8-sig',newline='') as f:
+    official=list(csv.DictReader(f))
+for row in rows:
+    row['round']=int(row['round'])
+    for key in ('home_goals','away_goals'):
+        row[key]=int(row[key]) if row[key] else None
+teams=sorted({m['home'] for m in rows}|{m['away'] for m in rows})
+if len(rows)!=306 or len(teams)!=18 or len(official)!=18:
+    raise SystemExit(f'Full-season inputs required: fixtures={len(rows)}, clubs={len(teams)}, table={len(official)}')
+
+stats={t:{'team':t,'played':0,'w':0,'d':0,'l':0,'gf':0,'ga':0,'pts':0,'home_played':0,'away_played':0,'home_w':0,'home_d':0,'home_l':0,'home_gf':0,'home_ga':0,'away_w':0,'away_d':0,'away_l':0,'away_gf':0,'away_ga':0} for t in teams}
+for match in rows:
+    if match['status']!='finished':continue
+    h,a=match['home'],match['away'];hg,ag=match['home_goals'],match['away_goals']
+    if hg is None or ag is None:raise SystemExit(f'FullTime fixture has no score: {match}')
+    for t in (h,a):stats[t]['played']+=1
+    stats[h]['gf']+=hg;stats[h]['ga']+=ag;stats[a]['gf']+=ag;stats[a]['ga']+=hg
+    stats[h]['home_played']+=1;stats[a]['away_played']+=1
+    stats[h]['home_gf']+=hg;stats[h]['home_ga']+=ag;stats[a]['away_gf']+=ag;stats[a]['away_ga']+=hg
+    if hg>ag:stats[h]['w']+=1;stats[a]['l']+=1;stats[h]['pts']+=3;stats[h]['home_w']+=1;stats[a]['away_l']+=1
+    elif hg<ag:stats[a]['w']+=1;stats[h]['l']+=1;stats[a]['pts']+=3;stats[a]['away_w']+=1;stats[h]['home_l']+=1
+    else:stats[h]['d']+=1;stats[a]['d']+=1;stats[h]['pts']+=1;stats[a]['pts']+=1;stats[h]['home_d']+=1;stats[a]['away_d']+=1
+for s in stats.values():
+    s['gd']=s['gf']-s['ga'];s['home_pts']=3*s['home_w']+s['home_d'];s['away_pts']=3*s['away_w']+s['away_d']
+order=[r['team'] for r in sorted(official,key=lambda x:int(x['position']))]
+order_index={t:i for i,t in enumerate(order)}
+standings=sorted(stats.values(),key=lambda s:(-s['pts'],-s['gd'],-s['gf'],order_index.get(s['team'],999)))
 for i,s in enumerate(standings,1):s['rank']=i
-snapshot={'cutoff':datetime.now(ZoneInfo('America/Sao_Paulo')).isoformat(timespec='minutes'),'season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows}
-with open(os.path.join(BASE,'data.json'),'w',encoding='utf-8') as f:json.dump(snapshot,f,ensure_ascii=False,indent=2)
-os.system(f'python3 "{os.path.join(BASE,"build_site.py")}"')
-print(f"Built {len(teams)} clubs, {sum(m['status']=='finished' for m in rows)} results, {sum(m['status']=='scheduled' for m in rows)} scheduled fixtures.")
+snapshot={'cutoff':report['cutoff'],'season':'2026/27','league':"Ligue 1 McDonald's",'teams':teams,'standings':standings,'matches':rows,'homeAwayNote':report.get('home_away_schedule_note','')}
+(ROOT/'data.json').write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+subprocess.run([sys.executable,str(ROOT/'build_site.py')],cwd=ROOT,check=True)
+print(f"Built {len(teams)} clubs, {len(rows)} official fixture slots, {sum(m['status']=='finished' for m in rows)} confirmed finals; cutoff {report['cutoff']}.")
