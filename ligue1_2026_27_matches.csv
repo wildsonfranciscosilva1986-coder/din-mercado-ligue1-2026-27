@@ -1,73 +1,307 @@
 round,home,home_goals,away_goals,away,status,official_id,official_url,date_local,time_local,schedule_note,official_time_display,_source_url
-1,OM,4,0,Strasbourg,finished,73825,https://ligue1.com/fr/match-sheet/l1_championship_match_73825,2026-08-21,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73825
-1,RC Lens,5,2,AJ Auxerre,finished,73824,https://ligue1.com/fr/match-sheet/l1_championship_match_73824,2026-08-22,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73824
-1,LE Mans FC,2,2,Brest,finished,73823,https://ligue1.com/fr/match-sheet/l1_championship_match_73823,2026-08-22,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73823
-1,OGC Nice,0,0,FC Lorient,finished,73826,https://ligue1.com/fr/match-sheet/l1_championship_match_73826,2026-08-22,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73826
-1,Toulouse FC,0,2,OL,finished,73828,https://ligue1.com/fr/match-sheet/l1_championship_match_73828,2026-08-22,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73828
-1,Troyes,0,0,Paris FC,finished,73829,https://ligue1.com/fr/match-sheet/l1_championship_match_73829,2026-08-22,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73829
-1,Angers SCO,0,2,LOSC,finished,73821,https://ligue1.com/fr/match-sheet/l1_championship_match_73821,2026-08-23,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73821
-1,Havre AC,0,1,AS Monaco,finished,73822,https://ligue1.com/fr/match-sheet/l1_championship_match_73822,2026-08-23,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73822
-1,Rennes,2,2,PSG,finished,73827,https://ligue1.com/fr/match-sheet/l1_championship_match_73827,2026-08-23,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73827
-2,LOSC,2,2,PSG,finished,73832,https://ligue1.com/fr/match-sheet/l1_championship_match_73832,2026-08-28,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73832
-2,Strasbourg,2,1,RC Lens,finished,73838,https://ligue1.com/fr/match-sheet/l1_championship_match_73838,2026-08-29,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73838
-2,AJ Auxerre,1,3,Angers SCO,finished,73830,https://ligue1.com/fr/match-sheet/l1_championship_match_73830,2026-08-29,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73830
-2,Brest,2,2,Toulouse FC,finished,73831,https://ligue1.com/fr/match-sheet/l1_championship_match_73831,2026-08-29,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73831
-2,FC Lorient,1,2,Troyes,finished,73833,https://ligue1.com/fr/match-sheet/l1_championship_match_73833,2026-08-29,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73833
-2,OL,1,1,Havre AC,finished,73834,https://ligue1.com/fr/match-sheet/l1_championship_match_73834,2026-08-29,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73834
-2,Paris FC,3,0,OGC Nice,finished,73836,https://ligue1.com/fr/match-sheet/l1_championship_match_73836,2026-08-30,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73836
-2,Rennes,3,2,LE Mans FC,finished,73837,https://ligue1.com/fr/match-sheet/l1_championship_match_73837,2026-08-30,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73837
-2,AS Monaco,2,0,OM,finished,73835,https://ligue1.com/fr/match-sheet/l1_championship_match_73835,2026-08-30,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73835
-3,Toulouse FC,0,1,LOSC,finished,73846,https://ligue1.com/fr/match-sheet/l1_championship_match_73846,2026-09-03,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73846
-3,OL,3,1,AJ Auxerre,finished,73842,https://ligue1.com/fr/match-sheet/l1_championship_match_73842,2026-09-04,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73842
-3,PSG,1,2,AS Monaco,finished,73845,https://ligue1.com/fr/match-sheet/l1_championship_match_73845,2026-09-04,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73845
-3,RC Lens,0,1,FC Lorient,finished,73841,https://ligue1.com/fr/match-sheet/l1_championship_match_73841,2026-09-05,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73841
-3,Havre AC,1,2,Brest,finished,73840,https://ligue1.com/fr/match-sheet/l1_championship_match_73840,2026-09-05,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73840
-3,OGC Nice,1,1,LE Mans FC,finished,73844,https://ligue1.com/fr/match-sheet/l1_championship_match_73844,2026-09-05,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73844
-3,Troyes,2,6,Strasbourg,finished,73847,https://ligue1.com/fr/match-sheet/l1_championship_match_73847,2026-09-06,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73847
-3,Angers SCO,1,2,Rennes,finished,73839,https://ligue1.com/fr/match-sheet/l1_championship_match_73839,2026-09-06,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73839
-3,OM,2,3,Paris FC,finished,73843,https://ligue1.com/fr/match-sheet/l1_championship_match_73843,2026-09-06,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73843
-4,Rennes,1,0,OM,finished,73855,https://ligue1.com/fr/match-sheet/l1_championship_match_73855,2026-09-11,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73855
-4,Strasbourg,1,1,AS Monaco,finished,73856,https://ligue1.com/fr/match-sheet/l1_championship_match_73856,2026-09-12,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73856
-4,AJ Auxerre,1,0,OGC Nice,finished,73848,https://ligue1.com/fr/match-sheet/l1_championship_match_73848,2026-09-12,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73848
-4,Havre AC,0,0,Angers SCO,finished,73850,https://ligue1.com/fr/match-sheet/l1_championship_match_73850,2026-09-12,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73850
-4,FC Lorient,2,2,Toulouse FC,finished,73853,https://ligue1.com/fr/match-sheet/l1_championship_match_73853,2026-09-12,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73853
-4,Paris FC,0,0,OL,finished,73854,https://ligue1.com/fr/match-sheet/l1_championship_match_73854,2026-09-12,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73854
-4,LOSC,2,0,Troyes,finished,73852,https://ligue1.com/fr/match-sheet/l1_championship_match_73852,2026-09-13,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73852
-4,LE Mans FC,2,2,RC Lens,finished,73851,https://ligue1.com/fr/match-sheet/l1_championship_match_73851,2026-09-13,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73851
-4,Brest,0,1,PSG,finished,73849,https://ligue1.com/fr/match-sheet/l1_championship_match_73849,2026-09-13,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73849
-5,AS Monaco,2,1,RC Lens,finished,73862,https://ligue1.com/fr/match-sheet/l1_championship_match_73862,2026-09-18,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73862
-5,Paris FC,2,1,Strasbourg,finished,73864,https://ligue1.com/fr/match-sheet/l1_championship_match_73864,2026-09-19,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73864
-5,Angers SCO,2,0,Troyes,finished,73857,https://ligue1.com/fr/match-sheet/l1_championship_match_73857,2026-09-19,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73857
-5,LE Mans FC,2,1,FC Lorient,finished,73859,https://ligue1.com/fr/match-sheet/l1_championship_match_73859,2026-09-19,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73859
-5,OL,4,0,Rennes,finished,73860,https://ligue1.com/fr/match-sheet/l1_championship_match_73860,2026-09-19,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73860
-5,Toulouse FC,3,2,Havre AC,finished,73865,https://ligue1.com/fr/match-sheet/l1_championship_match_73865,2026-09-19,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73865
-5,AJ Auxerre,2,1,Brest,finished,73858,https://ligue1.com/fr/match-sheet/l1_championship_match_73858,2026-09-20,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73858
-5,OGC Nice,2,1,LOSC,finished,73863,https://ligue1.com/fr/match-sheet/l1_championship_match_73863,2026-09-20,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73863
-5,OM,1,2,PSG,finished,73861,https://ligue1.com/fr/match-sheet/l1_championship_match_73861,2026-09-20,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73861
-6,RC Lens,2,1,OL,finished,73867,https://ligue1.com/fr/match-sheet/l1_championship_match_73867,2026-10-09,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73867
-6,LOSC,1,0,Havre AC,finished,73868,https://ligue1.com/fr/match-sheet/l1_championship_match_73868,2026-10-10,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73868
-6,Brest,5,1,Angers SCO,finished,73866,https://ligue1.com/fr/match-sheet/l1_championship_match_73866,2026-10-10,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73866
-6,FC Lorient,1,0,Paris FC,finished,73869,https://ligue1.com/fr/match-sheet/l1_championship_match_73869,2026-10-10,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73869
-6,AS Monaco,2,2,Toulouse FC,finished,73870,https://ligue1.com/fr/match-sheet/l1_championship_match_73870,2026-10-10,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73870
-6,PSG,3,1,LE Mans FC,finished,73872,https://ligue1.com/fr/match-sheet/l1_championship_match_73872,2026-10-10,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73872
-6,OGC Nice,2,1,Strasbourg,finished,73871,https://ligue1.com/fr/match-sheet/l1_championship_match_73871,2026-10-11,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73871
-6,Rennes,4,1,AJ Auxerre,finished,73873,https://ligue1.com/fr/match-sheet/l1_championship_match_73873,2026-10-11,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73873
-6,Troyes,0,2,OM,finished,73874,https://ligue1.com/fr/match-sheet/l1_championship_match_73874,2026-10-11,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73874
-7,Strasbourg,1,3,PSG,finished,73882,https://ligue1.com/fr/match-sheet/l1_championship_match_73882,2026-10-17,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73882
-7,LOSC,1,1,Brest,finished,73878,https://ligue1.com/fr/match-sheet/l1_championship_match_73878,2026-10-17,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73878
-7,Troyes,1,3,RC Lens,finished,73883,https://ligue1.com/fr/match-sheet/l1_championship_match_73883,2026-10-17,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73883
-7,LE Mans FC,0,3,Toulouse FC,finished,73877,https://ligue1.com/fr/match-sheet/l1_championship_match_73877,2026-10-16,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73877
-7,Angers SCO,2,5,OM,finished,73875,https://ligue1.com/fr/match-sheet/l1_championship_match_73875,2026-10-18,,,9H,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73875
-7,Havre AC,1,3,AJ Auxerre,finished,73876,https://ligue1.com/fr/match-sheet/l1_championship_match_73876,2026-10-18,,LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.,11H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73876
-7,FC Lorient,1,0,AS Monaco,finished,73879,https://ligue1.com/fr/match-sheet/l1_championship_match_73879,2026-10-18,,LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.,11H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73879
-7,Paris FC,4,3,Rennes,finished,73881,https://ligue1.com/fr/match-sheet/l1_championship_match_73881,2026-10-18,,LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.,11H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73881
-7,OL,2,1,OGC Nice,finished,73880,https://ligue1.com/fr/match-sheet/l1_championship_match_73880,2026-10-18,,LFP matchday-7 calendar labels the five remaining fixtures “today”; independent schedule agrees on 18 Oct. Kickoff differs by one hour; omitted.,14H45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73880
-8,Brest,,,OGC Nice,scheduled,73886,https://ligue1.com/fr/match-sheet/l1_championship_match_73886,2026-10-23,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",14H45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73886
-8,Toulouse FC,,,Troyes,scheduled,73892,https://ligue1.com/fr/match-sheet/l1_championship_match_73892,2026-10-24,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",11H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73892
-8,RC Lens,,,Paris FC,scheduled,73887,https://ligue1.com/fr/match-sheet/l1_championship_match_73887,2026-10-24,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",14H45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73887
-8,AS Monaco,,,LOSC,scheduled,73889,https://ligue1.com/fr/match-sheet/l1_championship_match_73889,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",10H,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73889
-8,Angers SCO,,,FC Lorient,scheduled,73884,https://ligue1.com/fr/match-sheet/l1_championship_match_73884,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",12H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73884
-8,AJ Auxerre,,,LE Mans FC,scheduled,73885,https://ligue1.com/fr/match-sheet/l1_championship_match_73885,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",12H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73885
-8,OM,,,Havre AC,scheduled,73888,https://ligue1.com/fr/match-sheet/l1_championship_match_73888,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",12H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73888
-8,Rennes,,,Strasbourg,scheduled,73891,https://ligue1.com/fr/match-sheet/l1_championship_match_73891,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",12H15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73891
-8,PSG,,,OL,scheduled,73890,https://ligue1.com/fr/match-sheet/l1_championship_match_73890,2026-10-25,,"LFP and independent schedule list this match on adjacent calendar dates (official calendar display timezone unclear); date/time withheld, pending reconciliation.",15H45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73890
+1,OM,4,0,Strasbourg,finished,73825,https://ligue1.com/en/match-sheet/l1_championship_match_73825,2026-08-21,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73825
+1,RC Lens,5,2,AJ Auxerre,finished,73824,https://ligue1.com/en/match-sheet/l1_championship_match_73824,2026-08-22,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73824
+1,LE Mans FC,2,2,Brest,finished,73823,https://ligue1.com/en/match-sheet/l1_championship_match_73823,2026-08-22,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73823
+1,OGC Nice,0,0,FC Lorient,finished,73826,https://ligue1.com/en/match-sheet/l1_championship_match_73826,2026-08-22,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73826
+1,Toulouse FC,0,2,OL,finished,73828,https://ligue1.com/en/match-sheet/l1_championship_match_73828,2026-08-22,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73828
+1,Troyes,0,0,Paris FC,finished,73829,https://ligue1.com/en/match-sheet/l1_championship_match_73829,2026-08-22,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73829
+1,Angers SCO,0,2,LOSC,finished,73821,https://ligue1.com/en/match-sheet/l1_championship_match_73821,2026-08-23,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73821
+1,Havre AC,0,1,AS Monaco,finished,73822,https://ligue1.com/en/match-sheet/l1_championship_match_73822,2026-08-23,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73822
+1,Rennes,2,2,PSG,finished,73827,https://ligue1.com/en/match-sheet/l1_championship_match_73827,2026-08-23,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73827
+2,LOSC,2,2,PSG,finished,73832,https://ligue1.com/en/match-sheet/l1_championship_match_73832,2026-08-28,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73832
+2,Strasbourg,2,1,RC Lens,finished,73838,https://ligue1.com/en/match-sheet/l1_championship_match_73838,2026-08-29,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73838
+2,AJ Auxerre,1,3,Angers SCO,finished,73830,https://ligue1.com/en/match-sheet/l1_championship_match_73830,2026-08-29,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73830
+2,Brest,2,2,Toulouse FC,finished,73831,https://ligue1.com/en/match-sheet/l1_championship_match_73831,2026-08-29,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73831
+2,FC Lorient,1,2,Troyes,finished,73833,https://ligue1.com/en/match-sheet/l1_championship_match_73833,2026-08-29,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73833
+2,OL,1,1,Havre AC,finished,73834,https://ligue1.com/en/match-sheet/l1_championship_match_73834,2026-08-29,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73834
+2,Paris FC,3,0,OGC Nice,finished,73836,https://ligue1.com/en/match-sheet/l1_championship_match_73836,2026-08-30,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73836
+2,Rennes,3,2,LE Mans FC,finished,73837,https://ligue1.com/en/match-sheet/l1_championship_match_73837,2026-08-30,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73837
+2,AS Monaco,2,0,OM,finished,73835,https://ligue1.com/en/match-sheet/l1_championship_match_73835,2026-08-30,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73835
+3,Toulouse FC,0,1,LOSC,finished,73846,https://ligue1.com/en/match-sheet/l1_championship_match_73846,2026-09-03,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73846
+3,OL,3,1,AJ Auxerre,finished,73842,https://ligue1.com/en/match-sheet/l1_championship_match_73842,2026-09-04,19:00,,19:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73842
+3,PSG,1,2,AS Monaco,finished,73845,https://ligue1.com/en/match-sheet/l1_championship_match_73845,2026-09-04,21:05,,21:05,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73845
+3,RC Lens,0,1,FC Lorient,finished,73841,https://ligue1.com/en/match-sheet/l1_championship_match_73841,2026-09-05,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73841
+3,Havre AC,1,2,Brest,finished,73840,https://ligue1.com/en/match-sheet/l1_championship_match_73840,2026-09-05,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73840
+3,OGC Nice,1,1,LE Mans FC,finished,73844,https://ligue1.com/en/match-sheet/l1_championship_match_73844,2026-09-05,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73844
+3,Troyes,2,6,Strasbourg,finished,73847,https://ligue1.com/en/match-sheet/l1_championship_match_73847,2026-09-06,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73847
+3,Angers SCO,1,2,Rennes,finished,73839,https://ligue1.com/en/match-sheet/l1_championship_match_73839,2026-09-06,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73839
+3,OM,2,3,Paris FC,finished,73843,https://ligue1.com/en/match-sheet/l1_championship_match_73843,2026-09-06,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73843
+4,Rennes,1,0,OM,finished,73855,https://ligue1.com/en/match-sheet/l1_championship_match_73855,2026-09-11,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73855
+4,Strasbourg,1,1,AS Monaco,finished,73856,https://ligue1.com/en/match-sheet/l1_championship_match_73856,2026-09-12,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73856
+4,AJ Auxerre,1,0,OGC Nice,finished,73848,https://ligue1.com/en/match-sheet/l1_championship_match_73848,2026-09-12,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73848
+4,Havre AC,0,0,Angers SCO,finished,73850,https://ligue1.com/en/match-sheet/l1_championship_match_73850,2026-09-12,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73850
+4,FC Lorient,2,2,Toulouse FC,finished,73853,https://ligue1.com/en/match-sheet/l1_championship_match_73853,2026-09-12,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73853
+4,Paris FC,0,0,OL,finished,73854,https://ligue1.com/en/match-sheet/l1_championship_match_73854,2026-09-12,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73854
+4,LOSC,2,0,Troyes,finished,73852,https://ligue1.com/en/match-sheet/l1_championship_match_73852,2026-09-13,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73852
+4,LE Mans FC,2,2,RC Lens,finished,73851,https://ligue1.com/en/match-sheet/l1_championship_match_73851,2026-09-13,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73851
+4,Brest,0,1,PSG,finished,73849,https://ligue1.com/en/match-sheet/l1_championship_match_73849,2026-09-13,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73849
+5,AS Monaco,2,1,RC Lens,finished,73862,https://ligue1.com/en/match-sheet/l1_championship_match_73862,2026-09-18,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73862
+5,Paris FC,2,1,Strasbourg,finished,73864,https://ligue1.com/en/match-sheet/l1_championship_match_73864,2026-09-19,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73864
+5,Angers SCO,2,0,Troyes,finished,73857,https://ligue1.com/en/match-sheet/l1_championship_match_73857,2026-09-19,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73857
+5,LE Mans FC,2,1,FC Lorient,finished,73859,https://ligue1.com/en/match-sheet/l1_championship_match_73859,2026-09-19,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73859
+5,OL,4,0,Rennes,finished,73860,https://ligue1.com/en/match-sheet/l1_championship_match_73860,2026-09-19,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73860
+5,Toulouse FC,3,2,Havre AC,finished,73865,https://ligue1.com/en/match-sheet/l1_championship_match_73865,2026-09-19,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73865
+5,AJ Auxerre,2,1,Brest,finished,73858,https://ligue1.com/en/match-sheet/l1_championship_match_73858,2026-09-20,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73858
+5,OGC Nice,2,1,LOSC,finished,73863,https://ligue1.com/en/match-sheet/l1_championship_match_73863,2026-09-20,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73863
+5,OM,1,2,PSG,finished,73861,https://ligue1.com/en/match-sheet/l1_championship_match_73861,2026-09-20,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73861
+6,RC Lens,2,1,OL,finished,73867,https://ligue1.com/en/match-sheet/l1_championship_match_73867,2026-10-09,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73867
+6,LOSC,1,0,Havre AC,finished,73868,https://ligue1.com/en/match-sheet/l1_championship_match_73868,2026-10-10,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73868
+6,Brest,5,1,Angers SCO,finished,73866,https://ligue1.com/en/match-sheet/l1_championship_match_73866,2026-10-10,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73866
+6,FC Lorient,1,0,Paris FC,finished,73869,https://ligue1.com/en/match-sheet/l1_championship_match_73869,2026-10-10,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73869
+6,AS Monaco,2,2,Toulouse FC,finished,73870,https://ligue1.com/en/match-sheet/l1_championship_match_73870,2026-10-10,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73870
+6,PSG,3,1,LE Mans FC,finished,73872,https://ligue1.com/en/match-sheet/l1_championship_match_73872,2026-10-10,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73872
+6,OGC Nice,2,1,Strasbourg,finished,73871,https://ligue1.com/en/match-sheet/l1_championship_match_73871,2026-10-11,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73871
+6,Rennes,4,1,AJ Auxerre,finished,73873,https://ligue1.com/en/match-sheet/l1_championship_match_73873,2026-10-11,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73873
+6,Troyes,0,2,OM,finished,73874,https://ligue1.com/en/match-sheet/l1_championship_match_73874,2026-10-11,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73874
+7,LE Mans FC,0,3,Toulouse FC,finished,73877,https://ligue1.com/en/match-sheet/l1_championship_match_73877,2026-10-16,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73877
+7,Strasbourg,1,3,PSG,finished,73882,https://ligue1.com/en/match-sheet/l1_championship_match_73882,2026-10-17,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73882
+7,LOSC,1,1,Brest,finished,73878,https://ligue1.com/en/match-sheet/l1_championship_match_73878,2026-10-17,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73878
+7,Troyes,1,3,RC Lens,finished,73883,https://ligue1.com/en/match-sheet/l1_championship_match_73883,2026-10-17,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73883
+7,Angers SCO,2,5,OM,finished,73875,https://ligue1.com/en/match-sheet/l1_championship_match_73875,2026-10-18,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73875
+7,Havre AC,1,3,AJ Auxerre,finished,73876,https://ligue1.com/en/match-sheet/l1_championship_match_73876,2026-10-18,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73876
+7,FC Lorient,1,0,AS Monaco,finished,73879,https://ligue1.com/en/match-sheet/l1_championship_match_73879,2026-10-18,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73879
+7,Paris FC,4,3,Rennes,finished,73881,https://ligue1.com/en/match-sheet/l1_championship_match_73881,2026-10-18,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73881
+7,OL,2,1,OGC Nice,finished,73880,https://ligue1.com/en/match-sheet/l1_championship_match_73880,2026-10-18,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73880
+8,Brest,,,OGC Nice,scheduled,73886,https://ligue1.com/en/match-sheet/l1_championship_match_73886,2026-10-23,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73886
+8,Toulouse FC,,,Troyes,scheduled,73892,https://ligue1.com/en/match-sheet/l1_championship_match_73892,2026-10-24,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73892
+8,RC Lens,,,Paris FC,scheduled,73887,https://ligue1.com/en/match-sheet/l1_championship_match_73887,2026-10-24,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73887
+8,AS Monaco,,,LOSC,scheduled,73889,https://ligue1.com/en/match-sheet/l1_championship_match_73889,2026-10-25,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73889
+8,Angers SCO,,,FC Lorient,scheduled,73884,https://ligue1.com/en/match-sheet/l1_championship_match_73884,2026-10-25,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73884
+8,AJ Auxerre,,,LE Mans FC,scheduled,73885,https://ligue1.com/en/match-sheet/l1_championship_match_73885,2026-10-25,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73885
+8,OM,,,Havre AC,scheduled,73888,https://ligue1.com/en/match-sheet/l1_championship_match_73888,2026-10-25,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73888
+8,Rennes,,,Strasbourg,scheduled,73891,https://ligue1.com/en/match-sheet/l1_championship_match_73891,2026-10-25,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73891
+8,PSG,,,OL,scheduled,73890,https://ligue1.com/en/match-sheet/l1_championship_match_73890,2026-10-25,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73890
+9,Havre AC,,,PSG,scheduled,73893,https://ligue1.com/en/match-sheet/l1_championship_match_73893,2026-10-30,19:00,,19:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73893
+9,LOSC,,,RC Lens,scheduled,73894,https://ligue1.com/en/match-sheet/l1_championship_match_73894,2026-10-30,21:05,,21:05,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73894
+9,OGC Nice,,,Rennes,scheduled,73898,https://ligue1.com/en/match-sheet/l1_championship_match_73898,2026-10-31,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73898
+9,FC Lorient,,,Brest,scheduled,73895,https://ligue1.com/en/match-sheet/l1_championship_match_73895,2026-10-31,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73895
+9,OL,,,Angers SCO,scheduled,73896,https://ligue1.com/en/match-sheet/l1_championship_match_73896,2026-10-31,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73896
+9,Troyes,,,LE Mans FC,scheduled,73901,https://ligue1.com/en/match-sheet/l1_championship_match_73901,2026-10-31,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73901
+9,Strasbourg,,,AJ Auxerre,scheduled,73900,https://ligue1.com/en/match-sheet/l1_championship_match_73900,2026-11-01,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73900
+9,Paris FC,,,AS Monaco,scheduled,73899,https://ligue1.com/en/match-sheet/l1_championship_match_73899,2026-11-01,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73899
+9,OM,,,Toulouse FC,scheduled,73897,https://ligue1.com/en/match-sheet/l1_championship_match_73897,2026-11-01,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73897
+10,Toulouse FC,,,Strasbourg,scheduled,73910,https://ligue1.com/en/match-sheet/l1_championship_match_73910,2026-11-06,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73910
+10,AJ Auxerre,,,Paris FC,scheduled,73903,https://ligue1.com/en/match-sheet/l1_championship_match_73903,2026-11-07,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73903
+10,PSG,,,Troyes,scheduled,73908,https://ligue1.com/en/match-sheet/l1_championship_match_73908,2026-11-07,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73908
+10,Rennes,,,LOSC,scheduled,73909,https://ligue1.com/en/match-sheet/l1_championship_match_73909,2026-11-08,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73909
+10,Angers SCO,,,OGC Nice,scheduled,73902,https://ligue1.com/en/match-sheet/l1_championship_match_73902,2026-11-08,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73902
+10,Brest,,,OL,scheduled,73904,https://ligue1.com/en/match-sheet/l1_championship_match_73904,2026-11-08,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73904
+10,Havre AC,,,FC Lorient,scheduled,73905,https://ligue1.com/en/match-sheet/l1_championship_match_73905,2026-11-08,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73905
+10,LE Mans FC,,,AS Monaco,scheduled,73906,https://ligue1.com/en/match-sheet/l1_championship_match_73906,2026-11-08,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73906
+10,RC Lens,,,OM,scheduled,73907,https://ligue1.com/en/match-sheet/l1_championship_match_73907,2026-11-08,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73907
+11,Troyes,,,Havre AC,scheduled,73919,https://ligue1.com/en/match-sheet/l1_championship_match_73919,2026-11-20,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73919
+11,OGC Nice,,,PSG,scheduled,73916,https://ligue1.com/en/match-sheet/l1_championship_match_73916,2026-11-21,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73916
+11,RC Lens,,,Toulouse FC,scheduled,73911,https://ligue1.com/en/match-sheet/l1_championship_match_73911,2026-11-21,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73911
+11,LOSC,,,OL,scheduled,73912,https://ligue1.com/en/match-sheet/l1_championship_match_73912,2026-11-21,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73912
+11,AS Monaco,,,AJ Auxerre,scheduled,73915,https://ligue1.com/en/match-sheet/l1_championship_match_73915,2026-11-21,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73915
+11,Strasbourg,,,Brest,scheduled,73918,https://ligue1.com/en/match-sheet/l1_championship_match_73918,2026-11-21,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73918
+11,Paris FC,,,Angers SCO,scheduled,73917,https://ligue1.com/en/match-sheet/l1_championship_match_73917,2026-11-22,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73917
+11,FC Lorient,,,Rennes,scheduled,73913,https://ligue1.com/en/match-sheet/l1_championship_match_73913,2026-11-22,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73913
+11,OM,,,LE Mans FC,scheduled,73914,https://ligue1.com/en/match-sheet/l1_championship_match_73914,2026-11-22,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73914
+12,Brest,,,Paris FC,scheduled,73922,https://ligue1.com/en/match-sheet/l1_championship_match_73922,2026-11-27,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73922
+12,Angers SCO,,,RC Lens,scheduled,73920,https://ligue1.com/en/match-sheet/l1_championship_match_73920,2026-11-28,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73920
+12,Havre AC,,,Strasbourg,scheduled,73923,https://ligue1.com/en/match-sheet/l1_championship_match_73923,2026-11-28,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73923
+12,LE Mans FC,,,LOSC,scheduled,73924,https://ligue1.com/en/match-sheet/l1_championship_match_73924,2026-11-28,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73924
+12,OGC Nice,,,Troyes,scheduled,73926,https://ligue1.com/en/match-sheet/l1_championship_match_73926,2026-11-28,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73926
+12,PSG,,,FC Lorient,scheduled,73927,https://ligue1.com/en/match-sheet/l1_championship_match_73927,2026-11-28,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73927
+12,AJ Auxerre,,,OM,scheduled,73921,https://ligue1.com/en/match-sheet/l1_championship_match_73921,2026-11-29,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73921
+12,Toulouse FC,,,Rennes,scheduled,73928,https://ligue1.com/en/match-sheet/l1_championship_match_73928,2026-11-29,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73928
+12,OL,,,AS Monaco,scheduled,73925,https://ligue1.com/en/match-sheet/l1_championship_match_73925,2026-11-29,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73925
+13,RC Lens,,,Havre AC,scheduled,73929,https://ligue1.com/en/match-sheet/l1_championship_match_73929,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73929
+13,LOSC,,,AJ Auxerre,scheduled,73930,https://ligue1.com/en/match-sheet/l1_championship_match_73930,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73930
+13,OM,,,OGC Nice,scheduled,73931,https://ligue1.com/en/match-sheet/l1_championship_match_73931,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73931
+13,AS Monaco,,,Angers SCO,scheduled,73932,https://ligue1.com/en/match-sheet/l1_championship_match_73932,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73932
+13,Paris FC,,,LE Mans FC,scheduled,73933,https://ligue1.com/en/match-sheet/l1_championship_match_73933,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73933
+13,Rennes,,,Brest,scheduled,73934,https://ligue1.com/en/match-sheet/l1_championship_match_73934,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73934
+13,Strasbourg,,,FC Lorient,scheduled,73935,https://ligue1.com/en/match-sheet/l1_championship_match_73935,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73935
+13,Toulouse FC,,,PSG,scheduled,73936,https://ligue1.com/en/match-sheet/l1_championship_match_73936,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73936
+13,Troyes,,,OL,scheduled,73937,https://ligue1.com/en/match-sheet/l1_championship_match_73937,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73937
+14,Angers SCO,,,Strasbourg,scheduled,73938,https://ligue1.com/en/match-sheet/l1_championship_match_73938,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73938
+14,AJ Auxerre,,,Toulouse FC,scheduled,73939,https://ligue1.com/en/match-sheet/l1_championship_match_73939,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73939
+14,Brest,,,Troyes,scheduled,73940,https://ligue1.com/en/match-sheet/l1_championship_match_73940,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73940
+14,Havre AC,,,LE Mans FC,scheduled,73941,https://ligue1.com/en/match-sheet/l1_championship_match_73941,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73941
+14,FC Lorient,,,LOSC,scheduled,73942,https://ligue1.com/en/match-sheet/l1_championship_match_73942,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73942
+14,OL,,,OM,scheduled,73943,https://ligue1.com/en/match-sheet/l1_championship_match_73943,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73943
+14,OGC Nice,,,RC Lens,scheduled,73944,https://ligue1.com/en/match-sheet/l1_championship_match_73944,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73944
+14,PSG,,,Paris FC,scheduled,73945,https://ligue1.com/en/match-sheet/l1_championship_match_73945,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73945
+14,Rennes,,,AS Monaco,scheduled,73946,https://ligue1.com/en/match-sheet/l1_championship_match_73946,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73946
+15,Brest,,,OM,scheduled,73947,https://ligue1.com/en/match-sheet/l1_championship_match_73947,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73947
+15,LE Mans FC,,,OL,scheduled,73948,https://ligue1.com/en/match-sheet/l1_championship_match_73948,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73948
+15,RC Lens,,,PSG,scheduled,73949,https://ligue1.com/en/match-sheet/l1_championship_match_73949,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73949
+15,LOSC,,,Strasbourg,scheduled,73950,https://ligue1.com/en/match-sheet/l1_championship_match_73950,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73950
+15,FC Lorient,,,AJ Auxerre,scheduled,73951,https://ligue1.com/en/match-sheet/l1_championship_match_73951,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73951
+15,AS Monaco,,,OGC Nice,scheduled,73952,https://ligue1.com/en/match-sheet/l1_championship_match_73952,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73952
+15,Paris FC,,,Havre AC,scheduled,73953,https://ligue1.com/en/match-sheet/l1_championship_match_73953,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73953
+15,Toulouse FC,,,Angers SCO,scheduled,73954,https://ligue1.com/en/match-sheet/l1_championship_match_73954,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73954
+15,Troyes,,,Rennes,scheduled,73955,https://ligue1.com/en/match-sheet/l1_championship_match_73955,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73955
+16,Angers SCO,,,PSG,scheduled,73956,https://ligue1.com/en/match-sheet/l1_championship_match_73956,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73956
+16,AJ Auxerre,,,Troyes,scheduled,73957,https://ligue1.com/en/match-sheet/l1_championship_match_73957,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73957
+16,OL,,,FC Lorient,scheduled,73958,https://ligue1.com/en/match-sheet/l1_championship_match_73958,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73958
+16,OM,,,LOSC,scheduled,73959,https://ligue1.com/en/match-sheet/l1_championship_match_73959,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73959
+16,AS Monaco,,,Brest,scheduled,73960,https://ligue1.com/en/match-sheet/l1_championship_match_73960,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73960
+16,OGC Nice,,,Havre AC,scheduled,73961,https://ligue1.com/en/match-sheet/l1_championship_match_73961,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73961
+16,Paris FC,,,Toulouse FC,scheduled,73962,https://ligue1.com/en/match-sheet/l1_championship_match_73962,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73962
+16,Rennes,,,RC Lens,scheduled,73963,https://ligue1.com/en/match-sheet/l1_championship_match_73963,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73963
+16,Strasbourg,,,LE Mans FC,scheduled,73964,https://ligue1.com/en/match-sheet/l1_championship_match_73964,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73964
+17,Havre AC,,,Rennes,scheduled,73965,https://ligue1.com/en/match-sheet/l1_championship_match_73965,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73965
+17,LE Mans FC,,,Angers SCO,scheduled,73966,https://ligue1.com/en/match-sheet/l1_championship_match_73966,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73966
+17,RC Lens,,,Brest,scheduled,73967,https://ligue1.com/en/match-sheet/l1_championship_match_73967,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73967
+17,LOSC,,,Paris FC,scheduled,73968,https://ligue1.com/en/match-sheet/l1_championship_match_73968,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73968
+17,FC Lorient,,,OM,scheduled,73969,https://ligue1.com/en/match-sheet/l1_championship_match_73969,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73969
+17,PSG,,,AJ Auxerre,scheduled,73970,https://ligue1.com/en/match-sheet/l1_championship_match_73970,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73970
+17,Strasbourg,,,OL,scheduled,73971,https://ligue1.com/en/match-sheet/l1_championship_match_73971,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73971
+17,Toulouse FC,,,OGC Nice,scheduled,73972,https://ligue1.com/en/match-sheet/l1_championship_match_73972,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73972
+17,Troyes,,,AS Monaco,scheduled,73973,https://ligue1.com/en/match-sheet/l1_championship_match_73973,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73973
+18,Angers SCO,,,Havre AC,scheduled,73974,https://ligue1.com/en/match-sheet/l1_championship_match_73974,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73974
+18,Brest,,,Strasbourg,scheduled,73975,https://ligue1.com/en/match-sheet/l1_championship_match_73975,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73975
+18,LE Mans FC,,,OGC Nice,scheduled,73976,https://ligue1.com/en/match-sheet/l1_championship_match_73976,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73976
+18,OL,,,LOSC,scheduled,73977,https://ligue1.com/en/match-sheet/l1_championship_match_73977,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73977
+18,OM,,,Troyes,scheduled,73978,https://ligue1.com/en/match-sheet/l1_championship_match_73978,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73978
+18,AS Monaco,,,PSG,scheduled,73979,https://ligue1.com/en/match-sheet/l1_championship_match_73979,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73979
+18,Paris FC,,,AJ Auxerre,scheduled,73980,https://ligue1.com/en/match-sheet/l1_championship_match_73980,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73980
+18,Rennes,,,FC Lorient,scheduled,73981,https://ligue1.com/en/match-sheet/l1_championship_match_73981,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73981
+18,Toulouse FC,,,RC Lens,scheduled,73982,https://ligue1.com/en/match-sheet/l1_championship_match_73982,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73982
+19,AJ Auxerre,,,AS Monaco,scheduled,73983,https://ligue1.com/en/match-sheet/l1_championship_match_73983,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73983
+19,Havre AC,,,Toulouse FC,scheduled,73984,https://ligue1.com/en/match-sheet/l1_championship_match_73984,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73984
+19,RC Lens,,,Angers SCO,scheduled,73985,https://ligue1.com/en/match-sheet/l1_championship_match_73985,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73985
+19,FC Lorient,,,LE Mans FC,scheduled,73986,https://ligue1.com/en/match-sheet/l1_championship_match_73986,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73986
+19,OGC Nice,,,Brest,scheduled,73987,https://ligue1.com/en/match-sheet/l1_championship_match_73987,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73987
+19,PSG,,,OM,scheduled,73988,https://ligue1.com/en/match-sheet/l1_championship_match_73988,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73988
+19,Rennes,,,OL,scheduled,73989,https://ligue1.com/en/match-sheet/l1_championship_match_73989,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73989
+19,Strasbourg,,,Paris FC,scheduled,73990,https://ligue1.com/en/match-sheet/l1_championship_match_73990,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73990
+19,Troyes,,,LOSC,scheduled,73991,https://ligue1.com/en/match-sheet/l1_championship_match_73991,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73991
+20,AJ Auxerre,,,Strasbourg,scheduled,73992,https://ligue1.com/en/match-sheet/l1_championship_match_73992,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73992
+20,Brest,,,Rennes,scheduled,73993,https://ligue1.com/en/match-sheet/l1_championship_match_73993,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73993
+20,LE Mans FC,,,PSG,scheduled,73994,https://ligue1.com/en/match-sheet/l1_championship_match_73994,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73994
+20,LOSC,,,OGC Nice,scheduled,73995,https://ligue1.com/en/match-sheet/l1_championship_match_73995,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73995
+20,FC Lorient,,,Havre AC,scheduled,73996,https://ligue1.com/en/match-sheet/l1_championship_match_73996,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73996
+20,OL,,,RC Lens,scheduled,73997,https://ligue1.com/en/match-sheet/l1_championship_match_73997,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73997
+20,OM,,,Angers SCO,scheduled,73998,https://ligue1.com/en/match-sheet/l1_championship_match_73998,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73998
+20,Paris FC,,,Troyes,scheduled,73999,https://ligue1.com/en/match-sheet/l1_championship_match_73999,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73999
+20,Toulouse FC,,,AS Monaco,scheduled,74000,https://ligue1.com/en/match-sheet/l1_championship_match_74000,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74000
+21,Angers SCO,,,Paris FC,scheduled,74001,https://ligue1.com/en/match-sheet/l1_championship_match_74001,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74001
+21,Havre AC,,,OL,scheduled,74002,https://ligue1.com/en/match-sheet/l1_championship_match_74002,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74002
+21,RC Lens,,,Troyes,scheduled,74003,https://ligue1.com/en/match-sheet/l1_championship_match_74003,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74003
+21,LOSC,,,FC Lorient,scheduled,74004,https://ligue1.com/en/match-sheet/l1_championship_match_74004,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74004
+21,AS Monaco,,,LE Mans FC,scheduled,74005,https://ligue1.com/en/match-sheet/l1_championship_match_74005,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74005
+21,OGC Nice,,,AJ Auxerre,scheduled,74006,https://ligue1.com/en/match-sheet/l1_championship_match_74006,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74006
+21,PSG,,,Brest,scheduled,74007,https://ligue1.com/en/match-sheet/l1_championship_match_74007,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74007
+21,Rennes,,,Toulouse FC,scheduled,74008,https://ligue1.com/en/match-sheet/l1_championship_match_74008,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74008
+21,Strasbourg,,,OM,scheduled,74009,https://ligue1.com/en/match-sheet/l1_championship_match_74009,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74009
+22,AJ Auxerre,,,LOSC,scheduled,74010,https://ligue1.com/en/match-sheet/l1_championship_match_74010,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74010
+22,Brest,,,AS Monaco,scheduled,74011,https://ligue1.com/en/match-sheet/l1_championship_match_74011,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74011
+22,LE Mans FC,,,Paris FC,scheduled,74012,https://ligue1.com/en/match-sheet/l1_championship_match_74012,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74012
+22,FC Lorient,,,Angers SCO,scheduled,74013,https://ligue1.com/en/match-sheet/l1_championship_match_74013,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74013
+22,OL,,,Toulouse FC,scheduled,74014,https://ligue1.com/en/match-sheet/l1_championship_match_74014,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74014
+22,OM,,,Rennes,scheduled,74015,https://ligue1.com/en/match-sheet/l1_championship_match_74015,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74015
+22,PSG,,,RC Lens,scheduled,74016,https://ligue1.com/en/match-sheet/l1_championship_match_74016,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74016
+22,Strasbourg,,,Havre AC,scheduled,74017,https://ligue1.com/en/match-sheet/l1_championship_match_74017,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74017
+22,Troyes,,,OGC Nice,scheduled,74018,https://ligue1.com/en/match-sheet/l1_championship_match_74018,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74018
+23,Angers SCO,,,AJ Auxerre,scheduled,74019,https://ligue1.com/en/match-sheet/l1_championship_match_74019,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74019
+23,Havre AC,,,OGC Nice,scheduled,74020,https://ligue1.com/en/match-sheet/l1_championship_match_74020,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74020
+23,RC Lens,,,Strasbourg,scheduled,74021,https://ligue1.com/en/match-sheet/l1_championship_match_74021,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74021
+23,LOSC,,,OM,scheduled,74022,https://ligue1.com/en/match-sheet/l1_championship_match_74022,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74022
+23,AS Monaco,,,OL,scheduled,74023,https://ligue1.com/en/match-sheet/l1_championship_match_74023,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74023
+23,Paris FC,,,Brest,scheduled,74024,https://ligue1.com/en/match-sheet/l1_championship_match_74024,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74024
+23,Rennes,,,PSG,scheduled,74025,https://ligue1.com/en/match-sheet/l1_championship_match_74025,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74025
+23,Toulouse FC,,,LE Mans FC,scheduled,74026,https://ligue1.com/en/match-sheet/l1_championship_match_74026,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74026
+23,Troyes,,,FC Lorient,scheduled,74027,https://ligue1.com/en/match-sheet/l1_championship_match_74027,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74027
+24,AJ Auxerre,,,PSG,scheduled,74028,https://ligue1.com/en/match-sheet/l1_championship_match_74028,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74028
+24,Brest,,,LOSC,scheduled,74029,https://ligue1.com/en/match-sheet/l1_championship_match_74029,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74029
+24,Havre AC,,,RC Lens,scheduled,74030,https://ligue1.com/en/match-sheet/l1_championship_match_74030,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74030
+24,LE Mans FC,,,Rennes,scheduled,74031,https://ligue1.com/en/match-sheet/l1_championship_match_74031,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74031
+24,OL,,,Troyes,scheduled,74032,https://ligue1.com/en/match-sheet/l1_championship_match_74032,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74032
+24,OM,,,AS Monaco,scheduled,74033,https://ligue1.com/en/match-sheet/l1_championship_match_74033,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74033
+24,OGC Nice,,,Toulouse FC,scheduled,74034,https://ligue1.com/en/match-sheet/l1_championship_match_74034,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74034
+24,Paris FC,,,FC Lorient,scheduled,74035,https://ligue1.com/en/match-sheet/l1_championship_match_74035,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74035
+24,Strasbourg,,,Angers SCO,scheduled,74036,https://ligue1.com/en/match-sheet/l1_championship_match_74036,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74036
+25,Angers SCO,,,LE Mans FC,scheduled,74037,https://ligue1.com/en/match-sheet/l1_championship_match_74037,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74037
+25,RC Lens,,,LOSC,scheduled,74038,https://ligue1.com/en/match-sheet/l1_championship_match_74038,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74038
+25,FC Lorient,,,OGC Nice,scheduled,74039,https://ligue1.com/en/match-sheet/l1_championship_match_74039,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74039
+25,OM,,,OL,scheduled,74040,https://ligue1.com/en/match-sheet/l1_championship_match_74040,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74040
+25,AS Monaco,,,Havre AC,scheduled,74041,https://ligue1.com/en/match-sheet/l1_championship_match_74041,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74041
+25,PSG,,,Strasbourg,scheduled,74042,https://ligue1.com/en/match-sheet/l1_championship_match_74042,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74042
+25,Rennes,,,Paris FC,scheduled,74043,https://ligue1.com/en/match-sheet/l1_championship_match_74043,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74043
+25,Toulouse FC,,,Brest,scheduled,74044,https://ligue1.com/en/match-sheet/l1_championship_match_74044,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74044
+25,Troyes,,,AJ Auxerre,scheduled,74045,https://ligue1.com/en/match-sheet/l1_championship_match_74045,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74045
+26,Angers SCO,,,AS Monaco,scheduled,74046,https://ligue1.com/en/match-sheet/l1_championship_match_74046,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74046
+26,AJ Auxerre,,,RC Lens,scheduled,74047,https://ligue1.com/en/match-sheet/l1_championship_match_74047,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74047
+26,Brest,,,FC Lorient,scheduled,74048,https://ligue1.com/en/match-sheet/l1_championship_match_74048,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74048
+26,Havre AC,,,Troyes,scheduled,74049,https://ligue1.com/en/match-sheet/l1_championship_match_74049,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74049
+26,LE Mans FC,,,OM,scheduled,74050,https://ligue1.com/en/match-sheet/l1_championship_match_74050,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74050
+26,LOSC,,,Rennes,scheduled,74051,https://ligue1.com/en/match-sheet/l1_championship_match_74051,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74051
+26,OGC Nice,,,OL,scheduled,74052,https://ligue1.com/en/match-sheet/l1_championship_match_74052,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74052
+26,Paris FC,,,PSG,scheduled,74053,https://ligue1.com/en/match-sheet/l1_championship_match_74053,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74053
+26,Strasbourg,,,Toulouse FC,scheduled,74054,https://ligue1.com/en/match-sheet/l1_championship_match_74054,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74054
+27,LE Mans FC,,,AJ Auxerre,scheduled,74055,https://ligue1.com/en/match-sheet/l1_championship_match_74055,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74055
+27,LOSC,,,Toulouse FC,scheduled,74056,https://ligue1.com/en/match-sheet/l1_championship_match_74056,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74056
+27,FC Lorient,,,RC Lens,scheduled,74057,https://ligue1.com/en/match-sheet/l1_championship_match_74057,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74057
+27,OL,,,Strasbourg,scheduled,74058,https://ligue1.com/en/match-sheet/l1_championship_match_74058,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74058
+27,OM,,,Brest,scheduled,74059,https://ligue1.com/en/match-sheet/l1_championship_match_74059,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74059
+27,AS Monaco,,,Rennes,scheduled,74060,https://ligue1.com/en/match-sheet/l1_championship_match_74060,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74060
+27,OGC Nice,,,Paris FC,scheduled,74061,https://ligue1.com/en/match-sheet/l1_championship_match_74061,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74061
+27,PSG,,,Havre AC,scheduled,74062,https://ligue1.com/en/match-sheet/l1_championship_match_74062,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74062
+27,Troyes,,,Angers SCO,scheduled,74063,https://ligue1.com/en/match-sheet/l1_championship_match_74063,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74063
+28,Angers SCO,,,OL,scheduled,74064,https://ligue1.com/en/match-sheet/l1_championship_match_74064,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74064
+28,AJ Auxerre,,,FC Lorient,scheduled,74065,https://ligue1.com/en/match-sheet/l1_championship_match_74065,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74065
+28,Brest,,,LE Mans FC,scheduled,74066,https://ligue1.com/en/match-sheet/l1_championship_match_74066,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74066
+28,Havre AC,,,OM,scheduled,74067,https://ligue1.com/en/match-sheet/l1_championship_match_74067,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74067
+28,RC Lens,,,OGC Nice,scheduled,74068,https://ligue1.com/en/match-sheet/l1_championship_match_74068,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74068
+28,AS Monaco,,,Strasbourg,scheduled,74069,https://ligue1.com/en/match-sheet/l1_championship_match_74069,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74069
+28,PSG,,,LOSC,scheduled,74070,https://ligue1.com/en/match-sheet/l1_championship_match_74070,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74070
+28,Rennes,,,Troyes,scheduled,74071,https://ligue1.com/en/match-sheet/l1_championship_match_74071,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74071
+28,Toulouse FC,,,Paris FC,scheduled,74072,https://ligue1.com/en/match-sheet/l1_championship_match_74072,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74072
+29,LE Mans FC,,,Havre AC,scheduled,74073,https://ligue1.com/en/match-sheet/l1_championship_match_74073,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74073
+29,LOSC,,,AS Monaco,scheduled,74074,https://ligue1.com/en/match-sheet/l1_championship_match_74074,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74074
+29,FC Lorient,,,PSG,scheduled,74075,https://ligue1.com/en/match-sheet/l1_championship_match_74075,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74075
+29,OL,,,Brest,scheduled,74076,https://ligue1.com/en/match-sheet/l1_championship_match_74076,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74076
+29,OM,,,AJ Auxerre,scheduled,74077,https://ligue1.com/en/match-sheet/l1_championship_match_74077,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74077
+29,OGC Nice,,,Angers SCO,scheduled,74078,https://ligue1.com/en/match-sheet/l1_championship_match_74078,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74078
+29,Paris FC,,,RC Lens,scheduled,74079,https://ligue1.com/en/match-sheet/l1_championship_match_74079,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74079
+29,Strasbourg,,,Rennes,scheduled,74080,https://ligue1.com/en/match-sheet/l1_championship_match_74080,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74080
+29,Troyes,,,Toulouse FC,scheduled,74081,https://ligue1.com/en/match-sheet/l1_championship_match_74081,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74081
+30,AJ Auxerre,,,OL,scheduled,74082,https://ligue1.com/en/match-sheet/l1_championship_match_74082,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74082
+30,Havre AC,,,Paris FC,scheduled,74083,https://ligue1.com/en/match-sheet/l1_championship_match_74083,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74083
+30,RC Lens,,,LE Mans FC,scheduled,74084,https://ligue1.com/en/match-sheet/l1_championship_match_74084,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74084
+30,AS Monaco,,,FC Lorient,scheduled,74085,https://ligue1.com/en/match-sheet/l1_championship_match_74085,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74085
+30,PSG,,,Angers SCO,scheduled,74086,https://ligue1.com/en/match-sheet/l1_championship_match_74086,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74086
+30,Rennes,,,OGC Nice,scheduled,74087,https://ligue1.com/en/match-sheet/l1_championship_match_74087,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74087
+30,Strasbourg,,,LOSC,scheduled,74088,https://ligue1.com/en/match-sheet/l1_championship_match_74088,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74088
+30,Toulouse FC,,,OM,scheduled,74089,https://ligue1.com/en/match-sheet/l1_championship_match_74089,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74089
+30,Troyes,,,Brest,scheduled,74090,https://ligue1.com/en/match-sheet/l1_championship_match_74090,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74090
+31,Angers SCO,,,Toulouse FC,scheduled,74091,https://ligue1.com/en/match-sheet/l1_championship_match_74091,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74091
+31,Brest,,,AJ Auxerre,scheduled,74092,https://ligue1.com/en/match-sheet/l1_championship_match_74092,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74092
+31,LE Mans FC,,,Troyes,scheduled,74093,https://ligue1.com/en/match-sheet/l1_championship_match_74093,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74093
+31,RC Lens,,,AS Monaco,scheduled,74094,https://ligue1.com/en/match-sheet/l1_championship_match_74094,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74094
+31,FC Lorient,,,Strasbourg,scheduled,74095,https://ligue1.com/en/match-sheet/l1_championship_match_74095,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74095
+31,OL,,,PSG,scheduled,74096,https://ligue1.com/en/match-sheet/l1_championship_match_74096,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74096
+31,OGC Nice,,,OM,scheduled,74097,https://ligue1.com/en/match-sheet/l1_championship_match_74097,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74097
+31,Paris FC,,,LOSC,scheduled,74098,https://ligue1.com/en/match-sheet/l1_championship_match_74098,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74098
+31,Rennes,,,Havre AC,scheduled,74099,https://ligue1.com/en/match-sheet/l1_championship_match_74099,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74099
+32,AJ Auxerre,,,Rennes,scheduled,74100,https://ligue1.com/en/match-sheet/l1_championship_match_74100,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74100
+32,Brest,,,Havre AC,scheduled,74101,https://ligue1.com/en/match-sheet/l1_championship_match_74101,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74101
+32,LOSC,,,Angers SCO,scheduled,74102,https://ligue1.com/en/match-sheet/l1_championship_match_74102,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74102
+32,OL,,,LE Mans FC,scheduled,74103,https://ligue1.com/en/match-sheet/l1_championship_match_74103,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74103
+32,OM,,,RC Lens,scheduled,74104,https://ligue1.com/en/match-sheet/l1_championship_match_74104,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74104
+32,AS Monaco,,,Paris FC,scheduled,74105,https://ligue1.com/en/match-sheet/l1_championship_match_74105,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74105
+32,PSG,,,OGC Nice,scheduled,74106,https://ligue1.com/en/match-sheet/l1_championship_match_74106,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74106
+32,Strasbourg,,,Troyes,scheduled,74107,https://ligue1.com/en/match-sheet/l1_championship_match_74107,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74107
+32,Toulouse FC,,,FC Lorient,scheduled,74108,https://ligue1.com/en/match-sheet/l1_championship_match_74108,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74108
+33,Angers SCO,,,Brest,scheduled,74109,https://ligue1.com/en/match-sheet/l1_championship_match_74109,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74109
+33,Havre AC,,,LOSC,scheduled,74110,https://ligue1.com/en/match-sheet/l1_championship_match_74110,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74110
+33,LE Mans FC,,,Strasbourg,scheduled,74111,https://ligue1.com/en/match-sheet/l1_championship_match_74111,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74111
+33,RC Lens,,,Rennes,scheduled,74112,https://ligue1.com/en/match-sheet/l1_championship_match_74112,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74112
+33,FC Lorient,,,OL,scheduled,74113,https://ligue1.com/en/match-sheet/l1_championship_match_74113,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74113
+33,OGC Nice,,,AS Monaco,scheduled,74114,https://ligue1.com/en/match-sheet/l1_championship_match_74114,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74114
+33,Paris FC,,,OM,scheduled,74115,https://ligue1.com/en/match-sheet/l1_championship_match_74115,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74115
+33,Toulouse FC,,,AJ Auxerre,scheduled,74116,https://ligue1.com/en/match-sheet/l1_championship_match_74116,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74116
+33,Troyes,,,PSG,scheduled,74117,https://ligue1.com/en/match-sheet/l1_championship_match_74117,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74117
+34,AJ Auxerre,,,Havre AC,scheduled,74118,https://ligue1.com/en/match-sheet/l1_championship_match_74118,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74118
+34,Brest,,,RC Lens,scheduled,74119,https://ligue1.com/en/match-sheet/l1_championship_match_74119,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74119
+34,LOSC,,,LE Mans FC,scheduled,74120,https://ligue1.com/en/match-sheet/l1_championship_match_74120,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74120
+34,OL,,,Paris FC,scheduled,74121,https://ligue1.com/en/match-sheet/l1_championship_match_74121,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74121
+34,OM,,,FC Lorient,scheduled,74122,https://ligue1.com/en/match-sheet/l1_championship_match_74122,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74122
+34,AS Monaco,,,Troyes,scheduled,74123,https://ligue1.com/en/match-sheet/l1_championship_match_74123,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74123
+34,PSG,,,Toulouse FC,scheduled,74124,https://ligue1.com/en/match-sheet/l1_championship_match_74124,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74124
+34,Rennes,,,Angers SCO,scheduled,74125,https://ligue1.com/en/match-sheet/l1_championship_match_74125,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74125
+34,Strasbourg,,,OGC Nice,scheduled,74126,https://ligue1.com/en/match-sheet/l1_championship_match_74126,,,,,https://ma-api.ligue1.fr/championship-match/l1_championship_match_74126
