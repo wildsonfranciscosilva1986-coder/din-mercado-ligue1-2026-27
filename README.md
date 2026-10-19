@@ -4,16 +4,16 @@ Standalone, mobile-responsive static dashboard for the French Ligue 1 McDonald's
 
 ## Data cut and coverage
 
-- Cutoff: **2026-10-18 14:12 America/Sao_Paulo (UTC−03:00)**.
+- Cutoff: **2026-10-19 08:53 America/Sao_Paulo (UTC−03:00)**.
 - Official LFP schedule contains 18 clubs, 9 fixtures per round, and labels rounds 1–8.
-- The published record set contains **59 confirmed finals**: 9 fixtures each from rounds 1–6 (54), plus 5 final scores in round 7.
-- It contains **13 fixtures without a confirmed final score** at the cutoff: the 4 still scheduled for round 7 and 9 round-8 fixtures. They are excluded from standings, recent form, rankings and the projection sample.
-- Actual played totals: PSG, LOSC, RC Lens, Brest, Toulouse FC, Strasbourg, LE Mans FC, Troyes, Angers SCO and OM have 7; the other 8 clubs have 6.
-- `validation.json` records the checks. Scores feed a fresh recomputation of Pld, W-D-L, GF, GA, GD and points; the 18 record lines match the LFP table as displayed before the latest confirmed final; at refresh time the LFP standings page had not yet incorporated Angers SCO–OM. The 16 unaffected club rows match exactly, and the Angers/OM rows are recomputed from the official match sheet. The official order is retained only for tied numerical rows. The 18-row independent WorldFootball table after round 6 matches the recomputed pre-round-7 line for every club; the 5 round-7 scores were corroborated by independent reports, including the newly confirmed Angers SCO 2–5 OM result.
+- The published record set contains **63 confirmed finals**: rounds 1–7 are complete; the nine round-8 fixtures remain scheduled and scoreless.
+- It contains **9 fixtures without a confirmed final score** at the cutoff: all are round-8 fixtures. They are excluded from standings, recent form, rankings and the projection sample.
+- Actual played totals are derived from 63 confirmed finals; clubs have six or seven matches depending on their official fixtures.
+- `validation.json` records the current checks. Scores feed a fresh recomputation of Pld, W-D-L, GF, GA, GD and points; all 18 club lines match the current official LFP standings API, and ESPN independently confirms all 63 final scores and the recomputed table. Official LFP rank order is retained for tied numerical rows.
 
 ## Important schedule caveat
 
-The LFP calendar view and independent WorldFootball schedule disagree on some date/time labels (one-day and/or one-hour shifts; the LFP page extract does not identify its display timezone). The page does **not** normalize those entries or guess a kickoff. It shows the 18 October date only for the remaining round-7 games, where both listings agree, and withholds disputed kickoff times; for round 8 it shows the verified fixture and matchday while withholding the disputed calendar date/time. Match cards link to the official LFP match sheet. Re-check the official card for any live planning.
+The LFP calendar view and independent WorldFootball schedule disagree on some date/time labels (one-day and/or one-hour shifts; the LFP page extract does not identify its display timezone). The page does **not** guess a kickoff time. Round 7 is complete; disputed future date/time labels in round 8 remain withheld. Match cards link to the official LFP match sheet. Re-check the official card for any live planning.
 
 ## Competition format and zones
 
@@ -29,7 +29,7 @@ The LFP calendar view and independent WorldFootball schedule disagree on some da
 - `validation.json` — counts and cross-check result.
 - `index.template.html`, `build_site.py` — source template and rebuild of the embedded-data HTML from `data.json`.
 - `rebuild.py` — regenerate the JSON and page from the included CSV without accessing another league's files.
-- `validate_data.py` — repeatable local provenance/cross-check script. It reads the included `source_snapshots/worldfootball_round6_2026-10-18.md`; the LFP standings snapshot lag and round-7 result corroborations are explicitly recorded in the validator and source log.
+- `validate_data.py` — repeatable local provenance/cross-check script. It reconciles the current official LFP standings snapshot with the score-derived table and checks every final against the ESPN scoreboard cross-check.
 
 ## Refresh / deployment path
 
@@ -44,7 +44,7 @@ This reads only `ligue1_2026_27_matches.csv`, deterministically rewrites `data.j
 ## Methods
 
 - Only official LFP rows that include an actual score are marked final. Scheduled cards without a final score remain blank.
-- The league table and home/away splits are independently recomputed from those scores; there is no imported table, inferred score, odds or projection embedded as a result. Overview KPIs are computed from the 59 finals: total goals and average, BTTS and Over 2.5 numerator/denominator/rate, and home/draw/away outcomes. `validate_data.py` asserts the aggregate values.
+- The league table and home/away splits are independently recomputed from those scores; there is no imported table, inferred score, odds or projection embedded as a result. Overview KPIs are computed from the 63 finals: total goals and average, BTTS and Over 2.5 numerator/denominator/rate, and home/draw/away outcomes. `validate_data.py` asserts the aggregate values.
 - Last-five form is ordered by competition round, not by disputed calendar labels.
 - The projection uses a deliberately simple equal-weight average of the relevant home attack/away concession and away attack/home concession rates, then independent Poisson probabilities (0–9 goals). It is shown only when both side-specific samples include at least two games. It is explanatory, small-sample and not betting advice.
 - BTTS and Over 2.5 rankings show successes divided by matches; home and away views use only games at that venue.
