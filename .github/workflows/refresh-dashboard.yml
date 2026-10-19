@@ -1,0 +1,83 @@
+name: Refresh Ligue 1 dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-dashboard.yml'
+      - 'README.md'
+      - 'refresh_ligue1.py'
+      - 'rebuild.py'
+      - 'validate_data.py'
+      - 'build_site.py'
+      - 'index.template.html'
+      - 'requirements.txt'
+  schedule:
+    # GitHub cron uses UTC; this is 06:10 America/Sao_Paulo.
+    - cron: '10 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ligue1-dashboard-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the existing dashboard repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install refresh dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+      - name: Fetch full official calendar, match sheets and table; cross-check every final with ESPN
+        run: python3 refresh_ligue1.py
+      - name: Rebuild page from the verified complete season
+        run: python3 rebuild.py
+      - name: Re-run dataset and embedded-page validation
+        run: python3 validate_data.py
+      - name: Confirm source checks and freshness are all current
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          report=json.loads(Path('validation.json').read_text())
+          page=Path('index.html').read_text()
+          assert report['official_fixture_slots']==306
+          assert report['rounds_present']==34 and report['clubs']==18
+          assert report['official_table_reconciliation']['all_stats_match'] is True
+          assert report['independent_ESPN_score_check']['finished_scores_checked']==report['finished_results']
+          assert report['independent_ESPN_score_check']['exact_STATUS_FULL_TIME_matches']==report['finished_results']
+          assert report['independent_ESPN_table_reconciliation']['all_stats_match'] is True
+          assert report['dashboard_validation']['status']=='PASS'
+          cutoff_label=datetime.fromisoformat(report['cutoff']).strftime('%d/%m/%Y às %H:%M BRT')
+          assert cutoff_label in page
+          assert report['home_away_schedule_note'] in page
+          PY
+      - name: Commit only the fully validated refresh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md .github/workflows/refresh-dashboard.yml \
+            refresh_ligue1.py rebuild.py validate_data.py build_site.py index.template.html \
+            sources.json ligue1_2026_27_matches.csv data.json validation.json validation.txt \
+            source_snapshots/calendar_latest.json source_snapshots/official_standings_latest.json \
+            source_snapshots/official_standings_latest.csv \
+            source_snapshots/espn_results_crosscheck_latest.csv \
+            source_snapshots/espn_table_recomputed_latest.csv index.html
+          if git diff --cached --quiet; then
+            echo 'No validated dashboard changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Refresh Ligue 1 dashboard after validation'
+          git push
