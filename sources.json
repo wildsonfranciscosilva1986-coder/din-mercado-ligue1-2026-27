@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-18T14:12:13-03:00",
+  "cutoff": "2026-10-19T08:53:00-03:00",
   "primary": [
     {
       "name": "Ligue 1 / LFP fixtures and results",
@@ -9,7 +9,7 @@
     {
       "name": "Ligue 1 / LFP current standings",
       "url": "https://ligue1.com/fr/competitions/ligue1mcdonalds/standings",
-      "coverage": "18-team table, W-D-L, goals, points"
+      "coverage": "Official current 18-team standings, W-D-L, goals, points; refreshed through 19 Oct 2026 08:25 BRT using the public LFP standings data API."
     },
     {
       "name": "LFP 2026/27 annual calendar",
@@ -92,5 +92,5 @@
     "2026/27 European access allocation verified from LFP; not treated as official allocation for the 2027/28 UEFA season. UEFA access-list page displayed no data at check.",
     "Specific 2026/27 LFP relegation regulation not located; 16th playoff and 17th–18th relegation stripes are explicitly provisional, with prior-season LFP evidence cited."
   ],
-  "official_table_note": "The LFP standings page fetched at 14:11 BRT still reflects the table before the newly confirmed Angers SCO–OM final; validation compares the table against the previous 58-final snapshot and checks the two affected clubs against the official match sheet."
+  "official_table_note": "The current LFP standings snapshot reconciles exactly with the table computed from 63 confirmed official FullTime scores for all 18 clubs. ESPN independently confirms all 63 final scores and the recomputed table."
 }
