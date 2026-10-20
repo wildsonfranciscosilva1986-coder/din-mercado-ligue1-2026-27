@@ -1,4 +1,4 @@
-Ligue 1 2026/27 validation — cutoff 2026-10-19T11:43-03:00
+Ligue 1 2026/27 validation — cutoff 2026-10-20T11:15-03:00
 Coverage: 306/306 official fixtures; 34 rounds × 9 fixtures; 18 clubs.
 Statuses: 63 confirmed finals; 243 nonfinal fixtures, with no nonfinal scores used.
 Official LFP standings reconciliation: PASS all 18 club-stat vectors.
