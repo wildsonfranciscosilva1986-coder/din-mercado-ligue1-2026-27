@@ -73,9 +73,15 @@ assert len(data['matches'])==306 and data['cutoff']==source_report['cutoff']
 assert len(data['matches'])==306 and sum(m['status']=='finished' for m in data['matches'])==len(finished)
 assert data.get('homeAwayNote')==source_report['home_away_schedule_note']
 page=(ROOT/'index.html').read_text(encoding='utf-8')
-cutoff_label=datetime.fromisoformat(data['cutoff']).strftime('%d/%m/%Y às %H:%M BRT')
+cutoff_dt=datetime.fromisoformat(data['cutoff'])
+cutoff_label=cutoff_dt.strftime('%d/%m/%Y às %H:%M BRT')
+cutoff_date=cutoff_dt.strftime('%d/%m/%Y')
+cutoff_time=cutoff_dt.strftime('%H:%M')
 assert '__DATA__' not in page and '__FINISHED_COUNT__' not in page and '__HOME_AWAY_NOTE__' not in page
 assert cutoff_label in page and data['homeAwayNote'] in page
+assert f'<div class="updated"><div class="live">Recorte verificado</div><div>{cutoff_date} · {cutoff_time} BRT</div></div>' in page
+assert f"['Recorte de dados','{cutoff_date}','{cutoff_time} BRT · corte validado']" in page
+assert '18/10/2026 · 14:12 BRT' not in page
 source_report['dashboard_validation']={'fixture_slots':len(data['matches']),'embedded_final_scores':len(finished),'page_cutoff_matches_validation':True,'status':'PASS'}
 source_report.setdefault('source_validation',{})
 source_report['source_validation']['official_LFP_table']=f'PASS: {len(clubs)}/18 club vectors match across played, W-D-L, points, GF, GA and GD.'
