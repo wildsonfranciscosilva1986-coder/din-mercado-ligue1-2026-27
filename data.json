@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-20T18:11-03:00",
+  "cutoff": "2026-10-21T11:27-03:00",
   "season": "2026/27",
   "league": "Ligue 1 McDonald's",
   "teams": [
@@ -1455,21 +1455,6 @@
     },
     {
       "round": 8,
-      "home": "Toulouse FC",
-      "home_goals": null,
-      "away_goals": null,
-      "away": "Troyes",
-      "status": "scheduled",
-      "official_id": "73892",
-      "official_url": "https://ligue1.com/en/match-sheet/l1_championship_match_73892",
-      "date_local": "2026-10-24",
-      "time_local": "17:15",
-      "schedule_note": "",
-      "official_time_display": "17:15",
-      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73892"
-    },
-    {
-      "round": 8,
       "home": "RC Lens",
       "home_goals": null,
       "away_goals": null,
@@ -1557,6 +1542,21 @@
       "schedule_note": "",
       "official_time_display": "17:15",
       "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73891"
+    },
+    {
+      "round": 8,
+      "home": "Toulouse FC",
+      "home_goals": null,
+      "away_goals": null,
+      "away": "Troyes",
+      "status": "scheduled",
+      "official_id": "73892",
+      "official_url": "https://ligue1.com/en/match-sheet/l1_championship_match_73892",
+      "date_local": "2026-10-25",
+      "time_local": "17:15",
+      "schedule_note": "",
+      "official_time_display": "17:15",
+      "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73892"
     },
     {
       "round": 8,
