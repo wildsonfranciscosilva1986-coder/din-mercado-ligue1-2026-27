@@ -1,6 +1,6 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
-  "retrieved_at_brt": "2026-10-22T11:28-03:00",
+  "retrieved_at_brt": "2026-10-23T11:11-03:00",
   "payload": {
     "gameWeeks": {
       "1": {
@@ -143,9 +143,9 @@
           "l1_championship_match_73892"
         ],
         "startDate": "2026-10-23T18:45:00.000Z",
-        "endDate": "2026-10-25T19:45:00.000Z",
-        "displayEndDate": "2026-10-27T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-10-25T19:45:00.000Z"
+        "endDate": "2026-10-26T19:30:00.000Z",
+        "displayEndDate": "2026-10-28T08:00:00.000Z",
+        "lastRegularMatchDate": "2026-10-26T19:30:00.000Z"
       },
       "9": {
         "gameWeekNumber": 9,

@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-22T11:28-03:00",
+  "cutoff": "2026-10-23T11:11-03:00",
   "season": "2026/27",
   "league": "Ligue 1 McDonald's",
   "teams": [
@@ -1567,10 +1567,10 @@
       "status": "scheduled",
       "official_id": "73890",
       "official_url": "https://ligue1.com/en/match-sheet/l1_championship_match_73890",
-      "date_local": "2026-10-25",
-      "time_local": "20:45",
+      "date_local": "2026-10-26",
+      "time_local": "20:30",
       "schedule_note": "",
-      "official_time_display": "20:45",
+      "official_time_display": "20:30",
       "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73890"
     },
     {
