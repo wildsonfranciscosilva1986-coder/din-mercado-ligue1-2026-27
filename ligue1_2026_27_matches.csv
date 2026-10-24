@@ -62,7 +62,7 @@ round,home,home_goals,away_goals,away,status,official_id,official_url,date_local
 7,FC Lorient,1,0,AS Monaco,finished,73879,https://ligue1.com/en/match-sheet/l1_championship_match_73879,2026-10-18,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73879
 7,Paris FC,4,3,Rennes,finished,73881,https://ligue1.com/en/match-sheet/l1_championship_match_73881,2026-10-18,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73881
 7,OL,2,1,OGC Nice,finished,73880,https://ligue1.com/en/match-sheet/l1_championship_match_73880,2026-10-18,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73880
-8,Brest,,,OGC Nice,scheduled,73886,https://ligue1.com/en/match-sheet/l1_championship_match_73886,2026-10-23,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73886
+8,Brest,1,2,OGC Nice,finished,73886,https://ligue1.com/en/match-sheet/l1_championship_match_73886,2026-10-23,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73886
 8,RC Lens,,,Paris FC,scheduled,73887,https://ligue1.com/en/match-sheet/l1_championship_match_73887,2026-10-24,20:45,,20:45,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73887
 8,AS Monaco,,,LOSC,scheduled,73889,https://ligue1.com/en/match-sheet/l1_championship_match_73889,2026-10-25,15:00,,15:00,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73889
 8,Angers SCO,,,FC Lorient,scheduled,73884,https://ligue1.com/en/match-sheet/l1_championship_match_73884,2026-10-25,17:15,,17:15,https://ma-api.ligue1.fr/championship-match/l1_championship_match_73884

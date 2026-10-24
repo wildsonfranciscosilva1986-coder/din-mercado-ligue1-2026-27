@@ -1,14 +1,14 @@
 {
   "competition": "Ligue 1 McDonald’s 2026/27",
-  "cutoff": "2026-10-23T11:11-03:00",
+  "cutoff": "2026-10-24T10:15-03:00",
   "official_calendar_source": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
   "official_table_source": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
   "official_fixture_slots": 306,
   "rounds_present": 34,
   "clubs": 18,
   "status_counts": {
-    "finished": 63,
-    "scheduled": 243
+    "finished": 64,
+    "scheduled": 242
   },
   "home_away_schedule_anomalies": [
     {
@@ -23,8 +23,8 @@
     }
   ],
   "home_away_schedule_note": "Current LFP match-sheet API lists both PSG–Rennes fixtures at Roazhon Park: the R1 sheet and ESPN confirm Rennes 2–2 PSG, while the LFP season-calendar PDF lists PSG as R1 home. The R23 LFP sheet also lists Rennes home. Keep current match-sheet orientation; review if the LFP changes it.",
-  "finished_results": 63,
-  "nonfinal_fixtures": 243,
+  "finished_results": 64,
+  "nonfinal_fixtures": 242,
   "live_or_unconfirmed_scores_used": 0,
   "official_table_reconciliation": {
     "clubs_compared": 18,
@@ -32,10 +32,10 @@
     "mismatches": 0
   },
   "independent_ESPN_score_check": {
-    "finished_scores_checked": 63,
-    "exact_STATUS_FULL_TIME_matches": 63,
+    "finished_scores_checked": 64,
+    "exact_STATUS_FULL_TIME_matches": 64,
     "mismatches": 0,
-    "queried_utc_dates": 36
+    "queried_utc_dates": 39
   },
   "independent_ESPN_table_reconciliation": {
     "clubs_compared": 18,
@@ -43,9 +43,9 @@
     "mismatches": 0
   },
   "overview": {
-    "goals": 192,
-    "btts": 40,
-    "over_2_5": 40
+    "goals": 195,
+    "btts": 41,
+    "over_2_5": 41
   },
   "source_files": [
     "ligue1_2026_27_matches.csv",
@@ -55,13 +55,13 @@
   ],
   "dashboard_validation": {
     "fixture_slots": 306,
-    "embedded_final_scores": 63,
+    "embedded_final_scores": 64,
     "page_cutoff_matches_validation": true,
     "status": "PASS"
   },
   "source_validation": {
     "official_LFP_table": "PASS: 18/18 club vectors match across played, W-D-L, points, GF, GA and GD.",
-    "independent_ESPN_scores": "PASS: 63/63 exact FullTime scores match.",
+    "independent_ESPN_scores": "PASS: 64/64 exact FullTime scores match.",
     "independent_ESPN_table": "PASS: 18/18 independently recomputed club vectors match."
   }
 }
