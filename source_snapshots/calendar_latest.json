@@ -1,6 +1,6 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
-  "retrieved_at_brt": "2026-10-24T10:15-03:00",
+  "retrieved_at_brt": "2026-10-26T13:04-03:00",
   "payload": {
     "gameWeeks": {
       "1": {

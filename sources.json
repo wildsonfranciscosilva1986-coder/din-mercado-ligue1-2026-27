@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-10-24T10:15-03:00",
+  "cutoff": "2026-10-26T13:04-03:00",
   "primary": [
     {
       "name": "Official LFP fixture calendar",
@@ -9,7 +9,7 @@
     {
       "name": "Official LFP match-sheet API",
       "url": "https://ma-api.ligue1.fr/championship-match/{l1_championship_match_id}",
-      "coverage": "64 FullTime scores, 242 nonfinal fixtures."
+      "coverage": "71 FullTime scores, 235 nonfinal fixtures."
     },
     {
       "name": "Official LFP general standings",
@@ -21,7 +21,7 @@
     {
       "name": "ESPN scoreboard API",
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
-      "coverage": "64/64 exact STATUS_FULL_TIME result checks; independent table recomputed from ESPN scores."
+      "coverage": "71/71 exact STATUS_FULL_TIME result checks; independent table recomputed from ESPN scores."
     }
   ]
 }
