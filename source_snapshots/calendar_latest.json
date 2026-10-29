@@ -1,10 +1,13 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
-  "retrieved_at_brt": "2026-10-28T12:55-03:00",
+  "retrieved_at_brt": "2026-10-29T13:00-03:00",
   "payload": {
     "gameWeeks": {
       "1": {
+        "displayEndDate": "2026-08-25T07:00:00.000Z",
+        "endDate": "2026-08-23T18:45:00.000Z",
         "gameWeekNumber": 1,
+        "lastRegularMatchDate": "2026-08-23T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73821",
           "l1_championship_match_73822",
@@ -16,13 +19,13 @@
           "l1_championship_match_73828",
           "l1_championship_match_73829"
         ],
-        "startDate": "2026-08-21T18:45:00.000Z",
-        "endDate": "2026-08-23T18:45:00.000Z",
-        "displayEndDate": "2026-08-25T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-08-23T18:45:00.000Z"
+        "startDate": "2026-08-21T18:45:00.000Z"
       },
       "2": {
+        "displayEndDate": "2026-09-01T07:00:00.000Z",
+        "endDate": "2026-08-30T18:45:00.000Z",
         "gameWeekNumber": 2,
+        "lastRegularMatchDate": "2026-08-30T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73830",
           "l1_championship_match_73831",
@@ -34,13 +37,13 @@
           "l1_championship_match_73837",
           "l1_championship_match_73838"
         ],
-        "startDate": "2026-08-28T18:45:00.000Z",
-        "endDate": "2026-08-30T18:45:00.000Z",
-        "displayEndDate": "2026-09-01T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-08-30T18:45:00.000Z"
+        "startDate": "2026-08-28T18:45:00.000Z"
       },
       "3": {
+        "displayEndDate": "2026-09-08T07:00:00.000Z",
+        "endDate": "2026-09-06T18:45:00.000Z",
         "gameWeekNumber": 3,
+        "lastRegularMatchDate": "2026-09-06T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73839",
           "l1_championship_match_73840",
@@ -52,13 +55,13 @@
           "l1_championship_match_73846",
           "l1_championship_match_73847"
         ],
-        "startDate": "2026-09-03T18:45:00.000Z",
-        "endDate": "2026-09-06T18:45:00.000Z",
-        "displayEndDate": "2026-09-08T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-09-06T18:45:00.000Z"
+        "startDate": "2026-09-03T18:45:00.000Z"
       },
       "4": {
+        "displayEndDate": "2026-09-15T07:00:00.000Z",
+        "endDate": "2026-09-13T18:45:00.000Z",
         "gameWeekNumber": 4,
+        "lastRegularMatchDate": "2026-09-13T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73848",
           "l1_championship_match_73849",
@@ -70,13 +73,13 @@
           "l1_championship_match_73855",
           "l1_championship_match_73856"
         ],
-        "startDate": "2026-09-11T18:45:00.000Z",
-        "endDate": "2026-09-13T18:45:00.000Z",
-        "displayEndDate": "2026-09-15T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-09-13T18:45:00.000Z"
+        "startDate": "2026-09-11T18:45:00.000Z"
       },
       "5": {
+        "displayEndDate": "2026-09-22T07:00:00.000Z",
+        "endDate": "2026-09-20T18:45:00.000Z",
         "gameWeekNumber": 5,
+        "lastRegularMatchDate": "2026-09-20T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73857",
           "l1_championship_match_73858",
@@ -88,13 +91,13 @@
           "l1_championship_match_73864",
           "l1_championship_match_73865"
         ],
-        "startDate": "2026-09-18T18:45:00.000Z",
-        "endDate": "2026-09-20T18:45:00.000Z",
-        "displayEndDate": "2026-09-22T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-09-20T18:45:00.000Z"
+        "startDate": "2026-09-18T18:45:00.000Z"
       },
       "6": {
+        "displayEndDate": "2026-10-13T07:00:00.000Z",
+        "endDate": "2026-10-11T18:45:00.000Z",
         "gameWeekNumber": 6,
+        "lastRegularMatchDate": "2026-10-11T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73866",
           "l1_championship_match_73867",
@@ -106,13 +109,13 @@
           "l1_championship_match_73873",
           "l1_championship_match_73874"
         ],
-        "startDate": "2026-10-09T18:45:00.000Z",
-        "endDate": "2026-10-11T18:45:00.000Z",
-        "displayEndDate": "2026-10-13T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-10-11T18:45:00.000Z"
+        "startDate": "2026-10-09T18:45:00.000Z"
       },
       "7": {
+        "displayEndDate": "2026-10-20T07:00:00.000Z",
+        "endDate": "2026-10-18T18:45:00.000Z",
         "gameWeekNumber": 7,
+        "lastRegularMatchDate": "2026-10-18T18:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73875",
           "l1_championship_match_73876",
@@ -124,13 +127,19 @@
           "l1_championship_match_73882",
           "l1_championship_match_73883"
         ],
-        "startDate": "2026-10-16T18:45:00.000Z",
-        "endDate": "2026-10-18T18:45:00.000Z",
-        "displayEndDate": "2026-10-20T07:00:00.000Z",
-        "lastRegularMatchDate": "2026-10-18T18:45:00.000Z"
+        "startDate": "2026-10-16T18:45:00.000Z"
       },
       "8": {
+        "displayEndDate": "2026-10-28T08:00:00.000Z",
+        "endDate": "2026-10-26T19:30:00.000Z",
         "gameWeekNumber": 8,
+        "jobsStates": {
+          "recordStartingGameWeekRanks": {
+            "end": "2026-10-29T09:09:11.762Z",
+            "start": "2026-10-29T09:09:11.728Z"
+          }
+        },
+        "lastRegularMatchDate": "2026-10-26T19:30:00.000Z",
         "matchesIds": [
           "l1_championship_match_73884",
           "l1_championship_match_73885",
@@ -142,13 +151,13 @@
           "l1_championship_match_73891",
           "l1_championship_match_73892"
         ],
-        "startDate": "2026-10-23T18:45:00.000Z",
-        "endDate": "2026-10-26T19:30:00.000Z",
-        "displayEndDate": "2026-10-28T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-10-26T19:30:00.000Z"
+        "startDate": "2026-10-23T18:45:00.000Z"
       },
       "9": {
+        "displayEndDate": "2026-11-04T08:00:00.000Z",
+        "endDate": "2026-11-02T19:45:00.000Z",
         "gameWeekNumber": 9,
+        "lastRegularMatchDate": "2026-11-02T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73893",
           "l1_championship_match_73894",
@@ -160,13 +169,13 @@
           "l1_championship_match_73900",
           "l1_championship_match_73901"
         ],
-        "startDate": "2026-10-30T18:00:00.000Z",
-        "endDate": "2026-11-02T19:45:00.000Z",
-        "displayEndDate": "2026-11-04T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-11-02T19:45:00.000Z"
+        "startDate": "2026-10-30T18:00:00.000Z"
       },
       "10": {
+        "displayEndDate": "2026-11-10T08:00:00.000Z",
+        "endDate": "2026-11-08T19:45:00.000Z",
         "gameWeekNumber": 10,
+        "lastRegularMatchDate": "2026-11-08T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73902",
           "l1_championship_match_73903",
@@ -178,13 +187,13 @@
           "l1_championship_match_73909",
           "l1_championship_match_73910"
         ],
-        "startDate": "2026-11-06T19:45:00.000Z",
-        "endDate": "2026-11-08T19:45:00.000Z",
-        "displayEndDate": "2026-11-10T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-11-08T19:45:00.000Z"
+        "startDate": "2026-11-06T19:45:00.000Z"
       },
       "11": {
+        "displayEndDate": "2026-11-24T08:00:00.000Z",
+        "endDate": "2026-11-22T19:45:00.000Z",
         "gameWeekNumber": 11,
+        "lastRegularMatchDate": "2026-11-22T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73911",
           "l1_championship_match_73912",
@@ -196,13 +205,13 @@
           "l1_championship_match_73918",
           "l1_championship_match_73919"
         ],
-        "startDate": "2026-11-20T19:45:00.000Z",
-        "endDate": "2026-11-22T19:45:00.000Z",
-        "displayEndDate": "2026-11-24T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-11-22T19:45:00.000Z"
+        "startDate": "2026-11-20T19:45:00.000Z"
       },
       "12": {
+        "displayEndDate": "2026-12-01T08:00:00.000Z",
+        "endDate": "2026-11-29T19:45:00.000Z",
         "gameWeekNumber": 12,
+        "lastRegularMatchDate": "2026-11-29T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73920",
           "l1_championship_match_73921",
@@ -214,13 +223,13 @@
           "l1_championship_match_73927",
           "l1_championship_match_73928"
         ],
-        "startDate": "2026-11-27T19:45:00.000Z",
-        "endDate": "2026-11-29T19:45:00.000Z",
-        "displayEndDate": "2026-12-01T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-11-29T19:45:00.000Z"
+        "startDate": "2026-11-27T19:45:00.000Z"
       },
       "13": {
+        "displayEndDate": "2026-12-08T08:00:00.000Z",
+        "endDate": "2026-12-06T19:45:00.000Z",
         "gameWeekNumber": 13,
+        "lastRegularMatchDate": "2026-12-06T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73929",
           "l1_championship_match_73930",
@@ -232,13 +241,13 @@
           "l1_championship_match_73936",
           "l1_championship_match_73937"
         ],
-        "startDate": "2026-12-04T19:45:00.000Z",
-        "endDate": "2026-12-06T19:45:00.000Z",
-        "displayEndDate": "2026-12-08T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-12-06T19:45:00.000Z"
+        "startDate": "2026-12-04T19:45:00.000Z"
       },
       "14": {
+        "displayEndDate": "2026-12-15T08:00:00.000Z",
+        "endDate": "2026-12-13T19:45:00.000Z",
         "gameWeekNumber": 14,
+        "lastRegularMatchDate": "2026-12-13T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73938",
           "l1_championship_match_73939",
@@ -250,13 +259,13 @@
           "l1_championship_match_73945",
           "l1_championship_match_73946"
         ],
-        "startDate": "2026-12-11T19:45:00.000Z",
-        "endDate": "2026-12-13T19:45:00.000Z",
-        "displayEndDate": "2026-12-15T08:00:00.000Z",
-        "lastRegularMatchDate": "2026-12-13T19:45:00.000Z"
+        "startDate": "2026-12-11T19:45:00.000Z"
       },
       "15": {
+        "displayEndDate": "2027-01-05T08:00:00.000Z",
+        "endDate": "2027-01-03T19:45:00.000Z",
         "gameWeekNumber": 15,
+        "lastRegularMatchDate": "2027-01-03T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73947",
           "l1_championship_match_73948",
@@ -268,13 +277,13 @@
           "l1_championship_match_73954",
           "l1_championship_match_73955"
         ],
-        "startDate": "2027-01-02T16:00:00.000Z",
-        "endDate": "2027-01-03T19:45:00.000Z",
-        "displayEndDate": "2027-01-05T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-01-03T19:45:00.000Z"
+        "startDate": "2027-01-02T16:00:00.000Z"
       },
       "16": {
+        "displayEndDate": "2027-01-19T08:00:00.000Z",
+        "endDate": "2027-01-17T19:45:00.000Z",
         "gameWeekNumber": 16,
+        "lastRegularMatchDate": "2027-01-17T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73956",
           "l1_championship_match_73957",
@@ -286,13 +295,13 @@
           "l1_championship_match_73963",
           "l1_championship_match_73964"
         ],
-        "startDate": "2027-01-15T19:45:00.000Z",
-        "endDate": "2027-01-17T19:45:00.000Z",
-        "displayEndDate": "2027-01-19T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-01-17T19:45:00.000Z"
+        "startDate": "2027-01-15T19:45:00.000Z"
       },
       "17": {
+        "displayEndDate": "2027-01-26T08:00:00.000Z",
+        "endDate": "2027-01-24T19:45:00.000Z",
         "gameWeekNumber": 17,
+        "lastRegularMatchDate": "2027-01-24T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73965",
           "l1_championship_match_73966",
@@ -304,13 +313,13 @@
           "l1_championship_match_73972",
           "l1_championship_match_73973"
         ],
-        "startDate": "2027-01-22T19:45:00.000Z",
-        "endDate": "2027-01-24T19:45:00.000Z",
-        "displayEndDate": "2027-01-26T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-01-24T19:45:00.000Z"
+        "startDate": "2027-01-22T19:45:00.000Z"
       },
       "18": {
+        "displayEndDate": "2027-02-02T08:00:00.000Z",
+        "endDate": "2027-01-31T19:45:00.000Z",
         "gameWeekNumber": 18,
+        "lastRegularMatchDate": "2027-01-31T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73974",
           "l1_championship_match_73975",
@@ -322,13 +331,13 @@
           "l1_championship_match_73981",
           "l1_championship_match_73982"
         ],
-        "startDate": "2027-01-29T19:45:00.000Z",
-        "endDate": "2027-01-31T19:45:00.000Z",
-        "displayEndDate": "2027-02-02T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-01-31T19:45:00.000Z"
+        "startDate": "2027-01-29T19:45:00.000Z"
       },
       "19": {
+        "displayEndDate": "2027-02-08T08:00:00.000Z",
+        "endDate": "2027-02-05T23:00:00.000Z",
         "gameWeekNumber": 19,
+        "lastRegularMatchDate": "2027-02-05T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_73983",
           "l1_championship_match_73984",
@@ -340,13 +349,13 @@
           "l1_championship_match_73990",
           "l1_championship_match_73991"
         ],
-        "startDate": "2027-02-05T23:00:00.000Z",
-        "endDate": "2027-02-05T23:00:00.000Z",
-        "displayEndDate": "2027-02-08T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-02-05T23:00:00.000Z"
+        "startDate": "2027-02-05T23:00:00.000Z"
       },
       "20": {
+        "displayEndDate": "2027-02-15T08:00:00.000Z",
+        "endDate": "2027-02-12T23:00:00.000Z",
         "gameWeekNumber": 20,
+        "lastRegularMatchDate": "2027-02-12T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_73992",
           "l1_championship_match_73993",
@@ -358,13 +367,13 @@
           "l1_championship_match_73999",
           "l1_championship_match_74000"
         ],
-        "startDate": "2027-02-12T23:00:00.000Z",
-        "endDate": "2027-02-12T23:00:00.000Z",
-        "displayEndDate": "2027-02-15T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-02-12T23:00:00.000Z"
+        "startDate": "2027-02-12T23:00:00.000Z"
       },
       "21": {
+        "displayEndDate": "2027-02-22T08:00:00.000Z",
+        "endDate": "2027-02-19T23:00:00.000Z",
         "gameWeekNumber": 21,
+        "lastRegularMatchDate": "2027-02-19T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74001",
           "l1_championship_match_74002",
@@ -376,13 +385,13 @@
           "l1_championship_match_74008",
           "l1_championship_match_74009"
         ],
-        "startDate": "2027-02-19T23:00:00.000Z",
-        "endDate": "2027-02-19T23:00:00.000Z",
-        "displayEndDate": "2027-02-22T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-02-19T23:00:00.000Z"
+        "startDate": "2027-02-19T23:00:00.000Z"
       },
       "22": {
+        "displayEndDate": "2027-03-01T08:00:00.000Z",
+        "endDate": "2027-02-26T23:00:00.000Z",
         "gameWeekNumber": 22,
+        "lastRegularMatchDate": "2027-02-26T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74010",
           "l1_championship_match_74011",
@@ -394,13 +403,13 @@
           "l1_championship_match_74017",
           "l1_championship_match_74018"
         ],
-        "startDate": "2027-02-26T23:00:00.000Z",
-        "endDate": "2027-02-26T23:00:00.000Z",
-        "displayEndDate": "2027-03-01T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-02-26T23:00:00.000Z"
+        "startDate": "2027-02-26T23:00:00.000Z"
       },
       "23": {
+        "displayEndDate": "2027-03-08T08:00:00.000Z",
+        "endDate": "2027-03-05T23:00:00.000Z",
         "gameWeekNumber": 23,
+        "lastRegularMatchDate": "2027-03-05T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74019",
           "l1_championship_match_74020",
@@ -412,13 +421,13 @@
           "l1_championship_match_74026",
           "l1_championship_match_74027"
         ],
-        "startDate": "2027-03-05T23:00:00.000Z",
-        "endDate": "2027-03-05T23:00:00.000Z",
-        "displayEndDate": "2027-03-08T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-03-05T23:00:00.000Z"
+        "startDate": "2027-03-05T23:00:00.000Z"
       },
       "24": {
+        "displayEndDate": "2027-03-15T08:00:00.000Z",
+        "endDate": "2027-03-12T23:00:00.000Z",
         "gameWeekNumber": 24,
+        "lastRegularMatchDate": "2027-03-12T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74028",
           "l1_championship_match_74029",
@@ -430,13 +439,13 @@
           "l1_championship_match_74035",
           "l1_championship_match_74036"
         ],
-        "startDate": "2027-03-12T23:00:00.000Z",
-        "endDate": "2027-03-12T23:00:00.000Z",
-        "displayEndDate": "2027-03-15T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-03-12T23:00:00.000Z"
+        "startDate": "2027-03-12T23:00:00.000Z"
       },
       "25": {
+        "displayEndDate": "2027-03-22T08:00:00.000Z",
+        "endDate": "2027-03-19T23:00:00.000Z",
         "gameWeekNumber": 25,
+        "lastRegularMatchDate": "2027-03-19T23:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74037",
           "l1_championship_match_74038",
@@ -448,13 +457,13 @@
           "l1_championship_match_74044",
           "l1_championship_match_74045"
         ],
-        "startDate": "2027-03-19T23:00:00.000Z",
-        "endDate": "2027-03-19T23:00:00.000Z",
-        "displayEndDate": "2027-03-22T08:00:00.000Z",
-        "lastRegularMatchDate": "2027-03-19T23:00:00.000Z"
+        "startDate": "2027-03-19T23:00:00.000Z"
       },
       "26": {
+        "displayEndDate": "2027-04-05T07:00:00.000Z",
+        "endDate": "2027-04-02T22:00:00.000Z",
         "gameWeekNumber": 26,
+        "lastRegularMatchDate": "2027-04-02T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74046",
           "l1_championship_match_74047",
@@ -466,13 +475,13 @@
           "l1_championship_match_74053",
           "l1_championship_match_74054"
         ],
-        "startDate": "2027-04-02T22:00:00.000Z",
-        "endDate": "2027-04-02T22:00:00.000Z",
-        "displayEndDate": "2027-04-05T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-04-02T22:00:00.000Z"
+        "startDate": "2027-04-02T22:00:00.000Z"
       },
       "27": {
+        "displayEndDate": "2027-04-12T07:00:00.000Z",
+        "endDate": "2027-04-09T22:00:00.000Z",
         "gameWeekNumber": 27,
+        "lastRegularMatchDate": "2027-04-09T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74055",
           "l1_championship_match_74056",
@@ -484,13 +493,13 @@
           "l1_championship_match_74062",
           "l1_championship_match_74063"
         ],
-        "startDate": "2027-04-09T22:00:00.000Z",
-        "endDate": "2027-04-09T22:00:00.000Z",
-        "displayEndDate": "2027-04-12T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-04-09T22:00:00.000Z"
+        "startDate": "2027-04-09T22:00:00.000Z"
       },
       "28": {
+        "displayEndDate": "2027-04-19T07:00:00.000Z",
+        "endDate": "2027-04-16T22:00:00.000Z",
         "gameWeekNumber": 28,
+        "lastRegularMatchDate": "2027-04-16T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74064",
           "l1_championship_match_74065",
@@ -502,13 +511,13 @@
           "l1_championship_match_74071",
           "l1_championship_match_74072"
         ],
-        "startDate": "2027-04-16T22:00:00.000Z",
-        "endDate": "2027-04-16T22:00:00.000Z",
-        "displayEndDate": "2027-04-19T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-04-16T22:00:00.000Z"
+        "startDate": "2027-04-16T22:00:00.000Z"
       },
       "29": {
+        "displayEndDate": "2027-04-26T07:00:00.000Z",
+        "endDate": "2027-04-23T22:00:00.000Z",
         "gameWeekNumber": 29,
+        "lastRegularMatchDate": "2027-04-23T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74073",
           "l1_championship_match_74074",
@@ -520,13 +529,13 @@
           "l1_championship_match_74080",
           "l1_championship_match_74081"
         ],
-        "startDate": "2027-04-23T22:00:00.000Z",
-        "endDate": "2027-04-23T22:00:00.000Z",
-        "displayEndDate": "2027-04-26T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-04-23T22:00:00.000Z"
+        "startDate": "2027-04-23T22:00:00.000Z"
       },
       "30": {
+        "displayEndDate": "2027-05-03T07:00:00.000Z",
+        "endDate": "2027-04-30T22:00:00.000Z",
         "gameWeekNumber": 30,
+        "lastRegularMatchDate": "2027-04-30T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74082",
           "l1_championship_match_74083",
@@ -538,13 +547,13 @@
           "l1_championship_match_74089",
           "l1_championship_match_74090"
         ],
-        "startDate": "2027-04-30T22:00:00.000Z",
-        "endDate": "2027-04-30T22:00:00.000Z",
-        "displayEndDate": "2027-05-03T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-04-30T22:00:00.000Z"
+        "startDate": "2027-04-30T22:00:00.000Z"
       },
       "31": {
+        "displayEndDate": "2027-05-10T07:00:00.000Z",
+        "endDate": "2027-05-07T22:00:00.000Z",
         "gameWeekNumber": 31,
+        "lastRegularMatchDate": "2027-05-07T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74091",
           "l1_championship_match_74092",
@@ -556,13 +565,13 @@
           "l1_championship_match_74098",
           "l1_championship_match_74099"
         ],
-        "startDate": "2027-05-07T22:00:00.000Z",
-        "endDate": "2027-05-07T22:00:00.000Z",
-        "displayEndDate": "2027-05-10T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-05-07T22:00:00.000Z"
+        "startDate": "2027-05-07T22:00:00.000Z"
       },
       "32": {
+        "displayEndDate": "2027-05-18T07:00:00.000Z",
+        "endDate": "2027-05-15T22:00:00.000Z",
         "gameWeekNumber": 32,
+        "lastRegularMatchDate": "2027-05-15T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74100",
           "l1_championship_match_74101",
@@ -574,13 +583,13 @@
           "l1_championship_match_74107",
           "l1_championship_match_74108"
         ],
-        "startDate": "2027-05-15T22:00:00.000Z",
-        "endDate": "2027-05-15T22:00:00.000Z",
-        "displayEndDate": "2027-05-18T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-05-15T22:00:00.000Z"
+        "startDate": "2027-05-15T22:00:00.000Z"
       },
       "33": {
+        "displayEndDate": "2027-05-24T07:00:00.000Z",
+        "endDate": "2027-05-21T22:00:00.000Z",
         "gameWeekNumber": 33,
+        "lastRegularMatchDate": "2027-05-21T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74109",
           "l1_championship_match_74110",
@@ -592,13 +601,13 @@
           "l1_championship_match_74116",
           "l1_championship_match_74117"
         ],
-        "startDate": "2027-05-21T22:00:00.000Z",
-        "endDate": "2027-05-21T22:00:00.000Z",
-        "displayEndDate": "2027-05-24T07:00:00.000Z",
-        "lastRegularMatchDate": "2027-05-21T22:00:00.000Z"
+        "startDate": "2027-05-21T22:00:00.000Z"
       },
       "34": {
+        "displayEndDate": "2125-01-01T00:00:00.000Z",
+        "endDate": "2027-05-28T22:00:00.000Z",
         "gameWeekNumber": 34,
+        "lastRegularMatchDate": "2027-05-28T22:00:00.000Z",
         "matchesIds": [
           "l1_championship_match_74118",
           "l1_championship_match_74119",
@@ -610,11 +619,9 @@
           "l1_championship_match_74125",
           "l1_championship_match_74126"
         ],
-        "startDate": "2027-05-28T22:00:00.000Z",
-        "endDate": "2027-05-28T22:00:00.000Z",
-        "displayEndDate": "2125-01-01T00:00:00.000Z",
-        "lastRegularMatchDate": "2027-05-28T22:00:00.000Z"
+        "startDate": "2027-05-28T22:00:00.000Z"
       }
-    }
+    },
+    "gameWeeks.8.postGameWeekScriptsRanAt": "2026-10-29T09:09:17.197Z"
   }
 }
