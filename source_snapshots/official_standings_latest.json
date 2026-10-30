@@ -1,6 +1,6 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
-  "retrieved_at_brt": "2026-10-29T13:00-03:00",
+  "retrieved_at_brt": "2026-10-30T12:49-03:00",
   "payload": {
     "competitionType": "championship",
     "season": 2026,
@@ -32,7 +32,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 2
+          "gameWeekStartingRank": 1
         },
         "againstGoals": 9,
         "forGoals": 16,
@@ -136,7 +136,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 6
+          "gameWeekStartingRank": 2
         },
         "againstGoals": 14,
         "forGoals": 18,
@@ -240,7 +240,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 4
+          "gameWeekStartingRank": 3
         },
         "againstGoals": 6,
         "forGoals": 11,
@@ -344,7 +344,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 5
+          "gameWeekStartingRank": 4
         },
         "againstGoals": 7,
         "forGoals": 11,
@@ -448,7 +448,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 1
+          "gameWeekStartingRank": 5
         },
         "againstGoals": 7,
         "forGoals": 13,
@@ -552,7 +552,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 3
+          "gameWeekStartingRank": 6
         },
         "againstGoals": 9,
         "forGoals": 13,
@@ -656,7 +656,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 8
+          "gameWeekStartingRank": 7
         },
         "againstGoals": 12,
         "forGoals": 16,
@@ -760,7 +760,7 @@
           },
           "preferMonochromeLogo": true,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 9
+          "gameWeekStartingRank": 8
         },
         "againstGoals": 13,
         "forGoals": 18,
@@ -864,7 +864,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 7
+          "gameWeekStartingRank": 9
         },
         "againstGoals": 6,
         "forGoals": 7,
@@ -968,7 +968,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 13
+          "gameWeekStartingRank": 10
         },
         "againstGoals": 10,
         "forGoals": 8,
@@ -1280,7 +1280,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 10
+          "gameWeekStartingRank": 13
         },
         "againstGoals": 12,
         "forGoals": 14,
@@ -1384,7 +1384,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 15
+          "gameWeekStartingRank": 14
         },
         "againstGoals": 15,
         "forGoals": 9,
@@ -1488,7 +1488,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 16
+          "gameWeekStartingRank": 15
         },
         "againstGoals": 16,
         "forGoals": 11,
@@ -1592,7 +1592,7 @@
           },
           "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 14
+          "gameWeekStartingRank": 16
         },
         "againstGoals": 18,
         "forGoals": 12,
