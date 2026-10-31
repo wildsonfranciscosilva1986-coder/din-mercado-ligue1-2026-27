@@ -71,3 +71,6 @@
 73891,8,Rennes,3,3,Strasbourg,0,0,STATUS_FULL_TIME,True,401876424,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025
 73892,8,Toulouse FC,0,0,Troyes,0,0,STATUS_FULL_TIME,True,401876423,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025
 73890,8,PSG,2,2,OL,0,0,STATUS_FULL_TIME,True,401876422,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261026
+73893,9,Havre AC,1,1,PSG,5,5,STATUS_FULL_TIME,True,401876421,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030
+73898,9,OGC Nice,5,5,Rennes,2,2,STATUS_FULL_TIME,True,401876416,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030
+73894,9,LOSC,1,1,RC Lens,0,0,STATUS_FULL_TIME,True,401876420,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030
