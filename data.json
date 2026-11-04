@@ -1,5 +1,5 @@
 {
-  "cutoff": "2026-11-03T13:58-03:00",
+  "cutoff": "2026-11-04T14:05-03:00",
   "season": "2026/27",
   "league": "Ligue 1 McDonald's",
   "teams": [
@@ -1733,9 +1733,9 @@
       "official_id": "73903",
       "official_url": "https://ligue1.com/en/match-sheet/l1_championship_match_73903",
       "date_local": "2026-11-07",
-      "time_local": "17:15",
+      "time_local": "19:00",
       "schedule_note": "",
-      "official_time_display": "17:15",
+      "official_time_display": "19:00",
       "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73903"
     },
     {
@@ -1748,9 +1748,9 @@
       "official_id": "73908",
       "official_url": "https://ligue1.com/en/match-sheet/l1_championship_match_73908",
       "date_local": "2026-11-07",
-      "time_local": "20:45",
+      "time_local": "21:05",
       "schedule_note": "",
-      "official_time_display": "20:45",
+      "official_time_display": "21:05",
       "_source_url": "https://ma-api.ligue1.fr/championship-match/l1_championship_match_73908"
     },
     {
