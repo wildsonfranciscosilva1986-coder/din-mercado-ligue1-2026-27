@@ -1,6 +1,6 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-standings/1/general?season=2026",
-  "retrieved_at_brt": "2026-11-20T14:43-03:00",
+  "retrieved_at_brt": "2026-11-23T18:13-03:00",
   "payload": {
     "competitionType": "championship",
     "season": 2026,
@@ -34,32 +34,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 1
         },
-        "againstGoals": 10,
-        "forGoals": 22,
+        "againstGoals": 12,
+        "forGoals": 25,
         "forGoalsAway": 0,
-        "goalsDifference": 12,
-        "wins": 7,
+        "goalsDifference": 13,
+        "wins": 8,
         "winsAway": 0,
         "draws": 2,
         "losses": 1,
-        "played": 10,
-        "points": 23,
+        "played": 11,
+        "points": 26,
         "gameWeekStartingRank": 1,
         "rank": 1,
         "rankDelta": 0,
-        "higherWinsInARow": 7,
+        "higherWinsInARow": 8,
         "yellowCards": 10,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_26",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 3,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_15",
             "resultLetter": "w",
@@ -95,12 +86,22 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_30",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 2,
+              "away": 3
+            }
           }
         ],
         "allSeasonResults": [
           "d",
           "d",
           "l",
+          "w",
           "w",
           "w",
           "w",
@@ -112,112 +113,6 @@
         ]
       },
       "2": {
-        "clubId": "l1_championship_club_2026_158",
-        "clubIdentity": {
-          "id": "l1_championship_club_2026_158",
-          "shortId": 158,
-          "name": "LOSC Lille",
-          "officialName": "Lille",
-          "shortName": "LOSC",
-          "displayName": "LOSC Lille",
-          "businessName": "LOSC",
-          "trigram": "LIL",
-          "primaryColor": "#E41B13",
-          "secondaryColor": "#211E5F",
-          "assets": {
-            "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_128x128_7bf9576cddda33d2c1ebd966f44779d3.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_512x512_39a605746d9cf4eb12d9cd4f63adb27c.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_768x768_94fd86e26028c4bb869925a35e8d901a.png"
-            },
-            "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_128x128_102d4146c2293181a53afac9ea79cd90.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_512x512_73cd15f2ed622b7add8c45d36ff70663.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_768x768_f3a30e0b1e98dad02e576283da10d8df.png"
-            }
-          },
-          "preferMonochromeLogo": false,
-          "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 2
-        },
-        "againstGoals": 7,
-        "forGoals": 14,
-        "forGoalsAway": 0,
-        "goalsDifference": 7,
-        "wins": 6,
-        "winsAway": 0,
-        "draws": 3,
-        "losses": 1,
-        "played": 10,
-        "points": 21,
-        "gameWeekStartingRank": 2,
-        "rank": 2,
-        "rankDelta": 0,
-        "higherWinsInARow": 2,
-        "yellowCards": 16,
-        "redCards": 1,
-        "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_5",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 0
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_44",
-            "resultLetter": "d",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_9",
-            "resultLetter": "d",
-            "side": "away",
-            "score": {
-              "home": 1,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_6",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 0
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_14",
-            "resultLetter": "w",
-            "side": "away",
-            "score": {
-              "home": 1,
-              "away": 2
-            }
-          }
-        ],
-        "allSeasonResults": [
-          "w",
-          "d",
-          "w",
-          "w",
-          "l",
-          "w",
-          "d",
-          "d",
-          "w",
-          "w",
-          null
-        ]
-      },
-      "3": {
         "clubId": "l1_championship_club_2026_90",
         "clubIdentity": {
           "id": "l1_championship_club_2026_90",
@@ -247,31 +142,22 @@
           "gameWeekStartingRank": 3
         },
         "againstGoals": 10,
-        "forGoals": 17,
+        "forGoals": 21,
         "forGoalsAway": 0,
-        "goalsDifference": 7,
-        "wins": 6,
+        "goalsDifference": 11,
+        "wins": 7,
         "winsAway": 0,
         "draws": 2,
         "losses": 2,
-        "played": 10,
-        "points": 20,
-        "gameWeekStartingRank": 3,
-        "rank": 3,
+        "played": 11,
+        "points": 23,
+        "gameWeekStartingRank": 2,
+        "rank": 2,
         "rankDelta": 0,
-        "higherWinsInARow": 2,
-        "yellowCards": 22,
+        "higherWinsInARow": 3,
+        "yellowCards": 23,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_7",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 1,
-              "away": 0
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_14",
             "resultLetter": "w",
@@ -307,6 +193,15 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_37",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 4,
+              "away": 0
+            }
           }
         ],
         "allSeasonResults": [
@@ -320,116 +215,118 @@
           "l",
           "w",
           "w",
+          "w",
           null
         ]
       },
-      "4": {
-        "clubId": "l1_championship_club_2026_1",
+      "3": {
+        "clubId": "l1_championship_club_2026_158",
         "clubIdentity": {
-          "id": "l1_championship_club_2026_1",
-          "shortId": 1,
-          "name": "Olympique de Marseille",
-          "officialName": "Marseille",
-          "shortName": "OM",
-          "displayName": "Olympique De Marseille",
-          "businessName": "OM",
-          "trigram": "OM",
-          "primaryColor": "#0B4A89",
-          "secondaryColor": "#FFFFFF",
+          "id": "l1_championship_club_2026_158",
+          "shortId": 158,
+          "name": "LOSC Lille",
+          "officialName": "Lille",
+          "shortName": "LOSC",
+          "displayName": "LOSC Lille",
+          "businessName": "LOSC",
+          "trigram": "LIL",
+          "primaryColor": "#E41B13",
+          "secondaryColor": "#211E5F",
           "assets": {
             "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_128x128_0c05c0138f105c2fb1632d16a6e5a9e8.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_512x512_16ca4f08072a6b6d99169ba2b6a8b228.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_768x768_215f9db1232d520e22eef401962d1b12.png"
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_128x128_7bf9576cddda33d2c1ebd966f44779d3.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_512x512_39a605746d9cf4eb12d9cd4f63adb27c.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_158_768x768_94fd86e26028c4bb869925a35e8d901a.png"
             },
             "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_128x128_1824e91151b2e2ed197047c313aac1b9.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_512x512_0981798b41da9749689be3ee628d422e.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_768x768_447aba7d6c284a2103257e2a8a91cfe5.png"
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_128x128_102d4146c2293181a53afac9ea79cd90.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_512x512_73cd15f2ed622b7add8c45d36ff70663.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_158_768x768_f3a30e0b1e98dad02e576283da10d8df.png"
             }
           },
-          "preferMonochromeLogo": true,
+          "preferMonochromeLogo": false,
           "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 4
+          "gameWeekStartingRank": 2
         },
-        "againstGoals": 14,
-        "forGoals": 22,
+        "againstGoals": 8,
+        "forGoals": 14,
         "forGoalsAway": 0,
-        "goalsDifference": 8,
+        "goalsDifference": 6,
         "wins": 6,
         "winsAway": 0,
-        "draws": 0,
-        "losses": 4,
-        "played": 10,
-        "points": 18,
-        "gameWeekStartingRank": 4,
-        "rank": 4,
+        "draws": 3,
+        "losses": 2,
+        "played": 11,
+        "points": 21,
+        "gameWeekStartingRank": 3,
+        "rank": 3,
         "rankDelta": 0,
-        "higherWinsInARow": 5,
-        "yellowCards": 14,
+        "higherWinsInARow": 2,
+        "yellowCards": 16,
         "redCards": 1,
         "seasonResults": [
           {
-            "opponentClubId": "l1_championship_club_2026_33",
-            "resultLetter": "w",
-            "side": "away",
-            "score": {
-              "home": 0,
-              "away": 2
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_37",
-            "resultLetter": "w",
-            "side": "away",
-            "score": {
-              "home": 2,
-              "away": 5
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_5",
-            "resultLetter": "w",
+            "opponentClubId": "l1_championship_club_2026_44",
+            "resultLetter": "d",
             "side": "home",
             "score": {
-              "home": 4,
-              "away": 3
+              "home": 1,
+              "away": 1
             }
           },
           {
-            "opponentClubId": "l1_championship_club_2026_16",
-            "resultLetter": "w",
-            "side": "home",
+            "opponentClubId": "l1_championship_club_2026_9",
+            "resultLetter": "d",
+            "side": "away",
             "score": {
-              "home": 2,
-              "away": 0
+              "home": 1,
+              "away": 1
             }
           },
           {
             "opponentClubId": "l1_championship_club_2026_6",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_14",
             "resultLetter": "w",
             "side": "away",
             "score": {
               "home": 1,
               "away": 2
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_159",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 0,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
           "w",
+          "d",
+          "w",
+          "w",
           "l",
+          "w",
+          "d",
+          "d",
+          "w",
+          "w",
           "l",
-          "l",
-          "l",
-          "w",
-          "w",
-          "w",
-          "w",
-          "w",
           null
         ]
       },
-      "5": {
+      "4": {
         "clubId": "l1_championship_club_2026_159",
         "clubIdentity": {
           "id": "l1_championship_club_2026_159",
@@ -459,31 +356,22 @@
           "gameWeekStartingRank": 5
         },
         "againstGoals": 9,
-        "forGoals": 15,
+        "forGoals": 16,
         "forGoalsAway": 0,
-        "goalsDifference": 6,
-        "wins": 5,
+        "goalsDifference": 7,
+        "wins": 6,
         "winsAway": 0,
         "draws": 2,
         "losses": 3,
-        "played": 10,
-        "points": 17,
-        "gameWeekStartingRank": 5,
-        "rank": 5,
+        "played": 11,
+        "points": 20,
+        "gameWeekStartingRank": 4,
+        "rank": 4,
         "rankDelta": 0,
         "higherWinsInARow": 1,
-        "yellowCards": 13,
+        "yellowCards": 14,
         "redCards": 1,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_6",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 2,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_30",
             "resultLetter": "w",
@@ -519,6 +407,15 @@
               "home": 2,
               "away": 0
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_158",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 0,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -532,10 +429,225 @@
           "l",
           "w",
           "l",
+          "w",
+          null
+        ]
+      },
+      "5": {
+        "clubId": "l1_championship_club_2026_1",
+        "clubIdentity": {
+          "id": "l1_championship_club_2026_1",
+          "shortId": 1,
+          "name": "Olympique de Marseille",
+          "officialName": "Marseille",
+          "shortName": "OM",
+          "displayName": "Olympique De Marseille",
+          "businessName": "OM",
+          "trigram": "OM",
+          "primaryColor": "#0B4A89",
+          "secondaryColor": "#FFFFFF",
+          "assets": {
+            "logo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_128x128_0c05c0138f105c2fb1632d16a6e5a9e8.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_512x512_16ca4f08072a6b6d99169ba2b6a8b228.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2025_1_1_768x768_215f9db1232d520e22eef401962d1b12.png"
+            },
+            "whiteLogo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_128x128_1824e91151b2e2ed197047c313aac1b9.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_512x512_0981798b41da9749689be3ee628d422e.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2025_1_1_768x768_447aba7d6c284a2103257e2a8a91cfe5.png"
+            }
+          },
+          "preferMonochromeLogo": true,
+          "isInFrenchChampionship": true,
+          "gameWeekStartingRank": 4
+        },
+        "againstGoals": 17,
+        "forGoals": 24,
+        "forGoalsAway": 0,
+        "goalsDifference": 7,
+        "wins": 6,
+        "winsAway": 0,
+        "draws": 0,
+        "losses": 5,
+        "played": 11,
+        "points": 18,
+        "gameWeekStartingRank": 5,
+        "rank": 5,
+        "rankDelta": 0,
+        "higherWinsInARow": 5,
+        "yellowCards": 17,
+        "redCards": 1,
+        "seasonResults": [
+          {
+            "opponentClubId": "l1_championship_club_2026_37",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 2,
+              "away": 5
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_5",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 4,
+              "away": 3
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_16",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_6",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_26",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 2,
+              "away": 3
+            }
+          }
+        ],
+        "allSeasonResults": [
+          "w",
+          "l",
+          "l",
+          "l",
+          "l",
+          "w",
+          "w",
+          "w",
+          "w",
+          "w",
+          "l",
           null
         ]
       },
       "6": {
+        "clubId": "l1_championship_club_2026_44",
+        "clubIdentity": {
+          "id": "l1_championship_club_2026_44",
+          "shortId": 44,
+          "name": "Stade Brestois 29",
+          "officialName": "Brest",
+          "shortName": "Brest",
+          "displayName": "Stade Brestois 29",
+          "businessName": "Brest",
+          "trigram": "BRE",
+          "primaryColor": "#D10A11",
+          "secondaryColor": "#FFFFFF",
+          "assets": {
+            "logo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_128x128_6e80f6db6cec2117be34cd65ab9edbd1.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_512x512_b8930455bc938de7b9f4e128e1036989.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_768x768_5b902ce45f1645c17e1710c4be3f0b1e.png"
+            },
+            "whiteLogo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_128x128_fc43007739733d43a64fbdd972956334.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_512x512_98925d294e919f027383c3eef30ca052.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_768x768_3e2378ed34d3a81bbf095b15e64c467f.png"
+            }
+          },
+          "preferMonochromeLogo": false,
+          "isInFrenchChampionship": true,
+          "gameWeekStartingRank": 9
+        },
+        "againstGoals": 12,
+        "forGoals": 19,
+        "forGoalsAway": 0,
+        "goalsDifference": 7,
+        "wins": 5,
+        "winsAway": 0,
+        "draws": 3,
+        "losses": 3,
+        "played": 11,
+        "points": 18,
+        "gameWeekStartingRank": 6,
+        "rank": 6,
+        "rankDelta": 0,
+        "higherWinsInARow": 3,
+        "yellowCards": 16,
+        "redCards": 0,
+        "seasonResults": [
+          {
+            "opponentClubId": "l1_championship_club_2026_158",
+            "resultLetter": "d",
+            "side": "away",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_30",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_7",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 0,
+              "away": 2
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_159",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_15",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "allSeasonResults": [
+          "d",
+          "d",
+          "w",
+          "l",
+          "l",
+          "w",
+          "d",
+          "l",
+          "w",
+          "w",
+          "w",
+          null
+        ]
+      },
+      "7": {
         "clubId": "l1_championship_club_2026_30",
         "clubIdentity": {
           "id": "l1_championship_club_2026_30",
@@ -564,32 +676,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 6
         },
-        "againstGoals": 12,
-        "forGoals": 15,
+        "againstGoals": 15,
+        "forGoals": 17,
         "forGoalsAway": 0,
-        "goalsDifference": 3,
+        "goalsDifference": 2,
         "wins": 5,
         "winsAway": 0,
         "draws": 2,
-        "losses": 3,
-        "played": 10,
+        "losses": 4,
+        "played": 11,
         "points": 17,
-        "gameWeekStartingRank": 6,
-        "rank": 6,
+        "gameWeekStartingRank": 7,
+        "rank": 7,
         "rankDelta": 0,
         "higherWinsInARow": 3,
-        "yellowCards": 24,
+        "yellowCards": 26,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_15",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 2,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_159",
             "resultLetter": "l",
@@ -625,6 +728,15 @@
               "home": 0,
               "away": 2
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_13",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 2,
+              "away": 3
+            }
           }
         ],
         "allSeasonResults": [
@@ -638,10 +750,11 @@
           "w",
           "w",
           "w",
+          "l",
           null
         ]
       },
-      "7": {
+      "8": {
         "clubId": "l1_championship_club_2026_9",
         "clubIdentity": {
           "id": "l1_championship_club_2026_9",
@@ -670,32 +783,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 7
         },
-        "againstGoals": 11,
-        "forGoals": 13,
+        "againstGoals": 12,
+        "forGoals": 14,
         "forGoalsAway": 0,
         "goalsDifference": 2,
         "wins": 4,
         "winsAway": 0,
-        "draws": 4,
+        "draws": 5,
         "losses": 2,
-        "played": 10,
-        "points": 16,
-        "gameWeekStartingRank": 7,
-        "rank": 7,
+        "played": 11,
+        "points": 17,
+        "gameWeekStartingRank": 8,
+        "rank": 8,
         "rankDelta": 0,
         "higherWinsInARow": 3,
-        "yellowCards": 20,
+        "yellowCards": 21,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_16",
-            "resultLetter": "d",
-            "side": "home",
-            "score": {
-              "home": 2,
-              "away": 2
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_7",
             "resultLetter": "l",
@@ -731,6 +835,15 @@
               "home": 1,
               "away": 1
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_2",
+            "resultLetter": "d",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -744,10 +857,11 @@
           "d",
           "l",
           "d",
+          "d",
           null
         ]
       },
-      "8": {
+      "9": {
         "clubId": "l1_championship_club_2026_14",
         "clubIdentity": {
           "id": "l1_championship_club_2026_14",
@@ -776,32 +890,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 8
         },
-        "againstGoals": 21,
-        "forGoals": 21,
+        "againstGoals": 22,
+        "forGoals": 22,
         "forGoalsAway": 0,
         "goalsDifference": 0,
         "wins": 5,
         "winsAway": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 4,
-        "played": 10,
-        "points": 16,
-        "gameWeekStartingRank": 8,
-        "rank": 8,
+        "played": 11,
+        "points": 17,
+        "gameWeekStartingRank": 9,
+        "rank": 9,
         "rankDelta": 0,
         "higherWinsInARow": 3,
-        "yellowCards": 20,
-        "redCards": 0,
+        "yellowCards": 22,
+        "redCards": 1,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_2",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 4,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_90",
             "resultLetter": "l",
@@ -837,125 +942,29 @@
               "home": 1,
               "away": 2
             }
-          }
-        ],
-        "allSeasonResults": [
-          "d",
-          "w",
-          "w",
-          "w",
-          "l",
-          "w",
-          "l",
-          "w",
-          "l",
-          "l",
-          null
-        ]
-      },
-      "9": {
-        "clubId": "l1_championship_club_2026_44",
-        "clubIdentity": {
-          "id": "l1_championship_club_2026_44",
-          "shortId": 44,
-          "name": "Stade Brestois 29",
-          "officialName": "Brest",
-          "shortName": "Brest",
-          "displayName": "Stade Brestois 29",
-          "businessName": "Brest",
-          "trigram": "BRE",
-          "primaryColor": "#D10A11",
-          "secondaryColor": "#FFFFFF",
-          "assets": {
-            "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_128x128_6e80f6db6cec2117be34cd65ab9edbd1.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_512x512_b8930455bc938de7b9f4e128e1036989.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_44_768x768_5b902ce45f1645c17e1710c4be3f0b1e.png"
-            },
-            "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_128x128_fc43007739733d43a64fbdd972956334.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_512x512_98925d294e919f027383c3eef30ca052.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_44_768x768_3e2378ed34d3a81bbf095b15e64c467f.png"
-            }
-          },
-          "preferMonochromeLogo": false,
-          "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 9
-        },
-        "againstGoals": 12,
-        "forGoals": 18,
-        "forGoalsAway": 0,
-        "goalsDifference": 6,
-        "wins": 4,
-        "winsAway": 0,
-        "draws": 3,
-        "losses": 3,
-        "played": 10,
-        "points": 15,
-        "gameWeekStartingRank": 9,
-        "rank": 9,
-        "rankDelta": 0,
-        "higherWinsInARow": 2,
-        "yellowCards": 15,
-        "redCards": 0,
-        "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_37",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 5,
-              "away": 1
-            }
           },
           {
-            "opponentClubId": "l1_championship_club_2026_158",
+            "opponentClubId": "l1_championship_club_2026_7",
             "resultLetter": "d",
             "side": "away",
             "score": {
               "home": 1,
               "away": 1
             }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_30",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 2
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_7",
-            "resultLetter": "w",
-            "side": "away",
-            "score": {
-              "home": 0,
-              "away": 2
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_159",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 2,
-              "away": 0
-            }
           }
         ],
         "allSeasonResults": [
           "d",
+          "w",
+          "w",
+          "w",
+          "l",
+          "w",
+          "l",
+          "w",
+          "l",
+          "l",
           "d",
-          "w",
-          "l",
-          "l",
-          "w",
-          "d",
-          "l",
-          "w",
-          "w",
           null
         ]
       },
@@ -988,32 +997,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 10
         },
-        "againstGoals": 8,
-        "forGoals": 9,
+        "againstGoals": 9,
+        "forGoals": 10,
         "forGoalsAway": 0,
         "goalsDifference": 1,
         "wins": 4,
         "winsAway": 0,
-        "draws": 3,
+        "draws": 4,
         "losses": 3,
-        "played": 10,
-        "points": 15,
+        "played": 11,
+        "points": 16,
         "gameWeekStartingRank": 10,
         "rank": 10,
         "rankDelta": 0,
         "higherWinsInARow": 2,
-        "yellowCards": 13,
+        "yellowCards": 15,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_90",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 0
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_9",
             "resultLetter": "w",
@@ -1049,6 +1049,15 @@
               "home": 0,
               "away": 2
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_14",
+            "resultLetter": "d",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -1062,6 +1071,7 @@
           "d",
           "l",
           "w",
+          "d",
           null
         ]
       },
@@ -1094,32 +1104,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 11
         },
-        "againstGoals": 15,
-        "forGoals": 17,
+        "againstGoals": 16,
+        "forGoals": 18,
         "forGoalsAway": 0,
         "goalsDifference": 2,
         "wins": 4,
         "winsAway": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 5,
-        "played": 10,
-        "points": 13,
+        "played": 11,
+        "points": 14,
         "gameWeekStartingRank": 11,
         "rank": 11,
         "rankDelta": 0,
         "higherWinsInARow": 3,
-        "yellowCards": 16,
+        "yellowCards": 18,
         "redCards": 2,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_159",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 2,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_33",
             "resultLetter": "w",
@@ -1155,6 +1156,15 @@
               "home": 1,
               "away": 2
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_16",
+            "resultLetter": "d",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -1168,6 +1178,7 @@
           "w",
           "l",
           "l",
+          "d",
           null
         ]
       },
@@ -1200,32 +1211,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 12
         },
-        "againstGoals": 14,
-        "forGoals": 15,
+        "againstGoals": 15,
+        "forGoals": 16,
         "forGoalsAway": 0,
         "goalsDifference": 1,
         "wins": 3,
         "winsAway": 0,
-        "draws": 4,
+        "draws": 5,
         "losses": 3,
-        "played": 10,
-        "points": 13,
+        "played": 11,
+        "points": 14,
         "gameWeekStartingRank": 12,
         "rank": 12,
         "rankDelta": 0,
         "higherWinsInARow": 1,
-        "yellowCards": 22,
+        "yellowCards": 24,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_9",
-            "resultLetter": "d",
-            "side": "away",
-            "score": {
-              "home": 2,
-              "away": 2
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_26",
             "resultLetter": "w",
@@ -1261,6 +1263,15 @@
               "home": 3,
               "away": 1
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_6",
+            "resultLetter": "d",
+            "side": "away",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -1274,222 +1285,11 @@
           "d",
           "l",
           "w",
+          "d",
           null
         ]
       },
       "13": {
-        "clubId": "l1_championship_club_2026_15",
-        "clubIdentity": {
-          "id": "l1_championship_club_2026_15",
-          "shortId": 15,
-          "name": "RC Strasbourg Alsace",
-          "officialName": "Strasbourg",
-          "shortName": "Strasbourg",
-          "displayName": "Rc Strasbourg Alsace",
-          "businessName": "Strasbourg",
-          "trigram": "STR",
-          "primaryColor": "#009EE2",
-          "secondaryColor": "#DB2F34",
-          "assets": {
-            "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_128x128_b0690caabe8c7f44215d7664eed973b4.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_512x512_e9553990e86d8098a3cf94febe8b4b96.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_768x768_4350d32e5f679b44fbc16b8f5352e85e.png"
-            },
-            "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_128x128_e1a882abc582b8b9f86c35e934fb3278.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_512x512_a534ea0a2780e8278dfda235189ca5eb.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_768x768_5bb5654139490857654262d8b2686f0f.png"
-            }
-          },
-          "preferMonochromeLogo": false,
-          "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 13
-        },
-        "againstGoals": 22,
-        "forGoals": 18,
-        "forGoalsAway": 0,
-        "goalsDifference": -4,
-        "wins": 3,
-        "winsAway": 0,
-        "draws": 1,
-        "losses": 6,
-        "played": 10,
-        "points": 10,
-        "gameWeekStartingRank": 13,
-        "rank": 13,
-        "rankDelta": 0,
-        "higherWinsInARow": 2,
-        "yellowCards": 18,
-        "redCards": 1,
-        "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_30",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 2,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_13",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 3
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_14",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 3,
-              "away": 0
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_2",
-            "resultLetter": "w",
-            "side": "home",
-            "score": {
-              "home": 5,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_16",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 3,
-              "away": 1
-            }
-          }
-        ],
-        "allSeasonResults": [
-          "l",
-          "w",
-          "w",
-          "d",
-          "l",
-          "l",
-          "l",
-          "l",
-          "w",
-          "l",
-          null
-        ]
-      },
-      "14": {
-        "clubId": "l1_championship_club_2026_2",
-        "clubIdentity": {
-          "id": "l1_championship_club_2026_2",
-          "shortId": 2,
-          "name": "AJ Auxerre",
-          "officialName": "Auxerre",
-          "shortName": "AJ Auxerre",
-          "displayName": "Aj Auxerre",
-          "businessName": "AJ Auxerre",
-          "trigram": "AJA",
-          "primaryColor": "#164194",
-          "secondaryColor": "#FFFFFF",
-          "assets": {
-            "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_128x128_f25b3b461b1ed57875618ac6f3ea96e8.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_512x512_4bed22ddd777a8b0977284bee7f416a7.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_768x768_ed1502c12ee3e4ea6128a09326aaa2c2.png"
-            },
-            "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_128x128_7fad5191d1f4bc9016b1c17b651a51b4.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_512x512_a8a6eea2fc4f046ed9dc53186631624e.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_768x768_196eade76aa6e152557be7cd9df25d43.png"
-            }
-          },
-          "preferMonochromeLogo": false,
-          "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 14
-        },
-        "againstGoals": 24,
-        "forGoals": 13,
-        "forGoalsAway": 0,
-        "goalsDifference": -11,
-        "wins": 3,
-        "winsAway": 0,
-        "draws": 1,
-        "losses": 6,
-        "played": 10,
-        "points": 10,
-        "gameWeekStartingRank": 14,
-        "rank": 14,
-        "rankDelta": 0,
-        "higherWinsInARow": 2,
-        "yellowCards": 18,
-        "redCards": 2,
-        "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_14",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 4,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_5",
-            "resultLetter": "w",
-            "side": "away",
-            "score": {
-              "home": 1,
-              "away": 3
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_26",
-            "resultLetter": "d",
-            "side": "home",
-            "score": {
-              "home": 1,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_15",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 5,
-              "away": 1
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_90",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 0,
-              "away": 1
-            }
-          }
-        ],
-        "allSeasonResults": [
-          "l",
-          "l",
-          "l",
-          "w",
-          "w",
-          "l",
-          "w",
-          "d",
-          "l",
-          "l",
-          null
-        ]
-      },
-      "15": {
         "clubId": "l1_championship_club_2026_26",
         "clubIdentity": {
           "id": "l1_championship_club_2026_26",
@@ -1518,32 +1318,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 15
         },
-        "againstGoals": 19,
-        "forGoals": 12,
+        "againstGoals": 21,
+        "forGoals": 15,
         "forGoalsAway": 0,
-        "goalsDifference": -7,
-        "wins": 1,
+        "goalsDifference": -6,
+        "wins": 2,
         "winsAway": 0,
         "draws": 5,
         "losses": 4,
-        "played": 10,
-        "points": 8,
-        "gameWeekStartingRank": 15,
-        "rank": 15,
+        "played": 11,
+        "points": 11,
+        "gameWeekStartingRank": 13,
+        "rank": 13,
         "rankDelta": 0,
         "higherWinsInARow": 1,
-        "yellowCards": 22,
+        "yellowCards": 26,
         "redCards": 1,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_13",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 3,
-              "away": 1
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_16",
             "resultLetter": "l",
@@ -1579,129 +1370,33 @@
               "home": 1,
               "away": 1
             }
-          }
-        ],
-        "allSeasonResults": [
-          "d",
-          "l",
-          "d",
-          "d",
-          "w",
-          "l",
-          "l",
-          "d",
-          "l",
-          "d",
-          null
-        ]
-      },
-      "16": {
-        "clubId": "l1_championship_club_2026_37",
-        "clubIdentity": {
-          "id": "l1_championship_club_2026_37",
-          "shortId": 37,
-          "name": "Angers SCO",
-          "officialName": "Angers",
-          "shortName": "Angers SCO",
-          "displayName": "Angers Sco",
-          "businessName": "Angers SCO",
-          "trigram": "SCO",
-          "primaryColor": "#000000",
-          "secondaryColor": "#FFFFFF",
-          "assets": {
-            "logo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_128x128_22f933b61100266bf7f510aad9b5ad28.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_512x512_b5149d8c4312c158b2975298205510eb.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_768x768_c4cece6a5c19ddae0e091591551e341c.png"
-            },
-            "whiteLogo": {
-              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_128x128_9178b4aa49e5729540795ac2c162660f.png",
-              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_512x512_0d3daec93935c39faa6c0c29527d7f7e.png",
-              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_768x768_43b866677a58c8988e66459bdd00690e.png"
-            }
-          },
-          "preferMonochromeLogo": false,
-          "isInFrenchChampionship": true,
-          "gameWeekStartingRank": 16
-        },
-        "againstGoals": 19,
-        "forGoals": 9,
-        "forGoalsAway": 0,
-        "goalsDifference": -10,
-        "wins": 2,
-        "winsAway": 0,
-        "draws": 2,
-        "losses": 6,
-        "played": 10,
-        "points": 8,
-        "gameWeekStartingRank": 16,
-        "rank": 16,
-        "rankDelta": 0,
-        "higherWinsInARow": 1,
-        "yellowCards": 17,
-        "redCards": 1,
-        "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_44",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 5,
-              "away": 1
-            }
           },
           {
             "opponentClubId": "l1_championship_club_2026_1",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 2,
-              "away": 5
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_7",
-            "resultLetter": "d",
-            "side": "home",
-            "score": {
-              "home": 0,
-              "away": 0
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_159",
-            "resultLetter": "l",
+            "resultLetter": "w",
             "side": "away",
             "score": {
               "home": 2,
-              "away": 0
-            }
-          },
-          {
-            "opponentClubId": "l1_championship_club_2026_30",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 0,
-              "away": 2
+              "away": 3
             }
           }
         ],
         "allSeasonResults": [
+          "d",
           "l",
-          "w",
-          "l",
+          "d",
           "d",
           "w",
           "l",
           "l",
           "d",
           "l",
-          "l",
+          "d",
+          "w",
           null
         ]
       },
-      "17": {
+      "14": {
         "clubId": "l1_championship_club_2026_33",
         "clubIdentity": {
           "id": "l1_championship_club_2026_33",
@@ -1730,32 +1425,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 17
         },
-        "againstGoals": 17,
-        "forGoals": 7,
+        "againstGoals": 18,
+        "forGoals": 10,
         "forGoalsAway": 0,
-        "goalsDifference": -10,
-        "wins": 2,
+        "goalsDifference": -8,
+        "wins": 3,
         "winsAway": 0,
         "draws": 2,
         "losses": 6,
-        "played": 10,
-        "points": 8,
-        "gameWeekStartingRank": 17,
-        "rank": 17,
+        "played": 11,
+        "points": 11,
+        "gameWeekStartingRank": 14,
+        "rank": 14,
         "rankDelta": 0,
         "higherWinsInARow": 1,
-        "yellowCards": 18,
+        "yellowCards": 20,
         "redCards": 0,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_1",
-            "resultLetter": "l",
-            "side": "home",
-            "score": {
-              "home": 0,
-              "away": 2
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_6",
             "resultLetter": "l",
@@ -1791,6 +1477,15 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_5",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 3,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -1803,6 +1498,328 @@
           "l",
           "d",
           "w",
+          "l",
+          "w",
+          null
+        ]
+      },
+      "15": {
+        "clubId": "l1_championship_club_2026_2",
+        "clubIdentity": {
+          "id": "l1_championship_club_2026_2",
+          "shortId": 2,
+          "name": "AJ Auxerre",
+          "officialName": "Auxerre",
+          "shortName": "AJ Auxerre",
+          "displayName": "Aj Auxerre",
+          "businessName": "AJ Auxerre",
+          "trigram": "AJA",
+          "primaryColor": "#164194",
+          "secondaryColor": "#FFFFFF",
+          "assets": {
+            "logo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_128x128_f25b3b461b1ed57875618ac6f3ea96e8.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_512x512_4bed22ddd777a8b0977284bee7f416a7.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_2_768x768_ed1502c12ee3e4ea6128a09326aaa2c2.png"
+            },
+            "whiteLogo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_128x128_7fad5191d1f4bc9016b1c17b651a51b4.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_512x512_a8a6eea2fc4f046ed9dc53186631624e.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_2_768x768_196eade76aa6e152557be7cd9df25d43.png"
+            }
+          },
+          "preferMonochromeLogo": false,
+          "isInFrenchChampionship": true,
+          "gameWeekStartingRank": 14
+        },
+        "againstGoals": 25,
+        "forGoals": 14,
+        "forGoalsAway": 0,
+        "goalsDifference": -11,
+        "wins": 3,
+        "winsAway": 0,
+        "draws": 2,
+        "losses": 6,
+        "played": 11,
+        "points": 11,
+        "gameWeekStartingRank": 15,
+        "rank": 15,
+        "rankDelta": 0,
+        "higherWinsInARow": 2,
+        "yellowCards": 19,
+        "redCards": 2,
+        "seasonResults": [
+          {
+            "opponentClubId": "l1_championship_club_2026_5",
+            "resultLetter": "w",
+            "side": "away",
+            "score": {
+              "home": 1,
+              "away": 3
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_26",
+            "resultLetter": "d",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_15",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 5,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_90",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_9",
+            "resultLetter": "d",
+            "side": "away",
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          }
+        ],
+        "allSeasonResults": [
+          "l",
+          "l",
+          "l",
+          "w",
+          "w",
+          "l",
+          "w",
+          "d",
+          "l",
+          "l",
+          "d",
+          null
+        ]
+      },
+      "16": {
+        "clubId": "l1_championship_club_2026_15",
+        "clubIdentity": {
+          "id": "l1_championship_club_2026_15",
+          "shortId": 15,
+          "name": "RC Strasbourg Alsace",
+          "officialName": "Strasbourg",
+          "shortName": "Strasbourg",
+          "displayName": "Rc Strasbourg Alsace",
+          "businessName": "Strasbourg",
+          "trigram": "STR",
+          "primaryColor": "#009EE2",
+          "secondaryColor": "#DB2F34",
+          "assets": {
+            "logo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_128x128_b0690caabe8c7f44215d7664eed973b4.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_512x512_e9553990e86d8098a3cf94febe8b4b96.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_1_15_768x768_4350d32e5f679b44fbc16b8f5352e85e.png"
+            },
+            "whiteLogo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_128x128_e1a882abc582b8b9f86c35e934fb3278.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_512x512_a534ea0a2780e8278dfda235189ca5eb.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_1_15_768x768_5bb5654139490857654262d8b2686f0f.png"
+            }
+          },
+          "preferMonochromeLogo": false,
+          "isInFrenchChampionship": true,
+          "gameWeekStartingRank": 13
+        },
+        "againstGoals": 23,
+        "forGoals": 18,
+        "forGoalsAway": 0,
+        "goalsDifference": -5,
+        "wins": 3,
+        "winsAway": 0,
+        "draws": 1,
+        "losses": 7,
+        "played": 11,
+        "points": 10,
+        "gameWeekStartingRank": 16,
+        "rank": 16,
+        "rankDelta": 0,
+        "higherWinsInARow": 2,
+        "yellowCards": 21,
+        "redCards": 1,
+        "seasonResults": [
+          {
+            "opponentClubId": "l1_championship_club_2026_13",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 1,
+              "away": 3
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_14",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 3,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_2",
+            "resultLetter": "w",
+            "side": "home",
+            "score": {
+              "home": 5,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_16",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 3,
+              "away": 1
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_44",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "allSeasonResults": [
+          "l",
+          "w",
+          "w",
+          "d",
+          "l",
+          "l",
+          "l",
+          "l",
+          "w",
+          "l",
+          "l",
+          null
+        ]
+      },
+      "17": {
+        "clubId": "l1_championship_club_2026_37",
+        "clubIdentity": {
+          "id": "l1_championship_club_2026_37",
+          "shortId": 37,
+          "name": "Angers SCO",
+          "officialName": "Angers",
+          "shortName": "Angers SCO",
+          "displayName": "Angers Sco",
+          "businessName": "Angers SCO",
+          "trigram": "SCO",
+          "primaryColor": "#000000",
+          "secondaryColor": "#FFFFFF",
+          "assets": {
+            "logo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_128x128_22f933b61100266bf7f510aad9b5ad28.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_512x512_b5149d8c4312c158b2975298205510eb.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/logo/2023_4_37_768x768_c4cece6a5c19ddae0e091591551e341c.png"
+            },
+            "whiteLogo": {
+              "small": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_128x128_9178b4aa49e5729540795ac2c162660f.png",
+              "medium": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_512x512_0d3daec93935c39faa6c0c29527d7f7e.png",
+              "large": "https://s3.eu-west-1.amazonaws.com/image.mpg/assets/clubs/whiteLogo/2023_4_37_768x768_43b866677a58c8988e66459bdd00690e.png"
+            }
+          },
+          "preferMonochromeLogo": false,
+          "isInFrenchChampionship": true,
+          "gameWeekStartingRank": 16
+        },
+        "againstGoals": 23,
+        "forGoals": 9,
+        "forGoalsAway": 0,
+        "goalsDifference": -14,
+        "wins": 2,
+        "winsAway": 0,
+        "draws": 2,
+        "losses": 7,
+        "played": 11,
+        "points": 8,
+        "gameWeekStartingRank": 17,
+        "rank": 17,
+        "rankDelta": 0,
+        "higherWinsInARow": 1,
+        "yellowCards": 18,
+        "redCards": 1,
+        "seasonResults": [
+          {
+            "opponentClubId": "l1_championship_club_2026_1",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 2,
+              "away": 5
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_7",
+            "resultLetter": "d",
+            "side": "home",
+            "score": {
+              "home": 0,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_159",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_30",
+            "resultLetter": "l",
+            "side": "home",
+            "score": {
+              "home": 0,
+              "away": 2
+            }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_90",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 4,
+              "away": 0
+            }
+          }
+        ],
+        "allSeasonResults": [
+          "l",
+          "w",
+          "l",
+          "d",
+          "w",
+          "l",
+          "l",
+          "d",
+          "l",
+          "l",
           "l",
           null
         ]
@@ -1836,32 +1853,23 @@
           "isInFrenchChampionship": true,
           "gameWeekStartingRank": 18
         },
-        "againstGoals": 22,
-        "forGoals": 9,
+        "againstGoals": 25,
+        "forGoals": 10,
         "forGoalsAway": 0,
-        "goalsDifference": -13,
+        "goalsDifference": -15,
         "wins": 0,
         "winsAway": 0,
         "draws": 2,
-        "losses": 8,
-        "played": 10,
+        "losses": 9,
+        "played": 11,
         "points": 2,
         "gameWeekStartingRank": 18,
         "rank": 18,
         "rankDelta": 0,
         "higherWinsInARow": 0,
-        "yellowCards": 15,
-        "redCards": 2,
+        "yellowCards": 18,
+        "redCards": 3,
         "seasonResults": [
-          {
-            "opponentClubId": "l1_championship_club_2026_158",
-            "resultLetter": "l",
-            "side": "away",
-            "score": {
-              "home": 1,
-              "away": 0
-            }
-          },
           {
             "opponentClubId": "l1_championship_club_2026_2",
             "resultLetter": "l",
@@ -1897,6 +1905,15 @@
               "home": 0,
               "away": 2
             }
+          },
+          {
+            "opponentClubId": "l1_championship_club_2026_33",
+            "resultLetter": "l",
+            "side": "away",
+            "score": {
+              "home": 3,
+              "away": 1
+            }
           }
         ],
         "allSeasonResults": [
@@ -1904,6 +1921,7 @@
           "d",
           "l",
           "d",
+          "l",
           "l",
           "l",
           "l",

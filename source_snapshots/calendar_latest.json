@@ -1,6 +1,6 @@
 {
   "url": "https://ma-api.ligue1.fr/championship-calendar/1?season=2026",
-  "retrieved_at_brt": "2026-11-20T14:43-03:00",
+  "retrieved_at_brt": "2026-11-23T18:13-03:00",
   "payload": {
     "gameWeeks": {
       "1": {
@@ -169,15 +169,6 @@
         "displayEndDate": "2026-11-10T08:00:00.000Z",
         "endDate": "2026-11-08T19:45:00.000Z",
         "gameWeekNumber": 10,
-        "jobsStates": {
-          "livePushes": {
-            "FL1_gameWeekResult": "2026-11-09T09:00:17.783Z"
-          },
-          "recordStartingGameWeekRanks": {
-            "end": "2026-11-09T02:00:03.378Z",
-            "start": "2026-11-09T02:00:03.339Z"
-          }
-        },
         "lastRegularMatchDate": "2026-11-08T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73902",
@@ -196,6 +187,15 @@
         "displayEndDate": "2026-11-24T08:00:00.000Z",
         "endDate": "2026-11-22T19:45:00.000Z",
         "gameWeekNumber": 11,
+        "jobsStates": {
+          "livePushes": {
+            "FL1_gameWeekResult": "2026-11-23T09:00:11.377Z"
+          },
+          "recordStartingGameWeekRanks": {
+            "end": "2026-11-23T02:00:04.790Z",
+            "start": "2026-11-23T02:00:04.755Z"
+          }
+        },
         "lastRegularMatchDate": "2026-11-22T19:45:00.000Z",
         "matchesIds": [
           "l1_championship_match_73911",
@@ -208,6 +208,7 @@
           "l1_championship_match_73918",
           "l1_championship_match_73919"
         ],
+        "postGameWeekScriptsRanAt": "2026-11-23T02:00:17.313Z",
         "startDate": "2026-11-20T19:45:00.000Z"
       },
       "12": {
@@ -624,7 +625,6 @@
         ],
         "startDate": "2027-05-28T22:00:00.000Z"
       }
-    },
-    "gameWeeks.10.postGameWeekScriptsRanAt": "2026-11-09T02:00:15.648Z"
+    }
   }
 }

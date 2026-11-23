@@ -89,3 +89,12 @@
 73905,10,Havre AC,0,0,FC Lorient,2,2,STATUS_FULL_TIME,True,401876409,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261108
 73906,10,LE Mans FC,1,1,AS Monaco,1,1,STATUS_FULL_TIME,True,401876408,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261108
 73907,10,RC Lens,1,1,OM,2,2,STATUS_FULL_TIME,True,401876404,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261108
+73919,11,Troyes,3,3,Havre AC,1,1,STATUS_FULL_TIME,True,401876395,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120
+73916,11,OGC Nice,2,2,PSG,3,3,STATUS_FULL_TIME,True,401876398,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121
+73911,11,RC Lens,1,1,Toulouse FC,1,1,STATUS_FULL_TIME,True,401876403,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121
+73912,11,LOSC,0,0,OL,1,1,STATUS_FULL_TIME,True,401876402,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121
+73915,11,AS Monaco,1,1,AJ Auxerre,1,1,STATUS_FULL_TIME,True,401876399,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121
+73918,11,Strasbourg,0,0,Brest,1,1,STATUS_FULL_TIME,True,401876396,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121
+73917,11,Paris FC,4,4,Angers SCO,0,0,STATUS_FULL_TIME,True,401876397,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122
+73913,11,FC Lorient,1,1,Rennes,1,1,STATUS_FULL_TIME,True,401876401,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122
+73914,11,OM,2,2,LE Mans FC,3,3,STATUS_FULL_TIME,True,401876400,https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122
